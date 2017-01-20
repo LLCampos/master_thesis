@@ -1,0 +1,115 @@
+\label{chap3}
+
+\section{Portuguese-English Parallel Corpus}
+
+For the purpose of this work, I've created a Portuguese-English parallel corpus of research articles related to radiology. For each research article there is:
+
+\begin{enumerate}
+\item Original Portuguese text
+\item Human Translated English text
+\item Machine Translated English text (Yandex) 
+\item Machine Translated English text (Google) 
+\item Machine Translation + Post-Editing English text (Google + Unbabel) 
+\end{enumerate}
+
+In the next few lines I will explain how I've constructed the corpus. 
+
+\subsection{Web Crawl of the articles (1,2)}
+
+First, I needed a list of articles related to radiography that were available both in English and in Portuguese. To get this list I’ve used the  NCBO Entrez Programming Utilities (E-utilities)\footnote{https://www.ncbi.nlm.nih.gov/books/NBK25501/} to query the PubMed database with the search query “portuguese[Language] AND english[Language] AND radiography[MeSH Major Topic] AND hasabstract[text]” (search done on 11/12/2016). The last filter is used to avoid getting texts for which only the title is available. 
+
+Then I programmatically crawled each article PubMed page to get the URL where the full article could be found. Most of the articles were hosted in SciELO\footnote{http://www.scielo.br/} so for the sake of consistency I've only included in the corpus articles hosted in there. 
+
+For the purposes of this work, it made sense to only include articles for which the original language is Portuguese, so I've also filtered the corpus by this parameter. This was done by looking at the URL of Portuguese a English versions of the article an check which one contained \textit{ORIGINALLANG=pt}. 
+
+Finally, I've programmatically crawled the articles SciELO pages to get both language versions of articles text. I've extracted from the HTML everything from the abstract until, but not including, the references.
+
+Three of the article contained were about surveys, containing to much vocabulary about radiology. They were excluded from the corpus.
+
+What is left is a parallel corpus of 53 articles, distributed by magazine in the following way:
+
+\begin{table}[h]
+\centering
+\caption{Number of articles by journal}
+\label{table:articles_by_journal}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\multicolumn{1}{c}{\textbf{Journal}}                 & \textbf{Number Of Articles} \\ \midrule
+Arquivos Brasileiros de Cardiologia         & 26                          \\
+Jornal Brasileiro de Pneumologia            & 14                          \\
+Revista do Colégio Brasileiro de Cirurgiões & 4                           \\
+Brazilian Journal of Otorhinolaryngology    & 2                           \\
+Arquivos Brasileiros de Cirurgia Digestiva  & 2                           \\
+Revista Brasileira de Cirurgia Cardiovascular        & 2                           \\
+Jornal da Sociedade Brasileira de Fonoaudiologia     & 1                           \\
+Einstein (São Paulo)                                 & 1                           \\
+Revista Brasileira de Reumatologia                   & 1                           \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Yandex Translation (3)}
+
+The Portuguese version of the articles were machine translated using Yandex's free Translate API\footnote{https://tech.yandex.com/translate/}. Each translation request had a limit of 10000 characters so an algorithm was used to break the text to various pieces, without breaking the text in the middle of sentences, send the translation request for each piece and then join everything.
+
+\subsection{Google and Unbabel Translation (4,5)}
+
+Both MT with Google and MT+PE with Unbabel were obtained using Unbabel's API\footnote{http://developers.unbabel.com/}. 
+
+Although it's not mentioned in the documentation, for the language pair Portuguese-English, Unbabel use Google Translate's services. (personal communication).
+
+What I'm calling \textit{Unbabel Translation} consists in the following pipeline:
+
+\begin{enumerate}
+\item Text is translated by MT (in this case, using Google Translate)
+\item MT translated text is post-edited by users of the Unbabel platform 
+\item Translation + post-edition is reviewed by an Unbabel's senior user, an user that was promoted for having good rantings
+\end{enumerate}
+
+The requests for Unbabel Translations have a limit of words, so an algorithm similar used for the Yandex Translations was used. 
+
+\section{RadLex Anatomical Entities Subset}
+
+To simplify the analysis of the results, only a subset of the RadLex terminology was used to annotate the texts. The subset chosen was all the terms that were under the class \textit{anatomical entity} on the ontology tree. This subset was extracted programmatically. 
+
+\section{Annotation}
+
+All the English articles in the corpus were annotated using the NOBLE Coder. This software was chosen against others similar because of it's comparable quality and higher ease of use. Each of the articles was annotated twice, using two different matching strategies, \textit{Best match} and \textit{All match}.
+
+The commands used to annotate the reports were these:
+
+
+\begin{lstlisting}[language=bash]
+$ java -jar NobleCoder-1.0.jar -terminology radlex_subset \
+-input [portuguese reports path] -output [output path] \
+-search all-match
+
+$ java -jar NobleCoder-1.0.jar -terminology radlex_subset \
+-input [portuguese reports path] -output [output path] \
+-search best-match
+\end{lstlisting}
+
+
+The RadLex ontology .owl file had to be edited before it could be correctly processed and uploaded to NOBLE Coder. In the original .owl file the properties  "Preferred\_name" and "Synonym" are considered to be \textit{DatatypeProperty} but I had to change both to \textit{AnnotationProperty}. That is, where in the file was
+
+
+\begin{lstlisting}[language=xml]
+<owl:DatatypeProperty rdf:ID="Preferred_name">
+</owl:DatatypeProperty>
+\end{lstlisting}
+
+
+I've had to change it to:
+
+
+\begin{lstlisting}[language=xml]
+<owl:AnnotationProperty rdf:ID="Preferred_name">
+</owl:AnnotationProperty>
+\end{lstlisting}
+
+
+And the analogous thing for the "Synonym" property.
+
+
+
+
+ 

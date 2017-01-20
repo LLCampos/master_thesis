@@ -1,0 +1,96 @@
+% NEW!
+% package options 
+%
+% difcul          - Generates DI/FCUL cover pages
+% msc - MSc dissertation
+% bc, bio   - Thesis specialization (bioinformatica, biologica computacional)
+\documentclass[twoside,12pt,difcul,bio,msc]{Classes/FCULthesisPSnPDF}
+
+
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{color,array,colortbl} 
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{listings}
+
+\usepackage{framed}
+\usepackage{soul}
+
+\definecolor{light-gray}{gray}{0.9}
+\sethlcolor{light-gray}
+
+\newcommand{\argmax}[1]{\underset{#1}{\operatorname{arg}\,\operatorname{max}}\;}
+
+%input macros (i.e. write your own macros file called preamble.tex)
+%\include{Macros/macros}
+
+
+\begin{document}
+
+\title{Semantic annotation of electronic health records in a multilingual environment}
+\author{Luís Campos}
+\authemail{luis.filipe.lcampos@gmail.com}
+\thesisadvisor{Francisco Couto}{1} %1 - male 2 - female
+\thesiscoadvisor{Vasco Pedro}{1}
+\keywords{keywords}
+\keywordspt{palavras chave}
+\degreedate{2017}
+%\thextjuri{Miguel Francisco Almeida Pereira Rocha}
+%\thintjuri{Andr\'{e} Os\'{o}rio e Cruz de Azer\^{e}do Falc\~{a}o}{Jo\~{a}o Pedro Guerreiro Neto}
+
+\frontmatter
+\maketitle
+
+%set the number of sectioning levels that get number and appear in the contents
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+
+
+\includex{Preface}{resumo}
+\includex{Preface}{abstract}
+\includex{Preface}{resumolongo}
+\includex{Preface}{acknowledgements}
+\includex{Preface}{dedication}
+
+\tableofcontents
+\listoffigures
+\listoftables
+%\listofalgorithms
+%\lstlistoflistings
+%\printglossary
+%\addcontentsline{toc}{chapter}{Nomenclature}
+%\include{Conventions/conventions}
+
+\mainmatter
+
+\chapter{Introduction}
+\inputx{Chapters}{1_introduction} % tex file in Chapters/
+\chapter{Related Work}
+\inputx{Chapters}{2_related_work}
+\chapter{Framework}
+\inputx{Chapters}{3_framework}
+\chapter{Experimental Results}
+\inputx{Chapters}{4_results} % tex file in Chapters/
+\chapter{Conclusions}
+\inputx{Chapters}{5_conclusions}
+
+
+
+%\appendix
+%\chapter{Listing of Patent Documents in Gold Standard}
+%\label{ap:grl}
+%\inputx{Appendix}{grl}
+
+
+\backmatter
+\phantomsection
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{Classes/jmb}
+\bibliography{References/library}
+
+\end{document}

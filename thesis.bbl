@@ -1,0 +1,299 @@
+\begin{thebibliography}{41}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Aires {\em et~al.\/}(2016)Aires, Lopes \& Gomes}]{Aires2016}
+{\sc Aires, J., Lopes, G.P. \& Gomes, L.} (2016). {English-Portuguese
+  Biomedical Translation Task Using a Genuine Phrase-Based Statistical Machine
+  Translation Approach}. {\em Proceedings of the First Conference on Machine
+  Translation, Volume 2: Shared Task Papers\/}, {\bf 2}, 456--462.
+
+\bibitem[{Ananda-Rajah {\em et~al.\/}(2014)Ananda-Rajah, Martinez, Slavin,
+  Cavedon, Dooley, Cheng, Thursky, Ananda-Rajah, Cheng, Morrissey, Spelman,
+  Dooley, Tomblyn, Chiller, Einsele, Gress, Sepkowitz, Yokoe, Casper, Dubberke,
+  Lee, Munoz, Fourneret-Vivier, Lebeau, Mallaret, Brenier-Pinchart, Brion,
+  Pauw, Walsh, Donnelly, Stevens, Edwards, Kontoyiannis, Marr, Park, Alexander,
+  Anaissie, Lortholary, Gangneux, Sitbon, Lebeau, de~Monbrison, Steinbach,
+  Marr, Anaissie, Azie, Quan, Nicolle, Benet, Thiebaut, Bienvenu, Voirin,
+  Neofytos, Treadway, Ostrander, Alonso, Dierberg, Ananda-Rajah, Grigg, Downey,
+  Bajel, Spelman, Pagano, Caira, Candoni, Aversa, Castagnola, Denning, Mengoli,
+  Cruciani, Barnes, Loeffler, Donnelly, Pfeiffer, Fine, Safdar, Maertens,
+  Groll, Cordonnier, de~la C{\~{A}}¡mara, Roilides, Chang, Burwell, Lyon,
+  Pappas, Chiller, Marom, Kontoyiannis, Hota, Lin, Doherty, Borlawsky, Woeltje,
+  Hazlehurst, Naleway, Mullooly, Elkin, Froehling, Wahner-Roedler, Brown,
+  Bailey, Murff, FitzHenry, Matheny, Gentry, Kotter, Hripcsak, Friedman,
+  Alderson, DuMouchel, Johnson, Elkins, Friedman, Boden-Albala, Sacco,
+  Hripcsak, Cooley, Spelman, Thursky, Slavin, Morrissey, Chen, Sorrell,
+  Milliken, Bardy, Frank, Hall, Trigg, Holmes, Witten, Cohen, Hunter, Stone,
+  Goldman, Pagano, Caira, Candoni, Offidani, Martino, Altman, Bland, Hripcsak,
+  Kuperman, Friedman, Heitjan, Fiszman, Chapman, Aronsky, Evans, Haug, Haas,
+  Mendonca, Ross, Friedman, Larson, Azie, Neofytos, Pfaller, Meier-Kriesche,
+  Quan, D'Avolio, Nguyen, Farwell, Chen, Fitzmeyer, Wang, Shah, Tate, Denaxas,
+  Shawe-Taylor, Ananda-Rajah, Slavin \& Thursky}]{Ananda-Rajah2014}
+{\sc Ananda-Rajah, M.R., Martinez, D., Slavin, M.A., Cavedon, L., Dooley, M.,
+  Cheng, A., Thursky, K.A., Ananda-Rajah, M., Cheng, A., Morrissey, C.,
+  Spelman, T., Dooley, M., Tomblyn, M., Chiller, T., Einsele, H., Gress, R.,
+  Sepkowitz, K., Yokoe, D., Casper, C., Dubberke, E., Lee, G., Munoz, P.,
+  Fourneret-Vivier, A., Lebeau, B., Mallaret, M., Brenier-Pinchart, M., Brion,
+  J., Pauw, B.D., Walsh, T., Donnelly, J., Stevens, D., Edwards, J.,
+  Kontoyiannis, D., Marr, K., Park, B., Alexander, B., Anaissie, E.,
+  Lortholary, O., Gangneux, J., Sitbon, K., Lebeau, B., de~Monbrison, F.,
+  Steinbach, W., Marr, K., Anaissie, E., Azie, N., Quan, S., Nicolle, M.,
+  Benet, T., Thiebaut, A., Bienvenu, A., Voirin, N., Neofytos, D., Treadway,
+  S., Ostrander, D., Alonso, C., Dierberg, K., Ananda-Rajah, M., Grigg, A.,
+  Downey, M., Bajel, A., Spelman, T., Pagano, L., Caira, M., Candoni, A.,
+  Aversa, F., Castagnola, C., Denning, D., Mengoli, C., Cruciani, M., Barnes,
+  R., Loeffler, J., Donnelly, J., Pfeiffer, C., Fine, J., Safdar, N., Maertens,
+  J., Groll, A., Cordonnier, C., de~la C{\~{A}}¡mara, R., Roilides, E., Chang,
+  D., Burwell, L., Lyon, G., Pappas, P., Chiller, T., Marom, E., Kontoyiannis,
+  D., Hota, B., Lin, M., Doherty, J., Borlawsky, T., Woeltje, K., Hazlehurst,
+  B., Naleway, A., Mullooly, J., Elkin, P., Froehling, D., Wahner-Roedler, D.,
+  Brown, S., Bailey, K., Murff, H., FitzHenry, F., Matheny, M., Gentry, N.,
+  Kotter, K., Hripcsak, G., Friedman, C., Alderson, P., DuMouchel, W., Johnson,
+  S., Elkins, J., Friedman, C., Boden-Albala, B., Sacco, R., Hripcsak, G.,
+  Cooley, L., Spelman, D., Thursky, K., Slavin, M., Morrissey, C., Chen, S.,
+  Sorrell, T., Milliken, S., Bardy, P., Frank, E., Hall, M., Trigg, L., Holmes,
+  G., Witten, I., Cohen, K., Hunter, L., Stone, M., Goldman, R., Pagano, L.,
+  Caira, M., Candoni, A., Offidani, M., Martino, B., Altman, D., Bland, J.,
+  Hripcsak, G., Kuperman, G., Friedman, C., Heitjan, D., Fiszman, M., Chapman,
+  W., Aronsky, D., Evans, R., Haug, P., Haas, J., Mendonca, E., Ross, B.,
+  Friedman, C., Larson, E., Azie, N., Neofytos, D., Pfaller, M.,
+  Meier-Kriesche, H., Quan, S., D'Avolio, L., Nguyen, T., Farwell, W., Chen,
+  Y., Fitzmeyer, F., Wang, Z., Shah, A., Tate, A., Denaxas, S., Shawe-Taylor,
+  J., Ananda-Rajah, M., Slavin, M. \& Thursky, K.} (2014). {Facilitating
+  Surveillance of Pulmonary Invasive Mold Diseases in Patients with
+  Haematological Malignancies by Screening Computed Tomography Reports Using
+  Natural Language Processing}. {\em PLoS ONE\/}, {\bf 9}, e107797.
+
+\bibitem[{Bentivogli {\em et~al.\/}(2016)Bentivogli, Bisazza, Cettolo \&
+  Federico}]{Bentivogli2016}
+{\sc Bentivogli, L., Bisazza, A., Cettolo, M. \& Federico, M.} (2016). {Neural
+  versus Phrase-Based Machine Translation Quality: a Case Study}. In {\em To
+  appear: EMNLP-2016\/}.
+
+\bibitem[{Bojar {\em et~al.\/}(2014)Bojar, Buck, Federmann, Haddow, Koehn,
+  Leveling, Monz, Pecina, Post, Herve, Soricut, Specia \& Tamchyna}]{Bojar2014}
+{\sc Bojar, O., Buck, C., Federmann, C., Haddow, B., Koehn, P., Leveling, J.,
+  Monz, C., Pecina, P., Post, M., Herve, S.A., Soricut, R., Specia, L. \&
+  Tamchyna, A.} (2014). {Findings of the 2014 Workshop on Statistical Machine
+  Translation}. {\em 2014 Workshop on Statistical Machine Translation\/},
+  12--58.
+
+\bibitem[{Bojar {\em et~al.\/}(2016)Bojar, Chatterjee, Federmann, Graham,
+  Haddow, Huck, {Jimeno Yepes}, Koehn, Logacheva, Monz, Negri, Neveol, Neves,
+  Popel, Post, Rubino, Scarton, Specia, Turchi, Verspoor \&
+  Zampieri}]{Bojar2016}
+{\sc Bojar, O., Chatterjee, R., Federmann, C., Graham, Y., Haddow, B., Huck,
+  M., {Jimeno Yepes}, A., Koehn, P., Logacheva, V., Monz, C., Negri, M.,
+  Neveol, A., Neves, M., Popel, M., Post, M., Rubino, R., Scarton, C., Specia,
+  L., Turchi, M., Verspoor, K. \& Zampieri, M.} (2016). {Findings of the 2016
+  Conference on Machine Translation}. In {\em Proceedings of the First
+  Conference on Machine Translation\/}, vol.~2, 131--198.
+
+\bibitem[{Bouillon {\em et~al.\/}(2005)Bouillon, Rayner, Chatzichrisafis,
+  Hockey, Santaholma, Starlander, Nakao, Kanzaki \& Isahara}]{Bouillon2005}
+{\sc Bouillon, P., Rayner, M., Chatzichrisafis, N., Hockey, B.A., Santaholma,
+  M.E., Starlander, M., Nakao, Y., Kanzaki, K. \& Isahara, H.} (2005). {A
+  Generic Multi-Lingual Open Source Platform for Limited-Domain Medical Speech
+  Translation}. In {\em Proceedings of the 10th Conference of the European
+  Association for Machine Translation (EAMT)\/}, 50--58.
+
+\bibitem[{Cohen \& Hersh(2005)}]{Cohen2005a}
+{A survey of current work in biomedical text mining}.
+
+\bibitem[{Cotik {\em et~al.\/}(2015)Cotik, Filippo \&
+  Casta{\~{n}}o}]{Cotik2015}
+{\sc Cotik, V., Filippo, D. \& Casta{\~{n}}o, J.} (2015). {An Approach for
+  Automatic Classification of Radiology Reports in Spanish}. {\em Studies in
+  Health Technology and Informatics\/}, {\bf 216}, 634--638.
+
+\bibitem[{Dang {\em et~al.\/}(2009)Dang, Kalra, Schultz, Graham \&
+  Dreyer}]{Dang2009}
+{\sc Dang, P.A., Kalra, M.K., Schultz, T.J., Graham, S.A. \& Dreyer, K.J.}
+  (2009). {Informatics in radiology: Render: an online searchable radiology
+  study repository.} {\em Radiographics : a review publication of the
+  Radiological Society of North America, Inc\/}, {\bf 29}, 1233--46.
+
+\bibitem[{Dreyer {\em et~al.\/}(2005)Dreyer, Kalra, Maher, Hurier, Asfaw,
+  Schultz, Halpern \& Thrall}]{Dreyer2005}
+{\sc Dreyer, K.J., Kalra, M.K., Maher, M.M., Hurier, A.M., Asfaw, B.A.,
+  Schultz, T., Halpern, E.F. \& Thrall, J.H.} (2005). {Application of Recently
+  Developed Computer Algorithm for Automatic Classification of Unstructured
+  Radiology Reports: Validation Study}. {\em Radiology\/}, {\bf 234}, 323--329.
+
+\bibitem[{Durrani {\em et~al.\/}(2014)Durrani, Haddow, Koehn \&
+  Heafield}]{Durrani2014}
+{\sc Durrani, N., Haddow, B., Koehn, P. \& Heafield, K.} (2014). {Edinburgh's
+  Phrase-based Machine Translation Systems for WMT-14}. In {\em Proceedings of
+  the Ninth Workshop on Statistical Machine Translation\/}, 97--104.
+
+\bibitem[{Eck {\em et~al.\/}(2004)Eck, Vogel \& Waibel}]{Eck2004}
+{\sc Eck, M., Vogel, S. \& Waibel, A.} (2004). {Improving statistical machine
+  translation in the medical domain using the unified medical language system}.
+  {\em Proceedings of the 20th international conference on Computational
+  Linguistics - COLING '04\/}, 792--es.
+
+\bibitem[{Elhadad {\em et~al.\/}(2015)Elhadad, Pradhan, Gorman, Manandhar,
+  Chapman \& Savova}]{Elhadad2015}
+{\sc Elhadad, N., Pradhan, S., Gorman, S.L., Manandhar, S., Chapman, W.W. \&
+  Savova, G.} (2015). {SemEval-2015 Task 14 : Analysis of Clinical Text}. {\em
+  Proceedings of the 9th International Workshop on Semantic Evaluation (SemEval
+  2015)\/}, 303--310.
+
+\bibitem[{G {\em et~al.\/}(2013)G, M, R, O \& K}]{G2013}
+{\sc G, R., M, F., R, A., O, E. \& K, P.} (2013). {Using machine translation in
+  clinical practice.} {\em Canadian family physician Medecin de famille
+  canadien\/}, {\bf 59}, 382--383.
+
+\bibitem[{Gerstmair {\em et~al.\/}(2012)Gerstmair, Daumke, Simon, Langer \&
+  Kotter}]{Gerstmair2012}
+{\sc Gerstmair, A., Daumke, P., Simon, K., Langer, M. \& Kotter, E.} (2012).
+  {Intelligent image retrieval based on radiology reports}. {\em European
+  Radiology\/}, {\bf 22}, 2750--2758.
+
+\bibitem[{Hassanpour \& Langlotz(2016)}]{Hassanpour2016}
+{\sc Hassanpour, S. \& Langlotz, C.P.} (2016). {Information extraction from
+  multi-institutional radiology reports}. {\em Artificial Intelligence in
+  Medicine\/}, {\bf 66}, 29--39.
+
+\bibitem[{Hong \& Kahn(2013)}]{Hong2013}
+{\sc Hong, Y. \& Kahn, C.E.} (2013). {Content analysis of reporting templates
+  and free-text radiology reports}. {\em Journal of Digital Imaging\/}, {\bf
+  26}, 843--849.
+
+\bibitem[{Hotho {\em et~al.\/}(2005)Hotho, N{\"{u}}rnberger \&
+  Paa{\ss}}]{Hotho2005}
+{\sc Hotho, A., N{\"{u}}rnberger, A. \& Paa{\ss}, G.} (2005). {A Brief Survey
+  of Text Mining}. {\em LDV Forum - GLDV Journal for Computational Linguistics
+  and Language Technology\/}, {\bf 20}, 19--62.
+
+\bibitem[{Jonquet {\em et~al.\/}(2009)Jonquet, Shah \& Musen}]{Jonquet2009}
+{\sc Jonquet, C., Shah, N.H. \& Musen, M.A.} (2009). {The open biomedical
+  annotator.} {\em Summit on translational bioinformatics\/}, {\bf 2009},
+  56--60.
+
+\bibitem[{Kaliyadan \& Pillai(2010)}]{Kaliyadan2010}
+{\sc Kaliyadan, F. \& Pillai, S.G.} (2010). {The use of Google language tools
+  as an interpretation aid in cross-cultural doctor-patient interaction: A
+  pilot study}. {\em Informatics in Primary Care\/}, {\bf 18}, 141--143.
+
+\bibitem[{Kathol {\em et~al.\/}(2005)Kathol, Precoda, Vergyri, Wang, Riehemann,
+  International \& Park}]{Kathol2005}
+{\sc Kathol, A., Precoda, K., Vergyri, D., Wang, W., Riehemann, S.,
+  International, S.R.I. \& Park, M.} (2005). {Speech Translation for
+  Low-Resource Languages : The Case of Pashto}. {\em Syntax\/}, 2273--2276.
+
+\bibitem[{Kirchhoff {\em et~al.\/}(2011)Kirchhoff, Turner, Axelrod \&
+  Saavedra}]{Kirchhoff2011}
+{\sc Kirchhoff, K., Turner, A.M., Axelrod, A. \& Saavedra, F.} (2011).
+  {Application of statistical machine translation to public health information:
+  a feasibility study.} {\em Journal of the American Medical Informatics
+  Association : JAMIA\/}, {\bf 18}, 473--478.
+
+\bibitem[{Koehn \& Philipp(2010)}]{Koehn2010}
+{\sc Koehn \& Philipp} (2010). {Statistical Machine Translation}. {\em
+  Cambridge: Cambridge University Press\/}, 433.
+
+\bibitem[{Koponen(2016)}]{Koponen2016a}
+{\sc Koponen, M.} (2016). {Is machine translation post-editing worth the
+  effort? A survey of research into post-editing and effort}. {\em Journal of
+  Specialised Translation\/}, 131--148.
+
+\bibitem[{Langlotz(2006)}]{Langlotz2006}
+{\sc Langlotz, C.P.} (2006). {RadLex: a new method for indexing online
+  educational materials}. {\em Radiographics : a review publication of the
+  Radiological Society of North America, Inc\/}, {\bf 26}, 1595--1597.
+
+\bibitem[{Langlotz \& Caldwell(2002)}]{Langlotz2002}
+{\sc Langlotz, C.P. \& Caldwell, S.A.} (2002). {The completeness of existing
+  lexicons for representing radiology report information.} {\em Journal of
+  digital imaging : the official journal of the Society for Computer
+  Applications in Radiology\/}, {\bf 15 Suppl 1}, 201--205.
+
+\bibitem[{Mansouri {\em et~al.\/}(2008)Mansouri, Affendey \&
+  Mamayt}]{Mansouri2008}
+{\sc Mansouri, A., Affendey, L. \& Mamayt, A.} (2008). {Named Entity
+  Recognition Approaches :}. {\em IJCSNS International Journal of Computer
+  Science and Network Security\/}, {\bf 8}.
+
+\bibitem[{{Marta R. Costa-juss{\`{a}}, Mireia
+  Farr{\'{u}}s}(2012)}]{Conference2012}
+{\sc {Marta R. Costa-juss{\`{a}}, Mireia Farr{\'{u}}s}, J.S.P.} (2012).
+  {Machine Translation in Medicine}. In {\em ARSA - PROCEEDINGS IN ARSA -
+  ADVANCED RESEARCH IN SCIENTIFIC AREAS\/}, 1995--1998, EDIS - Publishing
+  Institution of the University of Zilina.
+
+\bibitem[{Martinez {\em et~al.\/}(2015)Martinez, Ananda-Rajah, Suominen,
+  Slavin, Thursky \& Cavedon}]{Martinez2015}
+{\sc Martinez, D., Ananda-Rajah, M.R., Suominen, H., Slavin, M.A., Thursky,
+  K.A. \& Cavedon, L.} (2015). {Automatic detection of patients with invasive
+  fungal disease from free-text computed tomography (CT) scans}. {\em Journal
+  of Biomedical Informatics\/}, {\bf 53}, 251--260.
+
+\bibitem[{Musleh {\em et~al.\/}(2016)Musleh, Durrani, Temnikova, Nakov, Vogel
+  \& Alsaad}]{Musleh2016}
+{\sc Musleh, A., Durrani, N., Temnikova, I., Nakov, P., Vogel, S. \& Alsaad,
+  O.} (2016). {Enabling Medical Translation for Low-Resource Languages}. {\em
+  Proceedings of the 16th Conference on Intelligent Text Processing and
+  Computational Linguistics (CICLING)\/}.
+
+\bibitem[{Nagata \& Pedersen(2005)}]{Nagata2005}
+{\sc Nagata, M. \& Pedersen, T.} (2005). {Proceedings of the ACL Interactive
+  Poster and Demonstration Sessions}. In {\em Proceedings of the ACL
+  Interactive Poster and Demonstration Sessions\/}.
+
+\bibitem[{Pons {\em et~al.\/}(2016)Pons, Braun, Hunink \& Kors}]{Pons2016}
+{\sc Pons, E., Braun, L.M.M., Hunink, M.G.M. \& Kors, J.A.} (2016). {Natural
+  Language Processing in Radiology: A Systematic Review}. {\em Radiology\/},
+  {\bf 279}, 329--343.
+
+\bibitem[{Schyve(2007)}]{Schyve2007}
+{\sc Schyve, P.M.} (2007). {Language differences as a barrier to quality and
+  safety in health care: The joint commission perspective}. {\em Journal of
+  General Internal Medicine\/}, {\bf 22}, 360--361.
+
+\bibitem[{Somers(2003)}]{Somers2003}
+{\sc Somers, H.} (2003). {\em {Computers and translation: a
+  translator{\&}{\#}39;s guide}\/}. John Benjamins Publishing Company.
+
+\bibitem[{Stewart {\em et~al.\/}(2012)Stewart, {Von Maltzahn} \&
+  Abidi}]{Stewart}
+{\sc Stewart, S.A., {Von Maltzahn}, M.E. \& Abidi, S.S.R.} (2012). {Comparing
+  metamap to mgrep as a tool for mapping free text to formal medical lexicons}.
+  In {\em CEUR Workshop Proceedings\/}, vol. 895, 63--77.
+
+\bibitem[{Tatsumi \& Aikawa(2012)}]{Tatsumi2012a}
+{\sc Tatsumi, M. \& Aikawa, T.} (2012). {How Good Is Crowd Post-Editing? Its
+  Potential and Limitations}. {\em {\ldots} 2012 Workshop on {\ldots}\/}.
+
+\bibitem[{Tseytlin {\em et~al.\/}(2016)Tseytlin, Mitchell, Legowski, Corrigan,
+  Chavan \& Jacobson}]{Tseytlin2016}
+{\sc Tseytlin, E., Mitchell, K., Legowski, E., Corrigan, J., Chavan, G. \&
+  Jacobson, R.S.} (2016). {NOBLE - Flexible concept recognition for large-scale
+  biomedical natural language processing.} {\em BMC bioinformatics\/}, {\bf
+  17}, 32.
+
+\bibitem[{Turner {\em et~al.\/}(2015)Turner, Dew, Desai, Martin \&
+  Kirchhoff}]{Turner2015}
+{\sc Turner, A.M., Dew, K.N., Desai, L., Martin, N. \& Kirchhoff, K.} (2015).
+  {Machine Translation of Public Health Materials From English to Chinese: A
+  Feasibility Study.} {\em JMIR public health and surveillance\/}, {\bf 1},
+  e17.
+
+\bibitem[{Wo{\l}k \& Marasek(2015)}]{Wok2015}
+{\sc Wo{\l}k, K. \& Marasek, K.} (2015). {Neural-based Machine Translation for
+  Medical Text Domain. Based on European Medicines Agency Leaflet Texts}. In
+  {\em Procedia Computer Science\/}, vol.~64, 2--9.
+
+\bibitem[{Woods \& Eng(2013)}]{Woods2013}
+{\sc Woods, R.W. \& Eng, J.} (2013). {Evaluating the completeness of radlex in
+  the chest radiography domain}. {\em Academic Radiology\/}, {\bf 20},
+  1329--1333.
+
+\bibitem[{Zeng-Treitler {\em et~al.\/}(2010)Zeng-Treitler, Kim, Rosemblat \&
+  Keselman}]{Zeng-Treitler2010}
+{\sc Zeng-Treitler, Q., Kim, H., Rosemblat, G. \& Keselman, A.} (2010). {Can
+  multilingual machine translation help make medical record content more
+  comprehensible to patients?} In {\em Studies in Health Technology and
+  Informatics\/}, vol. 160, 73--77.
+
+\end{thebibliography}
