@@ -73,7 +73,21 @@ To simplify the analysis of the results, only a subset of the RadLex terminology
 
 \section{Annotation}
 
-All the English articles in the corpus were annotated using the NOBLE Coder. This software was chosen against others similar because of it's comparable quality and higher ease of use. Each of the articles was annotated twice, using two different matching strategies, \textit{Best match} and \textit{All match}.
+All the English versions of the articles in the corpus were annotated thrice, one time using a direct matching approach and two using two of the built-in matching strategies provided by NOBLE Coder. 
+
+Each class of the RadLex ontology has a \textit{preferred name} and a list of synonyms. For all the cases the output of each annotation consists in the set of the preferred names of the terms of the RadLex Anatomical Entities Subset that are mentioned in the corresponding article. I normalize all the mentions to the preferred name so that a use of the preferred name in one translation and the use of one of the synonyms in another translation are considered mentions of the same term. 
+
+\subsection{Annotation with Radlex Annotator}
+
+The articles were annotated with terms from the RadLex Anatomical Entities Subset using a direct match strategy with an alternative to NCBO Annotator\footnote{http://bioportal.bioontology.org/annotator} that I've developed. This tool has the advantage of doing away with the dependence on a external service like NCBO Annotator. Although it is possible to have an instance of the Annotator on your machine, it has computationally heavy requirements, too much for the simple task of annotating terms on a text. The local system has other advantages. First, it annotates terms that the NCBO system doesn’t. For example, the local system annotates “benign” in “•Benign” (note the little black point) but NCBO's doesn’t. More, NCBO’s system annotates terms that makes no sense to annotate, like “Class”, which is a metaclass and not really a radiology-related term. Having said this, the local system has a “annotate whole words only” using a regex expression, so it doesn’t annotate the term “artery” in “(…)_artery_(…)", for example,  something that the NCBO’s system does. The local system is also way slower than NCBO's one, even though it is local. This is not too surprising since the local system was not developed having speed performance in mind. 
+
+The local system also annotates some terms in duplicate: consider the RadLex term “minimum intensity projection”, which has as a synonym the expression “Minimum Intensity Projection”, which is the same as the preferred name, but with a different case. If this expression is found on the text, the local system will annotate it twice (it is case insensitive), one for the preferred name, other for the synonym. NCBO’s system only annotates it once. 
+
+Other than this, from the tests I’ve made, the results are equivalent to the NCBO’s system. Even the output is similar, so that the processing is easier for the ones already familiar with the NCBO’s system. This tool is available on GitHub\footnote{https://github.com/LLCampos/radlex_annotator} and I'm going to mention it as RadLex Annotator from now on.
+
+\subsection{Annotation with NOBLE Coder}
+
+NOBLE Coder was chosen against others similar tools because of it's comparable quality and higher ease of use. Each of the articles was annotated twice with this tool, using two different matching strategies, \textit{Best match} and \textit{All match}.
 
 The commands used to annotate the reports were these:
 
@@ -108,6 +122,11 @@ I've had to change it to:
 
 
 And the analogous thing for the "Synonym" property.
+
+\section{Evaluation}
+
+The annotations of each MT or MT+PE translated article were compared against the annotations of corresponding HT translated article, which was considered a gold standard. The False Positives, False Negatives and True Positives for each article were summed, and Precision, Recall and F1-score measures were calculated for the whole corpus. This was done for each matching approach. 
+
 
 
 
