@@ -9,13 +9,13 @@ A lot of work has been done on this research area \citep{Pons2016}, but it is us
 
 Assuming that the information automatically extracted from radiology reports using NLP techniques can bring benefits to health care systems, this waste of information caused by language barriers can potentially have a negative impact on everyone's health. There is also a certain injustice in this since this problem affects more people in non-English speaking countries. 
 
-Translation of the reports is one obvious potential solution to the problem. If the translation is done by professionals trained in the translation of medical texts, we probably can assume that not much information is lost in translation. We call this type of translation Human Translation (HT). But professional translators are expensive and there would be a lot of reports to translate, so this would have a really high monetary cost. Another option is to use Machine Translation (MT). Notwithstanding the lower translation quality, it is way cheaper. Finally, an option that tries to get the best of both worlds is using Machine Translation with Post-Editing (MT-PE) by humans. Basically, the text is automatically translated by a Machine and then the translation is corrected by an human. Cheaper than the HT option and probably with better quality than the MT one. 
+Translation of the reports is one obvious potential solution to the problem. If the translation is done by professionals trained in the translation of medical texts, we probably can assume that not much information is lost in translation. We call this type of translation Human Translation (HT). But professional translators are expensive and there are a lot of reports to translate, so this would have a really high monetary cost. Another option is to use Machine Translation (MT). Notwithstanding the lower translation quality, it is way cheaper. Finally, an option that tries to get the best of both worlds is using Machine Translation with Post-Editing (MT-PE) by humans. Basically, the text is automatically translated by a Machine and then the translation is corrected by an human. Cheaper than the HT option and probably with better quality than the MT one. 
 
 But how much information is modified or lost during MT or MT-PE compared to HT, affecting the results of NLP tools? This is still an open question. 
 
 \section{Objectives}
 
-The question of how translation affects the application of NLP techniques in medical text has yet not been studied. At the time the present dissertation is being written, I could not find any research paper about this. So in this thesis I've studied how MT and MT+PE compares with HT on the simple task of Named-entity recognition (NER) using a dictionary-based approach, this dictionary consisting of RadLex terms. The identification of RadLex terms can be useful, for example, in image retrieval \citep{Gerstmair2012} systems, so this is not just a toy example. 
+The question of how translation affects the application of NLP techniques in medical text has yet not been studied. At the time the present dissertation is being written, I could not find any research about this. In this thesis I've studied how MT and MT+PE compares with HT on the simple task of Named-entity recognition (NER) using a dictionary-based approach, this dictionary consisting of RadLex terms. The identification of RadLex terms can be useful, for example, in image retrieval \citep{Gerstmair2012} systems, so this is not just a toy example. 
 
 If I have non-English radiology reports and I want to translate them so that I can identify RadLex terms for use on some other system, what kind of translation should I use? In this thesis, I try to help to answer this question. 
 
@@ -34,11 +34,11 @@ For this to be true, these conditions have to hold:
 	\item MT-PE quality for the task at hand has to be better than MT quality, enough to compensate the higher cost
 \end{enumerate}
 
-The last condition its important because if MT-PE quality is similar to MT quality, as MT cost is similar, maybe it's worth to just use MT. In this thesis I only try to answer to the quality issues, not doing a thorough economic analysis of the problem. 
+The last condition its important because if MT-PE quality is similar to MT quality, as MT cost is lower, maybe it's worth to just use MT. In this thesis I only try to answer to the quality issues, not doing a thorough economic analysis of the problem. 
 
-\section{Metodology}
+\section{Methodology}
 
-
+%To answer this questions I've created a parallel corpus containing a number of scientific articles related to radiology and corresponding HT, MT and MT+PE translations. This reports were annotated with RadLex terms 
 
 
 \section{Contributions}

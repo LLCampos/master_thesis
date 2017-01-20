@@ -16,7 +16,7 @@ Text Mining can mean different things for different people \citep{Hotho2005}, bu
 
 Because Text Mining has to manipulate text, it is not too surprising that it borrows tools from Natural Language Processing (NLP), a research fields that seeks to improve computational understanding of natural language. 
 
-(present next sections)
+In the next subsections I will explain one of these tools, Name-entity recognition and briefly explore how Text Mining can be used to extract information from Radiology Reports.
 
 \subsection{Name-entity Recognition}
 
@@ -30,7 +30,7 @@ The approaches of NER can be divided into three categories \citep{Mansouri2008}:
 \item Hybrids approaches combines the two last approaches.
 \end{itemize}
 
-Dictionary based-approaches are a subset of the rule-based approaches. In this approach we already have a list of the named-entities that we want to identify in the text. This list of terms can be called "dictionary", "vocabulary", "lexicon" or "terminology", for example. The goal of the dictionary based-approaches is then to identify, in text, mentions of terms presented in the dictionary. This could be done by direct matching, as implemented by the Open Biomedical Annotator \footnote{http://bioportal.bioontology.org/annotator} \citep{Jonquet2009}. In this strategy, the system only tries to find in text terms that are also in the dictionary, not considering, for example, lexical variations. The recall can be lower than expected because lexical variants (like plurals), abbreviations and partial matchings of dictionary terms are not recognized in the text. For this purpose, more complex tools like NOBLE Coder\footnote{http://noble-tools.dbmi.pitt.edu/} \citep{Tseytlin2016} or Concept Mapper \citep{Stewart} can be used.
+Dictionary based-approaches are a subset of the rule-based approaches. In this approach we already have a list of the named-entities that we want to identify in the text. This list of terms can be called \textit{dictionary}, \textit{vocabulary}, \textit{lexicon} or \textit{terminology}, for example. The goal of the dictionary based-approaches is then to identify, in text, mentions of terms presented in the dictionary. This could be done by direct matching, as implemented by the Open Biomedical Annotator \footnote{http://bioportal.bioontology.org/annotator} \citep{Jonquet2009}. In this strategy, the system only tries to find in text terms that are also in the dictionary, not considering, for example, lexical variations. The recall can be lower than expected because lexical variants (like plurals), abbreviations and partial matchings of dictionary terms are not recognized in the text. For this purpose, more complex tools like NOBLE Coder\footnote{http://noble-tools.dbmi.pitt.edu/} \citep{Tseytlin2016} or Concept Mapper \citep{Stewart} can be used.
 
 \subsection{Application of Text Mining on Radiology Reports}
 
@@ -160,9 +160,9 @@ The Open Biomedical Annotator (OBA)\footnote{http://bioportal.bioontology.org/an
 
 NOBLE Coder\footnote{http://noble-tools.dbmi.pitt.edu/} \citep{Tseytlin2016} is a software for NER using a dictionary-based approach. The dictionary is set by the user (it  has to be in UMLS (RRF)\footnote{https://www.ncbi.nlm.nih.gov/books/NBK9685/}, OWL\footnote{https://www.w3.org/OWL/} or OBO\footnote{http://www.geneontology.org/faq/what-obo-file-format} formats or be present in BioPortal\footnote{http://bioportal.bioontology.org/ontologies}) and NOBLE finds, in an arbitrary text, mentions of terms found in the dictionary.
 
-Unlike the system used by the Open Biomedical Annotator (OBA)\footnote{http://bioportal.bioontology.org/annotator}\citep{Jonquet2009}, NOBLE can find mentions of lexical variations of the terms present in the dictionary because it applies word stemming. For example, \textit{lobe} is a term present in the RadLex terminology, but it's plural, \textit{lobes}, isn't. However, NOBLE considers that \textit{lobes} is a mention of the term \textit{lobe}, which is right. But this can sometimes go wrong; for example, NOBLE considers that \textit{headings} is a mention of the RadLex term \textit{head}, which is wrong. So although this strategy can improve recall in does so at the cost of precision. 
+Unlike the system used by the Open Biomedical Annotator (OBA)\footnote{http://bioportal.bioontology.org/annotator}\citep{Jonquet2009}, NOBLE can find mentions of lexical variations of the terms present in the dictionary because it applies word stemming. For example, \textit{lobe} is a term present in the RadLex terminology, but it's plural, \textit{lobes}, isn't. However, NOBLE considers that \textit{lobes} is a mention of the term \textit{lobe}, which is right. But this can sometimes go wrong; for example, NOBLE considers that \textit{headings} is a mention of the RadLex term \textit{head}, which is wrong. So although this strategy can improve recall it does so at the cost of precision. 
 
-The NOBLE tool is also flexible in what is considered a mention of a dictionary word giving the user the power to adapt the tool for her purposes. This can be done by choosing to use or not a certain \textit{matching options}. These include:
+The NOBLE tool is flexible in what is considered a mention of a dictionary term, giving the user the power to adapt the tool for her specific purposes. This can be done by choosing to use or not a certain \textit{matching option}. These include:
 
 \begin{itemize}
 
@@ -170,9 +170,9 @@ The NOBLE tool is also flexible in what is considered a mention of a dictionary 
 
 \item \textbf{Overlap} - ...
 
-\item \textbf{Contiguity} - Terms must be contiguous to be matched. For example, if set, in the text \textit{multiple ducts lesions} both \textit{multiple ducts} and \textit{multiple lesions} are considered matches, although \textit{multiple} and \textit{lesions} are not adjacent to each other. It's possible to set how many irrelevant words can be between words belonging to a term (in \ref{table:matching-strategies}, this is called \textit{gap}. 
+\item \textbf{Contiguity} - Terms must be contiguous to be matched. For example, if set, in the text \textit{multiple ducts lesions} both \textit{multiple ducts} and \textit{multiple lesions} are considered matches, although \textit{multiple} and \textit{lesions} are not adjacent to each other. It's possible to set how many irrelevant words can be between words belonging to a term (in \ref{table:matching-strategies}, this is called \textit{gap}). 
 
-\item \textbf{Order} - Terms must be in the same order as in the dictionary to be considered mentions. If set, \textit{lesions multiple} is considered a mention of the Radlex term \textit{multiple lesions}.
+\item \textbf{Order} - Terms must be in the same order as in the dictionary to be considered mentions. If not set, \textit{lesions multiple} is considered a mention of the Radlex term \textit{multiple lesions}.
 
 \item \textbf{Partial} - Partial match with terms in dictionary are considered a dictionary term mention. If set, \textit{multiple} is considered a mention of \textit{multiple lesions}. 
 
@@ -246,5 +246,11 @@ As you can see, both measures have problems when used in isolation. One way to c
 \begin{equation}
 F−score = 2 * \frac{P*R}{P*R}
 \end{equation}
+
+\subsection{Micro- and Macro- Evaluation Metrics}
+
+Now imagine that you want evaluate your system on more than one document. How do you aggregate the metrics explained above? You can sum the TP, FP and FN values of each document and then use the Precision, Recall and F-Score formulas exposed above. With this approach, you would calculate the Micro Precision, Micro Recall and Micro F-score.
+
+Another approach is to calculate Precision, Recall and F-Score for each document and then average for all documents. This would give you the Macro Precision, Macro Recall and Macro F-score values. 
 
 

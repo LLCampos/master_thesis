@@ -12,7 +12,7 @@ For the purpose of this work, I've created a Portuguese-English parallel corpus 
 \item Machine Translation + Post-Editing English text (Google + Unbabel) 
 \end{enumerate}
 
-In the next few lines I will explain how I've constructed the corpus. 
+\noindent In the next few lines I will explain how I've constructed the corpus. 
 
 \subsection{Web Crawl of the articles (1,2)}
 
@@ -20,17 +20,17 @@ First, I needed a list of articles related to radiography that were available bo
 
 Then I programmatically crawled each article PubMed page to get the URL where the full article could be found. Most of the articles were hosted in SciELO\footnote{http://www.scielo.br/} so for the sake of consistency I've only included in the corpus articles hosted in there. 
 
-For the purposes of this work, it made sense to only include articles for which the original language is Portuguese, so I've also filtered the corpus by this parameter. This was done by looking at the URL of Portuguese a English versions of the article an check which one contained \textit{ORIGINALLANG=pt}. 
+For the purposes of this work, it made sense to only include articles for which the original language is Portuguese, so I've also filtered the corpus by this parameter. 
 
-Finally, I've programmatically crawled the articles SciELO pages to get both language versions of articles text. I've extracted from the HTML everything from the abstract until, but not including, the references.
+Finally, I've programmatically crawled the articles SciELO pages to get both language versions of articles text. I've extracted from the HTML everything from the abstract until, but not including, the references/bibliography.
 
 Three of the article contained were about surveys, containing to much vocabulary about radiology. They were excluded from the corpus.
 
-What is left is a parallel corpus of 53 articles, distributed by magazine in the following way:
+What is left is a parallel corpus of 53 articles, distributed by journal in the following way:
 
 \begin{table}[h]
 \centering
-\caption{Number of articles by journal}
+\caption{Number of articles by journal in parallel corpus}
 \label{table:articles_by_journal}
 \begin{tabular}{@{}ll@{}}
 \toprule
@@ -49,20 +49,20 @@ Revista Brasileira de Reumatologia                   & 1                        
 
 \subsection{Yandex Translation (3)}
 
-The Portuguese version of the articles were machine translated using Yandex's free Translate API\footnote{https://tech.yandex.com/translate/}. Each translation request had a limit of 10000 characters so an algorithm was used to break the text to various pieces, without breaking the text in the middle of sentences, send the translation request for each piece and then join everything.
+The Portuguese version of the articles were machine translated using Yandex's free Translate API\footnote{https://tech.yandex.com/translate/}. Each translation request had a limit of 10000 characters so an algorithm was used to break the text to various pieces, without breaking the text in the middle of sentences, send the translation request for each piece and then join everything back.
 
 \subsection{Google and Unbabel Translation (4,5)}
 
 Both MT with Google and MT+PE with Unbabel were obtained using Unbabel's API\footnote{http://developers.unbabel.com/}. 
 
-Although it's not mentioned in the documentation, for the language pair Portuguese-English, Unbabel use Google Translate's services. (personal communication).
+Although it's not mentioned in the Unbabel's API documentation, for the language pair Portuguese-English, Unbabel use Google Translate's services. (personal communication).
 
 What I'm calling \textit{Unbabel Translation} consists in the following pipeline:
 
 \begin{enumerate}
 \item Text is translated by MT (in this case, using Google Translate)
 \item MT translated text is post-edited by users of the Unbabel platform 
-\item Translation + post-edition is reviewed by an Unbabel's senior user, an user that was promoted for having good rantings
+\item Translation resulting from last step is reviewed by an Unbabel's senior user, an user that was promoted for having good ratings
 \end{enumerate}
 
 The requests for Unbabel Translations have a limit of words, so an algorithm similar used for the Yandex Translations was used. 
@@ -125,7 +125,9 @@ And the analogous thing for the "Synonym" property.
 
 \section{Evaluation}
 
-The annotations of each MT or MT+PE translated article were compared against the annotations of corresponding HT translated article, which was considered a gold standard. The False Positives, False Negatives and True Positives for each article were summed, and Precision, Recall and F1-score measures were calculated for the whole corpus. This was done for each matching approach. 
+The annotations of each MT or MT+PE translated article were compared against the annotations of corresponding HT translated article, which was considered a gold standard. Both Micro- and Macro- Precision, Recall and F1-scores were calculated. This was done for each matching approach. 
+
+These methods measure how similar are the terms annotated on the MT or MT+PE texts to the terms annotated on the HT texts. They don't say nothing about the quality of the annotations, however is that measured. 
 
 
 

@@ -2,17 +2,17 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Objectives}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}Metodology}{3}{section.1.3}
+\contentsline {section}{\numberline {1.3}Methodology}{3}{section.1.3}
 \contentsline {section}{\numberline {1.4}Contributions}{3}{section.1.4}
 \contentsline {chapter}{\numberline {2}Related Work}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Electronic Health Records}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}Text Mining}{5}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Name-entity Recognition}{5}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Application of Text Mining on Radiology Reports}{6}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Application of Text Mining on Radiology Reports}{7}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Translation}{7}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Machine Translation}{7}{subsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.1.1}Word-Based Models}{7}{subsubsection.2.3.1.1}
-\contentsline {subsubsection}{\numberline {2.3.1.2}Phrase-Based Models}{9}{subsubsection.2.3.1.2}
+\contentsline {subsubsection}{\numberline {2.3.1.1}Word-Based Models}{8}{subsubsection.2.3.1.1}
+\contentsline {subsubsection}{\numberline {2.3.1.2}Phrase-Based Models}{10}{subsubsection.2.3.1.2}
 \contentsline {subsection}{\numberline {2.3.2}Machine Translation Services}{10}{subsection.2.3.2}
 \contentsline {subsubsection}{\numberline {2.3.2.1}Yandex}{10}{subsubsection.2.3.2.1}
 \contentsline {subsubsection}{\numberline {2.3.2.2}Google}{10}{subsubsection.2.3.2.2}
