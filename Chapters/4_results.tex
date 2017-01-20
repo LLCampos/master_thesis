@@ -15,7 +15,19 @@
 % Results and Discussion can be combined.
 \section{Results}
 
-
+\begin{table}[h]
+\centering
+\caption{My caption}
+\label{table-results}
+\begin{tabular}{|l|lll|lll|lll|}
+\hline
+\multicolumn{1}{|c|}{\textbf{}}       & \multicolumn{3}{c|}{\textbf{Direct Match}}                           & \multicolumn{3}{c|}{\textbf{All Match}}                              & \multicolumn{3}{c|}{\textbf{Best Match}}                             \\
+                                      & \textbf{P}                 & \textbf{R}                 & \textbf{F} & \textbf{P}                 & \textbf{R}                 & \textbf{F} & \textbf{P}                 & \textbf{R}                 & \textbf{F} \\ \hline
+\textit{\textbf{Yandex Translation}}  & \multicolumn{1}{l|}{0.819} & \multicolumn{1}{l|}{0.788} & 0.803      & \multicolumn{1}{l|}{0.812} & \multicolumn{1}{l|}{0.787} & 0.800      & \multicolumn{1}{l|}{0.805} & \multicolumn{1}{l|}{0.814} & 0.810      \\ \cline{2-10} 
+\textit{\textbf{Google Translation}}  & \multicolumn{1}{l|}{0.864} & \multicolumn{1}{l|}{8.876} & 0.869      & \multicolumn{1}{l|}{0.865} & \multicolumn{1}{l|}{0.857} & 0.861      & \multicolumn{1}{l|}{0.848} & \multicolumn{1}{l|}{0.849} & 0.849      \\ \cline{2-10} 
+\textit{\textbf{Unbabel Translation}} & \multicolumn{1}{l|}{}      & \multicolumn{1}{l|}{}      &            & \multicolumn{1}{l|}{}      & \multicolumn{1}{l|}{}      &            & \multicolumn{1}{l|}{}      & \multicolumn{1}{l|}{}      &            \\ \hline
+\end{tabular}
+\end{table}
 
 
 \section{Discussion}
