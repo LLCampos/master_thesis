@@ -67,19 +67,15 @@ What I'm calling \textit{Unbabel Translation} consists in the following pipeline
 
 The requests for Unbabel Translations have a limit of words, so an algorithm similar used for the Yandex Translations was used. 
 
-\section{RadLex Anatomical Entities Subset}
-
-To simplify the analysis of the results, only a subset of the RadLex terminology was used to annotate the texts. The subset chosen was all the terms that were under the class \textit{anatomical entity} on the ontology tree. This subset was extracted programmatically. 
-
 \section{Annotation}
 
 All the English versions of the articles in the corpus were annotated thrice, one time using a direct matching approach and two using two of the built-in matching strategies provided by NOBLE Coder. 
 
-Each class of the RadLex ontology has a \textit{preferred name} and a list of synonyms. For all the cases the output of each annotation consists in the set of the preferred names of the terms of the RadLex Anatomical Entities Subset that are mentioned in the corresponding article. I normalize all the mentions to the preferred name so that a use of the preferred name in one translation and the use of one of the synonyms in another translation are considered mentions of the same term. 
+Each class of the RadLex ontology has a \textit{preferred name} and a list of synonyms. For all the cases the output of each annotation consists in the set of the preferred names of the terms of RadLex that are mentioned in the corresponding article. I normalize all the mentions to the preferred name so that a use of the preferred name in one translation and the use of one of the synonyms in another translation are considered mentions of the same term. 
 
 \subsection{Annotation with Radlex Annotator}
 
-The articles were annotated with terms from the RadLex Anatomical Entities Subset using a direct match strategy with an alternative to NCBO Annotator\footnote{http://bioportal.bioontology.org/annotator} that I've developed. This tool has the advantage of doing away with the dependence on a external service like NCBO Annotator. Although it is possible to have an instance of the Annotator on your machine, it has computationally heavy requirements, too much for the simple task of annotating terms on a text. The local system has other advantages. First, it annotates terms that the NCBO system doesn’t. For example, the local system annotates “benign” in “•Benign” (note the little black point) but NCBO's doesn’t. More, NCBO’s system annotates terms that makes no sense to annotate, like “Class”, which is a metaclass and not really a radiology-related term. Having said this, the local system has a “annotate whole words only” using a regex expression, so it doesn’t annotate the term “artery” in “(…)\_artery\_(…)", for example,  something that the NCBO’s system does. The local system is also way slower than NCBO's one, even though it is local. This is not too surprising since the local system was not developed having speed performance in mind. 
+The articles were annotated with terms from RadLex using a direct match strategy with an alternative to NCBO Annotator\footnote{http://bioportal.bioontology.org/annotator} that I've developed. This tool has the advantage of doing away with the dependence on a external service like NCBO Annotator. Although it is possible to have an instance of the Annotator on your machine, it has computationally heavy requirements, too much for the simple task of annotating terms on a text. The local system has other advantages. First, it annotates terms that the NCBO system doesn’t. For example, the local system annotates “benign” in “•Benign” (note the little black point) but NCBO's doesn’t. More, NCBO’s system annotates terms that makes no sense to annotate, like “Class”, which is a metaclass and not really a radiology-related term. Having said this, the local system has a “annotate whole words only” using a regex expression, so it doesn’t annotate the term “artery” in “(…)\_artery\_(…)", for example,  something that the NCBO’s system does. The local system is also way slower than NCBO's one, even though it is local. This is not too surprising since the local system was not developed having speed performance in mind. 
 
 The local system also annotates some terms in duplicate: consider the RadLex term “minimum intensity projection”, which has as a synonym the expression “Minimum Intensity Projection”, which is the same as the preferred name, but with a different case. If this expression is found on the text, the local system will annotate it twice (it is case insensitive), one for the preferred name, other for the synonym. NCBO’s system only annotates it once. 
 
@@ -93,11 +89,11 @@ The commands used to annotate the reports were these:
 
 
 \begin{lstlisting}[language=bash]
-$ java -jar NobleCoder-1.0.jar -terminology radlex_subset \
+$ java -jar NobleCoder-1.0.jar -terminology radlex \
 -input [portuguese reports path] -output [output path] \
 -search all-match
 
-$ java -jar NobleCoder-1.0.jar -terminology radlex_subset \
+$ java -jar NobleCoder-1.0.jar -terminology radlex \
 -input [portuguese reports path] -output [output path] \
 -search best-match
 \end{lstlisting}
