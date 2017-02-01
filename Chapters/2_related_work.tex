@@ -12,15 +12,15 @@
 
 \section{Text Mining}
 
-Text Mining can mean different things for different people \citep{Hotho2005}, but in this dissertation I will assume that it consists on the automatic extraction of useful information from unstructured text documents. It can be used, for example, to help researchers cope with information overload \citep{Cohen2005a} due to the big volume of scientific data in the form of unstructured literature. More related to this thesis, it can also be used to extract information from free-text radiology reports \citep{Pons2016}.
+Text Mining can mean different things for different people \citep{Hotho2005} but in this dissertation I will assume that it consists on the automatic extraction of useful information from unstructured text documents. It can be used, for example, to help researchers cope with information overload \citep{Cohen2005a} due to the big volume of scientific data in the form of unstructured literature. More related to this thesis, it can also be used to extract information from free-text radiology reports \citep{Pons2016}. 
 
 Because Text Mining has to manipulate text, it is not too surprising that it borrows tools from Natural Language Processing (NLP), a research fields that seeks to improve computational understanding of natural language. 
 
-In the next subsections I will explain one of these tools, Name-entity recognition and briefly explore how Text Mining can be used to extract information from Radiology Reports.
+In the next subsections I will explain one of these NLP tools, called Name-entity recognition and briefly explore how Text Mining can be used to extract information from Radiology Reports.
 
 \subsection{Name-entity Recognition}
 
-Named-entity recognition (NER) is a task of NLP that has the goal of locate and classify all the named-entities in a certain document. Named-entities are elements of the text that belong to one of certain predefined classes. For example, the phrase \textit{atrial fibrillation} is a named-entity that belongs to the class \textit{Disease}. The task of NER can be further divided in two subtasks: identify where in the text are the named-entities and classify the named-entities.
+Named-entity recognition (NER) is a task of NLP that has the goal of locate and classify all the named-entities in a certain document. Named-entities are elements of the text that belong to one of certain predefined classes. For example, in the phrase \textit{Atrial fibrillation has strong associations with other cardiovascular diseases} the term \textit{Atrial fibrillation} is a named-entity that belongs to the class \textit{Disease}. The task of NER can be further divided in two subtasks: identify where in the text are the named-entities and classify the named-entities.
 
 The approaches of NER can be divided into three categories \citep{Mansouri2008}: Rule-based approaches, Machine Learning based approaches and hybrid approaches. 
 
@@ -44,7 +44,7 @@ Other applications include studying the appropriateness of existing Radiology re
 
 \subsection{Machine Translation}
 
-Machine Translation (MT) is the use of computers to automatically translate natural language text. Currently, Statistical Machine Translation (SMT) is the most popular approach to MT. I will briefly review word-based and phrase-based which are both covered by the SMT approach. More recently, there as being a growth in the use of neural-networks to translation, so called neural-machine-translation \citep{Bentivogli2016}. 
+Machine Translation (MT) is the use of computers to automatically translate natural language text. Currently, Statistical Machine Translation (SMT) is the most popular approach to MT. I will briefly review word-based and phrase-based which are both covered by the SMT approach. More recently, there as being a growth in the use of neural-networks to translation, so called Neural Machine Translation \citep{Bentivogli2016}. 
 
 This is mostly based on \citep{Koehn2010}.
 
@@ -62,7 +62,7 @@ This is easy for a human to translate, but how would a computer know that \texti
 
 One way to teach the computer which translation to use would be to pick a large collection of English texts paired with the corresponding Portuguese translation and check how many times \textit{broken} is translated to \textit{partido} and how many times it is translated to \textit{falido}. Lets assume that in our collection of texts the word \textit{broken} is translated to \textit{partido} 80\% of the times and to \textit{falido} 20\% of the time. With this we could create a lexical translation probability table for the word \textit{broken}. We could have a table like this one for every word in the source texts.
 
-\begin{table}[h]
+\begin{table}[ht]
 \centering
 \begin{tabular}{ll}
 \multicolumn{2}{c}{\textbf{broken}} \\ \hline
@@ -93,6 +93,14 @@ We want to find the target word (\textit{t}) with the higher probability of bein
 
 In this approach, instead of translating a sentence word by word we translate small words sequences at a time, sequences that we call phrases. These models have a better performance than the word-based models and this is not too surprising. Sometimes words are not the best unit of translation: there are cases when two words in the source sentence are translated into one word in the target sentence, for example. Another advantage is that translating phrases instead of words can help to solve ambiguities, as in the problem of deciding how to translate the text \textit{chá forte} (see last section). We would check a parallel collection of texts and realize that most of the times \textit{chá forte} is translated to \textit{strong tea}. So, the idea here is to divide the sentence in phrases, translate the phrases and do some reordering if necessary.  
 
+\subsection{Post-editing}
+
+Post-editing (PE) is the task of editing, modifying and/or correcting a text that was pre-translated by use of MT, in order to improve the translation. \citep{Somers2003} refers to the lower cost of MT+PE compared with HT to explain the growth of PE: companies want to become global but can't afford the cost of HT to translate from native language to the many languages they want to operate on.
+
+\citep{Koponen2016a} tried to understand if MT+PE is really worth, compared with just HT, concluding that yes, most of the times it is worth it, but it depends on the quality of the MT, which in turn depends on, for example, the quality of the MT system and on the language pair. 
+
+Most of the research regarding PE refers to work done by professional translators. One approach that has been gaining traction is the use of the crowd to do the PE \citep{Tatsumi2012a}. The advantages of this strategy include lower per-word cost and sometimes an higher speed. One big disadvantage is less assurance of quality. 
+
 \subsection{Machine Translation Services}
 
 \subsubsection{Yandex}
@@ -103,16 +111,20 @@ I couldn't find any research paper evaluating the translation's quality of Yande
 
 \subsubsection{Google}
 
-Google\footnote{https://www.google.com} is a company from the United States that offers a lot of technological services, including machine translation. For the language pair Portuguese-English, their translation services now use Neural Machine Translation\footnote{https://blog.google/products/translate/found-translation-more-accurate-fluent-sentences-google-translate/}.
+Google\footnote{https://www.google.com} is a company from the United States that offers a lot of technological services, including machine translation. For the language pair Portuguese-English, their translation services now use Neural Machine Translation\footnote{https://blog.google/products/translate/found-translation-more-accurate-fluent-sentences-google-translate/} (see section 2.3.1).
 
+\subsubsection{Unbabel}
 
-\subsection{Post-editing}
+Unbabel\footnote{https://unbabel.com/} is a Portuguese start-up which offers translation services focused on conversational content like costumer service or websites copywriting, using an MT+PE approach. Although it's not mentioned in the Unbabel's API documentation, for the language pair Portuguese-English, currently Unbabel uses Google Translate's services in MT step of the MT+PE approach (personal communication). Next is an overview of Unbabel's translation pipeline:
 
-Post-editing (PE) is the task of editing, modifying and/or correcting a text that was pre-translated by use of MT, in order to improve the translation. \citep{Somers2003} refers to the lower cost of MT+PE compared with HT to explain the growth of PE: companies want to become global but can't afford the cost of HT to translate from native language to the many languages they want to operate on.
+\begin{enumerate}
+\item Text is translated by MT (in this case, using Google Translate)
+\item MT translated text is post-edited by users of the Unbabel platform. Users translate the text using Unbabel's web-interface or mobile app. 
+\item Translation resulting from last step is reviewed by an Unbabel's senior user, an user that was promoted for having good ratings
+\end{enumerate}
 
-\citep{Koponen2016a} tried to understand if MT+PE is really worth, compared with just HT, concluding that yes, most of the times it is worth it, but it depends on the quality of the MT, which in turn depends on, for example, the quality of the MT system and on the language pair. 
-
-Most of the research regarding PE refers to work done by professional translators. One approach that has been gaining traction is the use of the crowd to do the PE \citep{Tatsumi2012a}. The advantages of this strategy include lower per-word cost and sometimes an higher speed. One big disadvantage is less assurance of quality. 
+From now on I'm going to call this type of translation \textit{Unbabel Translation}.
+ 
 
 \subsection{Translation of Medical Text}
 
@@ -189,7 +201,7 @@ The user can also choose to, for example:
 
 Different combinations of these options are useful for different purposes. NOBLE already offers some built-in matching strategies, listed in \ref{table:matching-strategies}. 
 
-\begin{table}[h]
+\begin{table}[ht]
 \centering
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}llllll@{}}

@@ -28,7 +28,7 @@ Three of the article contained were about surveys, containing to much vocabulary
 
 What is left is a parallel corpus of 53 articles, distributed by journal in the following way:
 
-\begin{table}[h]
+\begin{table}[ht]
 \centering
 \caption{Number of articles by journal in parallel corpus}
 \label{table:articles_by_journal}
@@ -53,19 +53,7 @@ The Portuguese version of the articles were machine translated using Yandex's fr
 
 \subsection{Google and Unbabel Translation (4,5)}
 
-Both MT with Google and MT+PE with Unbabel were obtained using Unbabel's API\footnote{http://developers.unbabel.com/}. 
-
-Although it's not mentioned in the Unbabel's API documentation, for the language pair Portuguese-English, Unbabel use Google Translate's services. (personal communication).
-
-What I'm calling \textit{Unbabel Translation} consists in the following pipeline:
-
-\begin{enumerate}
-\item Text is translated by MT (in this case, using Google Translate)
-\item MT translated text is post-edited by users of the Unbabel platform 
-\item Translation resulting from last step is reviewed by an Unbabel's senior user, an user that was promoted for having good ratings
-\end{enumerate}
-
-The requests for Unbabel Translations have a limit of words, so an algorithm similar used for the Yandex Translations was used. 
+Both MT with Google and MT+PE with Unbabel were obtained using Unbabel's API\footnote{http://developers.unbabel.com/}. The requests for Unbabel Translations have a limit of words, so an algorithm similar used for the Yandex Translations was used. 
 
 \section{Annotation}
 
