@@ -12,7 +12,8 @@
 
 \section{Text Mining}
 
-Text Mining can mean different things for different people \citep{Hotho2005} but in this dissertation I will assume that it consists on the automatic extraction of useful information from unstructured text documents. It can be used, for example, to help researchers cope with information overload \citep{Cohen2005a} due to the big volume of scientific data in the form of unstructured literature. More related to this thesis, it can also be used to extract information from free-text radiology reports \citep{Pons2016}. 
+% Explain what does it mean to different people
+Text Mining can mean different things for different people \citep{Hotho2005}. It can be used, for example, to help researchers cope with information overload \citep{Cohen2005a} due to the big volume of scientific data in the form of unstructured literature. More related to this thesis, it can also be used to extract information from free-text radiology reports \citep{Pons2016}. In this dissertation I will assume that it consists on the automatic extraction of useful information from unstructured text documents.
 
 Because Text Mining has to manipulate text, it is not too surprising that it borrows tools from Natural Language Processing (NLP), a research fields that seeks to improve computational understanding of natural language. 
 
@@ -30,7 +31,7 @@ The approaches of NER can be divided into three categories \citep{Mansouri2008}:
 \item Hybrids approaches combines the two last approaches.
 \end{itemize}
 
-Dictionary based-approaches are a subset of the rule-based approaches. In this approach we already have a list of the named-entities that we want to identify in the text. This list of terms can be called \textit{dictionary}, \textit{vocabulary}, \textit{lexicon} or \textit{terminology}, for example. The goal of the dictionary based-approaches is then to identify, in text, mentions of terms presented in the dictionary. This could be done by direct matching, as implemented by the Open Biomedical Annotator \footnote{http://bioportal.bioontology.org/annotator} \citep{Jonquet2009}. In this strategy, the system only tries to find in text terms that are also in the dictionary, not considering, for example, lexical variations. The recall can be lower than expected because lexical variants (like plurals), abbreviations and partial matchings of dictionary terms are not recognized in the text. For this purpose, more complex tools like NOBLE Coder\footnote{http://noble-tools.dbmi.pitt.edu/} \citep{Tseytlin2016} or Concept Mapper \citep{Stewart} can be used.
+Dictionary based-approaches are a subset of the rule-based approaches. In this approach we already have a list of the named-entities that we want to identify in the text. This list of terms can be taken from a \textit{dictionary}, \textit{vocabulary}, \textit{lexicon} or \textit{terminology}, for example. The goal of the dictionary based-approaches is then to identify, in text, mentions of terms presented in the dictionary. This could be done by direct matching, as implemented by the Open Biomedical Annotator \footnote{http://bioportal.bioontology.org/annotator} \citep{Jonquet2009}. In this strategy, the system only tries to find in text terms that are also in the dictionary, not considering, for example, lexical variations. The recall can be lower than expected because lexical variants (like plurals), abbreviations and partial matchings of dictionary terms are not recognized in the text. For this purpose, more complex tools like NOBLE Coder\footnote{http://noble-tools.dbmi.pitt.edu/} \citep{Tseytlin2016} or Concept Mapper \citep{Stewart} can be used.
 
 \subsection{Application of Text Mining on Radiology Reports}
 
@@ -39,6 +40,8 @@ Text Mining tools can be used for automatic detection of important findings in R
 In literature it's possible to find some examples of Radiology reports/images search applications, that use NLP tools. The goals of these search tools include search for educational, research and clinical decision support purposes. One example of such a system is Render \citep{Dang2009}, which even applies one of the information extraction system mentioned above \citep{Dreyer2005} to improve relevance of information retrieved.
 
 Other applications include studying the appropriateness of existing Radiology reports templates, as done by \citep{Hong2013}
+
+\subsection{Ontologies}
 
 \section{Translation}
 
@@ -128,17 +131,22 @@ From now on I'm going to call this type of translation \textit{Unbabel Translati
 
 \subsection{Translation of Medical Text}
 
-As I've written previously, as far as I know, there is no research studying the effect of translation on NLP techniques. But there is a lot of work on translation of medical text. In this section I briefly review this work.
+% As I've written previously, as far as I know, there is no research studying the effect of translation on NLP techniques. But there is a lot of work on translation of medical text. In this section I briefly review this work.
+
+\subsubsection{Multilingual Text Mining}
+
+There is not much research studying the effect of translation on NLP techniques. \citep{Castilla2007a} is the most similar work to the one developed on this thesis and curiously, also studies translation of Portuguese medical text. In the main part of the study, Portuguese-written radiology reports were translated to English using the SYSTRAN MT system complemented with a specialized medical translation dictionary and then the translation was processed by the Medical Language Extraction and Encoding System (MEDLEE) to extract information on the presence of mentions of certain medical conditions. The results were compared to reference results created by three radiologists on the original reports. The results are really positive, with values of sensitivity, specificity, positive and negative predictive values all above 88\%. These results suggest that for this specific task of information extraction a MT translation retains a lot of information from the original text. 
+
 
 \subsubsection{Machine Translation of Doctor-Patient Communication}
 
 Most of the work done on medical translation focuses on translation of doctor-patient communication. This has the objective of breaking language barriers that sometimes exist between a doctor and a patient who don't speak the same language, with health-related consequences to the patient \citep{Schyve2007}. This could be done with trained medical interpreters but that option is costly compared with using MT and raises problems regarding patient confidentially. 
 
-Several MT speech-to-speech translation systems for doctor-patient communication exist, but for most of them, evaluations are not found in the literature. One exception is \citep{Bouillon2005} which studies MedSLT, a multilingual spoken language translation system tailored for headache, chest pain and abdominal pain domains. However, \citep{Bouillon2005} only studies the appropriateness of the design choices within the system, not comparing its performance with anything else. Others example of systems of thys type are Jibbigo\footnote{http://jibbigo-translator-2-0.soft112.com/}, Universal Doctor\footnote{http://www.universaldoctor.com/} and Transonics \citep{Nagata2005}.
+Several MT speech-to-speech translation systems for doctor-patient communication exist, but for most of them, evaluations are not found in the literature. One exception is \citep{Bouillon2005} which studies MedSLT, a multilingual spoken language translation system tailored for headache, chest pain and abdominal pain domains. However, \citep{Bouillon2005} only studies the appropriateness of the design choices within the system, not comparing its performance with anything else. Others example of systems of this type are Jibbigo\footnote{http://jibbigo-translator-2-0.soft112.com/}, Universal Doctor\footnote{http://www.universaldoctor.com/} and Transonics \citep{Nagata2005}.
 
-\citep{Kaliyadan2010} did a small study on the use of Google Translate to translate between English and French during doctor-patient interaction in India medical offices, with promising results regarding patient satisfaction. Work was also done on non-European languages, which have less resources \citep{Musleh2016, Kathol2005}.
+\citep{Kaliyadan2010} did a small study on the use of Google Translate to translate between English and French during doctor-patient interaction in India medical offices, with promising results regarding patient satisfaction. Also using Google Translate, \citep{Patil2014} studied the quality of the translation of 10 commonly used medical statements to 26 languages. Of all the 260 translations, 57.7\% were right. The results were better for Western European languages than for others. Portuguese had the highest score, with 9 of the 10 sentence translated being right. Other work was also done on non-European languages, which have less resources \citep{Musleh2016, Kathol2005}.
 
-Some researchers \citep{G2013, Conference2012} suggest that MT should be used very cautiously in this situations, because of imperfect performance in a domain where accuracy is really important. One way to improve the systems could involve the use of existing public medical terms database \citep{Eck2004}.
+Some researchers \citep{G2013, Conference2012, Kaliyadan2010} suggest that MT should be used very cautiously in this situations, because of imperfect performance in a domain where accuracy is really important. One way to improve the systems could involve the use of existing public medical terms database \citep{Eck2004}.
 
 \subsubsection{Machine Translation of Public-Health Information}
 
@@ -152,9 +160,16 @@ The ACL 2014 Ninth Workshop on Statistical Machine Translation had a Medical Tra
 
 Studies of the translation of other types of documents are also present in the literature. For example, \citep{Wok2015} compares neural based with statistical machine translation of descriptions of medical products in the language pair Polish-English, obtaining mixed results.
 
-More related to the work done on this thesis, in the first recorded study of translation of medical records \citep{Zeng-Treitler2010} tested if a general-purpose machine translation tool like the Babel Fish is adequate to translate sentences of discharge summaries, surgical notes, admission notes, and radiology reports from English to Spanish, Chinese, Russian and Korean. They found that most of the times the translation is incomprehensible and inaccurate.
+% I only want to refer to section 5.2 of the thesis I'm citing
+More related to the work done on this thesis, \citep{Castilla2007a} studied the use of the MT application SYSTRAN to translate sentences from radiology reports. The MT system was complemented with a specialized medical translation dictionary. The translations were evaluated by an expert in the field, finding good scores for understandability, fidelity with original text and translation coverage of the original text. 
+
+\citep{Zeng-Treitler2010} tested if a general-purpose machine translation tool like the Babel Fish is adequate to translate sentences of discharge summaries, surgical notes, admission notes, and radiology reports from English to Spanish, Chinese, Russian and Korean. They found that most of the times the translation is incomprehensible and inaccurate.
 
 More recently, there was a Biomedical Translation Task during the ACL 2016 First Conference on Machine Translation (WMT16) in which the participants were asked to submit systems to translate titles and abstracts from scientific publications \citep{Bojar2016}. The evaluators note that the quality of the machine translation is still poor in comparison to the reference translations. The only submission to the English-Portuguese  and Portuguese-English translation tasks \citep{Aires2016} were the ones with the worse results relative to the baseline system. 
+
+\subsection{Translation of Ontologies}
+
+One alternative solution to the one I'm exploring in this thesis, translating the medical text to English, is to translate the lexicon, on which the task at hand depends on, to the language of the medical documents we want to study. For example, if a researcher have a non-English corpus and wants to annotate it with terms of some ontology, it will be a problematic task since most of the available ontologies are not multilingual. To solve this the researcher could translate the ontologies she wants to use to the language of the corpus. There is some work on this problem of translating ontologies, but only one article was found related to biomedical ontologies \citep{Bretschneider}. Having in mind that translating all the entries of an ontology one wants to use would be expensive, the authors propose translating only a subset of the ontology, a subset relevant to the task at hand and doing this semi-automatically with the help of the corpus one wants to annotate. With this, the authors improved the annotation of German text with RadLex terms.
 
 \section{External Tools and Terminologies}
 
@@ -162,11 +177,19 @@ Some of the work done during the thesis used and was inspired by some external t
 
 \subsection{RadLex}
 
-RadLex\footnote{http://www.rsna.org/RadLex.aspx} is a domain-ontology which focuses on radiology-related terms. It was developed to standardize annotation, indexation, and retrieval of radiology information resources in the digital world \citep{Langlotz2006} and it helped to fill a gap in radiology terminology \citep{Langlotz2002, Woods2013}. The RadLex terms were originally gathered from existing ontologies at the time, including the American College of Radiology (ACR) Index, SNOMED-CT, and the Foundational Model Anatomy and it is a highly dynamic ontology: its number of terms grew from around 8000 to around 75000 in just ten years. 
+RadLex\footnote{http://www.rsna.org/RadLex.aspx} is a domain-ontology which focuses on radiology-related terms. It was developed to standardize annotation, indexation, and retrieval of radiology information resources in the digital world \citep{Langlotz2006} and it helped to fill a gap in radiology terminology \citep{Langlotz2002, Woods2013}. The RadLex terms were originally gathered from existing ontologies at the time, including the American College of Radiology (ACR) Index, SNOMED-CT, and the Foundational Model Anatomy and it is a highly dynamic ontology: its number of terms grew from around 8000 to around 75000 in just ten years.
 
-\subsection{Open Biomedical Annotator}
+There are a few studies on the completeness of RadLex. \citep{Marwede2008} found that an old version of RadLex covered 84\% of terms extracted manually from 250 thoracic CT reports, with higher coverage for terms in the \textit{Findings} (90\%) category and lower coverage for the \textit{Modifier} category (78\%). Curiously, in a study using more recent versions of RadLex (versions 3.1–3.5) \citep{Woods2013} found a lower coverage of 62\% using the same type of reports (they used less reports in this study, just 100). They find higher coverage for the categories of \textit{anatomic objects} and \textit{physiological conditions} and lower coverage for the categories of \textit{imaging observations} and \textit{procedures} (the categories used in both studies are not the same). The authors justify the lower coverage with the inclusion in the study of categories such as \textit{procedures}, which didn't had any match with RadLex terms. They also used a different methodology to find matches between manual extracted terms and Radlex terms. These studies analyzed the coverage of RadLex of terms mentioned in the contents of radiology reports. \citep{Hong2012}, on the other hand, studied how well RadLex covers the terms of templates of structured radiology reports developed by the Radiological Society of North America, finding that 41\% of the terms found in the templates matched exactly to RadLex and that 26\% matched partially. Since these analysis, new versions of RadLex were launched so the results and critics present in the studies could not be that relevant anymore.
 
-The Open Biomedical Annotator (OBA)\footnote{http://bioportal.bioontology.org/annotator} is an open-source tool made available by the North-American National Center for Biomedical Ontology \citep{Jonquet2009}, which can be used to annotate text with concepts from ontologies. For example, if you go to the website, input a radiology report and choose the ontology RadLex, the tool will return all the mentions in the text of terms belonging to the RadLex terminology. It can easily be used as a web-service and it is relatively fast. 
+One could use RadLex to assist in the matching of articles manuscripts to reviewers profiles, like done by the RadioGraphics journal \citep{Klein2013}. Or to help in the visual analysis of neurography images \citep{Wang2015}. Having said this, most of the examples described in the literature are of applications related to Information Retrieval (IR), the task of extracting some information resource from a collection of information resources. These resources can be images or websites, for example. One such example of a IR system using Radlex, is \citep{Spanier2016}, who takes advantage of the tree structure of this ontology to create a new method of case-based image retrieval (M-CBIR). Most existing M-CBIR systems use low-level characteristics of medical images (like color, shape and texture) to induce similarity between them. But this is problematic since medical images which show the same type of content can have different low-level characteristics. One solution is to induce this similarity from the information contained in the textual radiological reports that accompany the images and the authors take advantage of RadLex to do just that. This can help radiologists to find related medical cases in a certain database which then can help them in their decision-making process. Other approaches to IR systems using Radlex include the ones described in \citep{Do2010}, \citep{Kurtz2014} and \citep{Gerstmair2012}.
+
+
+
+%One of the goals of RadLex is to standardize radiology terminology. \citep{Opulencia2011} tries to match the Lung Image Database Consortium database characteristics with RadLex terms.  
+
+% \subsection{Open Biomedical Annotator}
+
+% The Open Biomedical Annotator (OBA)\footnote{http://bioportal.bioontology.org/annotator} is an open-source tool made available by the North-American National Center for Biomedical Ontology \citep{Jonquet2009}, which can be used to annotate text with concepts from ontologies. For example, if you go to the website, input a radiology report and choose the ontology RadLex, the tool will return all the mentions in the text of terms belonging to the RadLex terminology. It can easily be used as a web-service and it is relatively fast. 
 
 \subsection{NOBLE Coder}
 

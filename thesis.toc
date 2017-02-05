@@ -9,6 +9,7 @@
 \contentsline {section}{\numberline {2.2}Text Mining}{5}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Name-entity Recognition}{5}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Application of Text Mining on Radiology Reports}{7}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Ontologies}{7}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}Translation}{7}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Machine Translation}{7}{subsection.2.3.1}
 \contentsline {subsubsection}{\numberline {2.3.1.1}Word-Based Models}{8}{subsubsection.2.3.1.1}
@@ -19,29 +20,30 @@
 \contentsline {subsubsection}{\numberline {2.3.3.2}Google}{11}{subsubsection.2.3.3.2}
 \contentsline {subsubsection}{\numberline {2.3.3.3}Unbabel}{11}{subsubsection.2.3.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Translation of Medical Text}{12}{subsection.2.3.4}
-\contentsline {subsubsection}{\numberline {2.3.4.1}Machine Translation of Doctor-Patient Communication}{12}{subsubsection.2.3.4.1}
-\contentsline {subsubsection}{\numberline {2.3.4.2}Machine Translation of Public-Health Information}{13}{subsubsection.2.3.4.2}
-\contentsline {subsubsection}{\numberline {2.3.4.3}Machine Translation for Information Retrieval}{13}{subsubsection.2.3.4.3}
-\contentsline {subsubsection}{\numberline {2.3.4.4}Machine Translation of Other Types of Medical Text}{13}{subsubsection.2.3.4.4}
-\contentsline {section}{\numberline {2.4}External Tools and Terminologies}{14}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}RadLex}{14}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Open Biomedical Annotator}{15}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}NOBLE Coder}{15}{subsection.2.4.3}
-\contentsline {section}{\numberline {2.5}Evaluation Metrics}{17}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Micro- and Macro- Evaluation Metrics}{19}{subsection.2.5.1}
-\contentsline {chapter}{\numberline {3}Framework}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}Portuguese-English Parallel Corpus}{21}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Web Crawl of the articles (1,2)}{21}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Yandex Translation (3)}{23}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Google and Unbabel Translation (4,5)}{23}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Annotation}{23}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Annotation with Radlex Annotator}{23}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Annotation with NOBLE Coder}{24}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Evaluation}{25}{section.3.3}
-\contentsline {chapter}{\numberline {4}Experimental Results}{27}{chapter.4}
-\contentsline {section}{\numberline {4.1}Methods}{27}{section.4.1}
-\contentsline {section}{\numberline {4.2}Results}{27}{section.4.2}
-\contentsline {section}{\numberline {4.3}Discussion}{28}{section.4.3}
-\contentsline {section}{\numberline {4.4}Conclusions}{28}{section.4.4}
-\contentsline {chapter}{\numberline {5}Conclusions}{29}{chapter.5}
-\contentsline {chapter}{References}{31}{section*.4}
+\contentsline {subsubsection}{\numberline {2.3.4.1}Multilingual Text Mining}{12}{subsubsection.2.3.4.1}
+\contentsline {subsubsection}{\numberline {2.3.4.2}Machine Translation of Doctor-Patient Communication}{12}{subsubsection.2.3.4.2}
+\contentsline {subsubsection}{\numberline {2.3.4.3}Machine Translation of Public-Health Information}{13}{subsubsection.2.3.4.3}
+\contentsline {subsubsection}{\numberline {2.3.4.4}Machine Translation for Information Retrieval}{14}{subsubsection.2.3.4.4}
+\contentsline {subsubsection}{\numberline {2.3.4.5}Machine Translation of Other Types of Medical Text}{14}{subsubsection.2.3.4.5}
+\contentsline {subsection}{\numberline {2.3.5}Translation of Ontologies}{15}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}External Tools and Terminologies}{15}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}RadLex}{15}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}NOBLE Coder}{17}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Evaluation Metrics}{19}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Micro- and Macro- Evaluation Metrics}{21}{subsection.2.5.1}
+\contentsline {chapter}{\numberline {3}Framework}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}Portuguese-English Parallel Corpus}{23}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Web Crawl of the articles (1,2)}{23}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Yandex Translation (3)}{25}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Google and Unbabel Translation (4,5)}{25}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Annotation}{25}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Annotation with Radlex Annotator}{25}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Annotation with NOBLE Coder}{26}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Evaluation}{27}{section.3.3}
+\contentsline {chapter}{\numberline {4}Experimental Results}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}Methods}{29}{section.4.1}
+\contentsline {section}{\numberline {4.2}Results}{29}{section.4.2}
+\contentsline {section}{\numberline {4.3}Discussion}{30}{section.4.3}
+\contentsline {section}{\numberline {4.4}Conclusions}{30}{section.4.4}
+\contentsline {chapter}{\numberline {5}Conclusions}{31}{chapter.5}
+\contentsline {chapter}{References}{33}{section*.4}
