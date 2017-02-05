@@ -47,9 +47,7 @@ Other applications include studying the appropriateness of existing Radiology re
 
 \subsection{Machine Translation}
 
-Machine Translation (MT) is the use of computers to automatically translate natural language text. Currently, Statistical Machine Translation (SMT) is the most popular approach to MT. I will briefly review word-based and phrase-based which are both covered by the SMT approach. More recently, there as being a growth in the use of neural-networks to translation, so called Neural Machine Translation \citep{Bentivogli2016}. 
-
-This is mostly based on \citep{Koehn2010}.
+Machine Translation (MT) is the use of computers to automatically translate natural language text. Currently, Statistical Machine Translation (SMT) is the most popular approach to MT. Other approaches included Rule-Based Machine Translation (RBMT) and  Neural Machine Translation (NMT). RBMT involves the use of hand-crafted rules on how to do the automatic translation and NMT uses neural-networks and it's use has recently been growing \citep{Bentivogli2016}. I will now briefly review word-based and phrase-based which are both covered by the SMT approach. This is mostly based on \citep{Koehn2010}.
 
 \subsubsection{Word-Based Models}
 
@@ -136,7 +134,7 @@ From now on I'm going to call this type of translation \textit{Unbabel Translati
 \subsubsection{Multilingual Text Mining}
 \label{multilingual-text-mining}
 
-There is not much research studying the effect of translation on NLP techniques. \citep{Castilla2007a} is the most similar work to the one developed on this thesis and curiously, also studies translation of Portuguese medical text. In the main part of the study, Portuguese-written radiology reports were translated to English using the SYSTRAN MT system complemented with a specialized medical translation dictionary and then the translation was processed by the Medical Language Extraction and Encoding System (MEDLEE) to extract information on the presence of mentions of certain medical conditions. The results were compared to reference results created by three radiologists on the original reports. The results are really positive, with values of sensitivity, specificity, positive and negative predictive values all above 88\%. These results suggest that for this specific task of information extraction a MT translation retains a lot of information from the original text. 
+There is not much research studying the effect of translation on NLP techniques. \citep{Castilla2007a} is the most similar work to the one developed on this thesis and curiously, also studies translation of Portuguese medical text. In the main part of the study, Portuguese-written radiology reports were translated to English using the SYSTRAN MT system, which uses a rule-based approach, complemented with a specialized medical translation dictionary and then the translation was processed by the Medical Language Extraction and Encoding System (MEDLEE) to extract information on the presence of mentions of certain medical conditions. The results were compared to reference results created by three radiologists on the original reports. The results are really positive, with values of sensitivity, specificity, positive and negative predictive values all above 88\%. These results suggest that for this specific task of information extraction a MT translation retains a lot of information from the original text. 
 
 
 \subsubsection{Machine Translation of Doctor-Patient Communication}
@@ -162,7 +160,7 @@ The ACL 2014 Ninth Workshop on Statistical Machine Translation had a Medical Tra
 Studies of the translation of other types of documents are also present in the literature. For example, \citep{Wok2015} compares neural based with statistical machine translation of descriptions of medical products in the language pair Polish-English, obtaining mixed results.
 
 % I only want to refer to section 5.2 of the thesis I'm citing
-More related to the work done on this thesis, \citep{Castilla2007a} studied the use of the MT application SYSTRAN to translate sentences from radiology reports. The MT system was complemented with a specialized medical translation dictionary. The translations were evaluated by an expert in the field, finding good scores for understandability, fidelity with original text and translation coverage of the original text. 
+More related to the work done on this thesis, \citep{Castilla2007a} studied the use of the MT application SYSTRAN to translate sentences from radiology reports. The MT system uses a ruled-based approach and was complemented with a specialized medical translation dictionary. The translations were evaluated by an expert in the field, finding good scores for understandability, fidelity with original text and translation coverage of the original text. 
 
 \citep{Zeng-Treitler2010} tested if a general-purpose machine translation tool like the Babel Fish is adequate to translate sentences of discharge summaries, surgical notes, admission notes, and radiology reports from English to Spanish, Chinese, Russian and Korean. They found that most of the times the translation is incomprehensible and inaccurate.
 
