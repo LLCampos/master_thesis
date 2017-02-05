@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.11)  5 FEB 2017 13:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.11)  5 FEB 2017 13:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -796,11 +796,11 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 Chapter 1.
 (./Chapters/1_introduction.tex [1
 
-] [2]) [3] [4
-
-]
+] [2] [3]) [4]
 Chapter 2.
-(./Chapters/2_related_work.tex [5] [6] [7]
+(./Chapters/2_related_work.tex [5
+
+] [6] [7]
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ) [8] [9] [10]
@@ -852,7 +852,7 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: DA1D81C335D74406F33C144E03389CDF;3726.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: 6FF9D0FC0A2E91DE97B008C9D3C8B936;3661.
+(rerunfilecheck)             Checksum: 1BC8E48DEBFC333A8FAD4FC30760CF57;3710.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  )
 (\end occurred inside a group at level 1)
@@ -860,10 +860,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
 ### semi simple group (level 1) entered at line 32 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13186 strings out of 493029
- 182097 string characters out of 6136233
- 308060 words of memory out of 5000000
- 16175 multiletter control sequences out of 15000+600000
+ 13187 strings out of 493029
+ 182123 string characters out of 6136233
+ 308126 words of memory out of 5000000
+ 16176 multiletter control sequences out of 15000+600000
  21870 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,12n,53p,1708b,2349s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -880,10 +880,10 @@ public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc
 /texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/p
 ublic/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1
 200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on thesis.pdf (60 pages, 602479 bytes).
+Output written on thesis.pdf (60 pages, 603351 bytes).
 PDF statistics:
- 1003 PDF objects out of 1200 (max. 8388607)
- 900 compressed objects within 9 object streams
+ 1008 PDF objects out of 1200 (max. 8388607)
+ 904 compressed objects within 10 object streams
  225 named destinations out of 1000 (max. 500000)
  398 words of extra memory for PDF output out of 10000 (max. 10000000)
 
