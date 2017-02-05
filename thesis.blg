@@ -10,45 +10,45 @@ The style file: Classes/jmb.bst
 Database file #1: References/library.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty journal in Castilla2007a
-You've used 51 entries,
+You've used 52 entries,
             3009 wiz_defined-function locations,
-            991 strings with 19338 characters,
-and the built_in function-call counts, 45812 in all, are:
-= -- 3540
-> -- 3465
-< -- 22
-+ -- 1189
-- -- 1138
-* -- 4034
-:= -- 6890
-add.period$ -- 150
-call.type$ -- 51
-change.case$ -- 652
-chr.to.int$ -- 51
-cite$ -- 52
-duplicate$ -- 2779
-empty$ -- 2539
-format.name$ -- 1298
-if$ -- 9010
+            997 strings with 19445 characters,
+and the built_in function-call counts, 46284 in all, are:
+= -- 3580
+> -- 3484
+< -- 23
++ -- 1196
+- -- 1144
+* -- 4069
+:= -- 6966
+add.period$ -- 153
+call.type$ -- 52
+change.case$ -- 658
+chr.to.int$ -- 52
+cite$ -- 53
+duplicate$ -- 2813
+empty$ -- 2577
+format.name$ -- 1309
+if$ -- 9106
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 670
-newline$ -- 157
-num.names$ -- 203
-pop$ -- 1640
+missing$ -- 677
+newline$ -- 160
+num.names$ -- 207
+pop$ -- 1657
 preamble$ -- 1
-purify$ -- 584
+purify$ -- 590
 quote$ -- 0
-skip$ -- 1168
+skip$ -- 1183
 stack$ -- 0
-substring$ -- 1572
-swap$ -- 1693
+substring$ -- 1583
+swap$ -- 1708
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 456
+type$ -- 462
 warning$ -- 1
-while$ -- 244
+while$ -- 247
 width$ -- 0
-write$ -- 557
+write$ -- 567
 (There was 1 warning)

@@ -1,18 +1,10 @@
 \label{chap2}
 
-% Write about NLP
-% write about Machine Learning?
-% Two systems I've built
-% What is an ontology
-% Radiology Reports - text mining research on this
-
-\section{Electronic Health Records}
 
 
 
 \section{Text Mining}
 
-% Explain what does it mean to different people
 Text Mining consists in the machine supported analysis of text \citep{Hotho2005}. It can be used, for example, to help researchers cope with information overload \citep{Cohen2005a} due to the big volume of scientific data in the form of unstructured literature. More related to this thesis, it can also be used to extract information from free-text radiology reports \citep{Pons2016}. 
 
 Because Text Mining has to manipulate text, it is not too surprising that it borrows tools from Natural Language Processing (NLP), a research fields that seeks to improve computational understanding of natural language. 
@@ -42,6 +34,12 @@ In literature it's possible to find some examples of Radiology reports/images se
 Other applications include studying the appropriateness of existing Radiology reports templates, as done by \citep{Hong2013}
 
 \subsection{Ontologies}
+
+To answer the questions presented in Chapter \ref{chap1}, the RadLex ontology is used. In this section I briefly explain what is an ontology. An ontology is a "common, controlled knowledge representation designed to help knowledge sharing and computer reasoning" \citep{Robinson2011}. It is a way to represent a subset of the real word  which can be used as basis for communication between parties wanting to change information about that subset of the real word. 
+
+RadLex, for example, is a representation of the subset of the world related to radiology which can be used as standard on how to talk about radiology. Ontologies usually have a tree structure in which a class, representing some abstract entity in the real world, can have subclasses. For example, in RadLex, there is the class \textit{clinical finding} which has subclasses \textit{benign finding} and \textit{pathophysiologic finding} (among others). This subclasses have a \textit{is a} relationship with their parent classes: \textit{benign finding} is a \textit{clinical finding}. Other common relationship used in ontologies is the \textit{part of} relationship. 
+
+Other popular examples of ontologies include the Gene Ontology\footnote{http://www.geneontology.org/}, focused on genomics, SNOMED CT\footnote{http://www.snomed.org/snomed-ct}, a healthcare related ontology and ChEBI\footnote{https://www.ebi.ac.uk/chebi/}, an ontology of small molecular entities.
 
 \section{Translation}
 
@@ -175,6 +173,7 @@ One alternative solution to the one I'm exploring in this thesis, translating th
 Some of the work done during the thesis used and was inspired by some external tools and terminologies that I now briefly review.
 
 \subsection{RadLex}
+\label{Radlex}
 
 RadLex\footnote{http://www.rsna.org/RadLex.aspx} is a domain-ontology which focuses on radiology-related terms. It was developed to standardize annotation, indexation, and retrieval of radiology information resources in the digital world \citep{Langlotz2006} and it helped to fill a gap in radiology terminology \citep{Langlotz2002, Woods2013}. The RadLex terms were originally gathered from existing ontologies at the time, including the American College of Radiology (ACR) Index, SNOMED-CT, and the Foundational Model Anatomy and it is a highly dynamic ontology: its number of terms grew from around 8000 to around 75000 in just ten years.
 
