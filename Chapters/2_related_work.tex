@@ -23,7 +23,7 @@ The approaches of NER can be divided into three categories \citep{Mansouri2008}:
 \item Hybrids approaches combines the two last approaches.
 \end{itemize}
 
-Dictionary based-approaches are a subset of the rule-based approaches. In this approach we already have a list of the named-entities that we want to identify in the text. This list of terms can be taken from a \textit{dictionary}, \textit{vocabulary}, \textit{lexicon} or \textit{terminology}, for example. The goal of the dictionary based-approaches is then to identify, in text, mentions of terms presented in the dictionary. This could be done by direct matching, as implemented by the Open Biomedical Annotator \footnote{http://bioportal.bioontology.org/annotator} \citep{Jonquet2009}. In this strategy, the system only tries to find in text terms that are also in the dictionary, not considering, for example, lexical variations. The recall can be lower than expected because lexical variants (like plurals), abbreviations and partial matchings of dictionary terms are not recognized in the text. For this purpose, more complex tools like NOBLE Coder\footnote{http://noble-tools.dbmi.pitt.edu/} \citep{Tseytlin2016} or Concept Mapper \citep{Stewart} can be used.
+Gazetteer based-approaches are a subset of the rule-based approaches. In this approach we already have a list of the named-entities (a gazetteer) that we want to identify in the text. For example, if we want to identify chemical entities in text, we use a chemical-entities gazetteer. The goal of the gazetteer based-approach is then to identify, in text, mentions of terms presented in the gazetteer. This could be done by direct matching, as implemented by the Open Biomedical Annotator \footnote{http://bioportal.bioontology.org/annotator} \citep{Jonquet2009}. In this strategy, the system only tries to find in text terms that are also in the gazetteer, not considering, for example, lexical variations. The recall can be lower than expected because lexical variants (like plurals), abbreviations and partial matchings of gazetteer terms are not recognized in the text. For this purpose, more complex tools like NOBLE Coder\footnote{http://noble-tools.dbmi.pitt.edu/} \citep{Tseytlin2016} or Concept Mapper \citep{Stewart} can be used.
 
 \subsection{Application of Text Mining on Radiology Reports}
 
@@ -191,11 +191,11 @@ One could use RadLex to assist in the matching of articles manuscripts to review
 
 \subsection{NOBLE Coder}
 
-NOBLE Coder\footnote{http://noble-tools.dbmi.pitt.edu/} \citep{Tseytlin2016} is a software for NER using a dictionary-based approach. The dictionary is set by the user (it  has to be in UMLS (RRF)\footnote{https://www.ncbi.nlm.nih.gov/books/NBK9685/}, OWL\footnote{https://www.w3.org/OWL/} or OBO\footnote{http://www.geneontology.org/faq/what-obo-file-format} formats or be present in BioPortal\footnote{http://bioportal.bioontology.org/ontologies}) and NOBLE finds, in an arbitrary text, mentions of terms found in the dictionary.
+NOBLE Coder\footnote{http://noble-tools.dbmi.pitt.edu/} \citep{Tseytlin2016} is a software for NER using a gazetteer-based approach. The gazetteer is set by the user (it  has to be in UMLS (RRF)\footnote{https://www.ncbi.nlm.nih.gov/books/NBK9685/}, OWL\footnote{https://www.w3.org/OWL/} or OBO\footnote{http://www.geneontology.org/faq/what-obo-file-format} formats or be present in BioPortal\footnote{http://bioportal.bioontology.org/ontologies}) and NOBLE finds, in an arbitrary text, mentions of terms found in the gazetteer.
 
-Unlike the system used by the Open Biomedical Annotator (OBA)\footnote{http://bioportal.bioontology.org/annotator}\citep{Jonquet2009}, NOBLE can find mentions of lexical variations of the terms present in the dictionary because it applies word stemming. For example, \textit{lobe} is a term present in the RadLex terminology, but it's plural, \textit{lobes}, isn't. However, NOBLE considers that \textit{lobes} is a mention of the term \textit{lobe}, which is right. But this can sometimes go wrong; for example, NOBLE considers that \textit{headings} is a mention of the RadLex term \textit{head}, which is wrong. So although this strategy can improve recall it does so at the cost of precision. 
+Unlike the system used by the Open Biomedical Annotator (OBA)\footnote{http://bioportal.bioontology.org/annotator}\citep{Jonquet2009}, NOBLE can find mentions of lexical variations of the terms present in the gazetteer because it applies word stemming. For example, \textit{lobe} is a term present in the RadLex terminology, but it's plural, \textit{lobes}, isn't. However, NOBLE considers that \textit{lobes} is a mention of the term \textit{lobe}, which is right. But this can sometimes go wrong; for example, NOBLE considers that \textit{headings} is a mention of the RadLex term \textit{head}, which is wrong. So although this strategy can improve recall it does so at the cost of precision. 
 
-The NOBLE tool is flexible in what is considered a mention of a dictionary term, giving the user the power to adapt the tool for her specific purposes. This can be done by choosing to use or not a certain \textit{matching option}. These include:
+The NOBLE tool is flexible in what is considered a mention of a gazetteer term, giving the user the power to adapt the tool for her specific purposes. This can be done by choosing to use or not a certain \textit{matching option}. These include:
 
 \begin{itemize}
 
@@ -205,9 +205,9 @@ The NOBLE tool is flexible in what is considered a mention of a dictionary term,
 
 \item \textbf{Contiguity} - Terms must be contiguous to be matched. For example, if set, in the text \textit{multiple ducts lesions} both \textit{multiple ducts} and \textit{multiple lesions} are considered matches, although \textit{multiple} and \textit{lesions} are not adjacent to each other. It's possible to set how many irrelevant words can be between words belonging to a term (in \ref{table:matching-strategies}, this is called \textit{gap}). 
 
-\item \textbf{Order} - Terms must be in the same order as in the dictionary to be considered mentions. If not set, \textit{lesions multiple} is considered a mention of the Radlex term \textit{multiple lesions}.
+\item \textbf{Order} - Terms must be in the same order as in the gazetteer to be considered mentions. If not set, \textit{lesions multiple} is considered a mention of the Radlex term \textit{multiple lesions}.
 
-\item \textbf{Partial} - Partial match with terms in dictionary are considered a dictionary term mention. If set, \textit{multiple} is considered a mention of \textit{multiple lesions}. 
+\item \textbf{Partial} - Partial match with terms in gazetteer are considered a gazetteer term mention. If set, \textit{multiple} is considered a mention of \textit{multiple lesions}. 
 
 \end{itemize}
 
@@ -217,7 +217,7 @@ The user can also choose to, for example:
 \item Skip single letter words
 \item Skip stop words
 \item Use heuristics to filter out potential false positives
-\item When a term can be considered a mention of more than one concept in the dictionary,  select only the highest scoring one
+\item When a term can be considered a mention of more than one concept in the gazetteer,  select only the highest scoring one
 \end{itemize}
 
 Different combinations of these options are useful for different purposes. NOBLE already offers some built-in matching strategies, listed in \ref{table:matching-strategies}. 
@@ -241,9 +241,9 @@ Different combinations of these options are useful for different purposes. NOBLE
 
 The authors of the tool provide suggestion for what kind of task each strategy is more appropriate. For example, they suggest that the \textit{best match} strategy is best for concept coding and information extraction and that the \textit{all match} strategy is more suitable for information retrieval and text mining.
 
-\citep{Tseytlin2016} compares the NOBLE tool with other dictionary-based NER tools, finding that its performance in recognizing terms from dictionaries its comparable with other similar software like Concept Mapper \citep{Stewart} or cTAKES \footnote{https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+3.0+-+Dictionary+Lookup} \footnote{https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+3.2+-+Fast+Dictionary+Lookup}, although it probably depends a lot on the corpus used.
+\citep{Tseytlin2016} compares the NOBLE tool with other gazetteer-based NER tools, finding that its performance in recognizing terms from gazetteers its comparable with other similar software like Concept Mapper \citep{Stewart} or cTAKES \footnote{https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+3.0+-+Dictionary+Lookup} \footnote{https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+3.2+-+Fast+Dictionary+Lookup}, although it probably depends a lot on the corpus used.
 
-One big advantage of NOBLE is its ease of use compared with other similar systems. Little or no programming skills are needed to use the software since it includes a GUI (Graphical User Interface) which allows an user to upload dictionaries in a number of formats and easily annotate texts. 
+One big advantage of NOBLE is its ease of use compared with other similar systems. Little or no programming skills are needed to use the software since it includes a GUI (Graphical User Interface) which allows an user to upload gazetteers in a number of formats and easily annotate texts. 
 
 \section{Evaluation Metrics}
 
