@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.11)  10 FEB 2017 19:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.11)  10 FEB 2017 20:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -884,7 +884,7 @@ public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc
 /texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/p
 ublic/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1
 200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on thesis.pdf (60 pages, 605416 bytes).
+Output written on thesis.pdf (60 pages, 605230 bytes).
 PDF statistics:
  1015 PDF objects out of 1200 (max. 8388607)
  911 compressed objects within 10 object streams
