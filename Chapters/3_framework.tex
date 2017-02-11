@@ -47,6 +47,8 @@ Revista Brasileira de Reumatologia                   & 1                        
 \end{tabular}
 \end{table}
 
+The corpus has a total of 170137 words\footnote{Tokenization done by NLTK's word\_tokenize function (\url{http://www.nltk.org/})} the longer article having 12451 and the smaller 848. The articles have an average of 3210 words each. 
+
 \subsection{Note On Human Translations}
 
 It is not known for sure how exactly the original human translations were done, since some of the articles are not recent and some of the journals did not answer my emails questioning about this, but all the answers received mentioned the use of specialized translation services. Having said this, we assume that the translations are of high quality since they were published by scientific magazines. 
@@ -63,7 +65,7 @@ Both MT with Google and MT+PE with Unbabel were obtained using Unbabel's API\foo
 
 All the English versions of the articles in the corpus were annotated thrice with RadLex terms, one time using a direct matching approach and two using two of the built-in matching strategies provided by NOBLE Coder. I'm calling the three approaches Direct Match\footnote{See \ref{Named-entity Recognition}}, All Match and Best Match\footnote{See \ref{NOBLE Coder}}.
 
-Each class of the RadLex ontology has a \textit{preferred name} and a list of synonyms. For all the cases the output of each annotation consists in the set of the preferred names of the terms of RadLex that are mentioned in the corresponding article. I normalize all the mentions to the preferred name so that a use of the preferred name in one translation and the use of one of the synonyms in another translation are considered mentions of the same term. 
+Each class of the RadLex ontology has a \textit{preferred name} and a list of synonyms. For all the approaches the output of each annotation process consists in the set of the preferred names of the RadLex terms that are mentioned in the corresponding article. I normalize all the mentions to the preferred name so that a use of the preferred name in one translation and the use of one of the synonyms in another translation are considered mentions of the same term. 
 
 \subsection{Direct Match - Annotation with NCBO Annotator}
 
