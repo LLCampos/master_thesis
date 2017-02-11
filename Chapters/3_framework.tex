@@ -126,6 +126,8 @@ And the analogous thing for the "Synonym" property.
 
 The annotations of each MT or MT+PE translated article were compared against the annotations of corresponding HT translated article, which was considered a gold standard. Both Micro- and Macro- Precision, Recall and F1-scores were calculated. This was done for each matching approach. 
 
+To facilitate the understanding of the results, I will now walk trough a short example for one document. Consider that we have two Portuguese documents and for each one we have a HT English translation and a MT English translation. There were found 4 terms of interest in the HT translation, {bone, cell, finger, colon}. This is going to be our gold standard. In the MT translation, 2 terms of interest were found, {brain, bone}. One of these terms is also in the gold standard so there is 1 True Positive, but the other term is  not, so that is 1 False Positive. In the gold standard there are 3 terms that were not found in the MT translation. That is 3 False Negatives. After calculations (see \ref{Evaluation Metrics}), this gives us a Precision score of 0.5, a Recall score of 0.25 and F-Score of 0.33. 
+
 These methods measure how similar are the terms annotated on the MT or MT+PE texts to the terms annotated on the HT texts. They don't say nothing about the quality of the annotations, however is that measured. 
 
 
