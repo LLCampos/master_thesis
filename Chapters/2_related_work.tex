@@ -11,7 +11,8 @@ Because Text Mining has to manipulate text, it is not too surprising that it bor
 
 In the next subsections I will explain one of these NLP tools, called Name-entity recognition and briefly explore how Text Mining can be used to extract information from Radiology Reports.
 
-\subsection{Name-entity Recognition}
+\subsection{Named-entity Recognition}
+\label{Named-entity Recognition}
 
 Named-entity recognition (NER) is a task of NLP that has the goal of locate and classify all the named-entities in a certain document. Named-entities are elements of the text that belong to one of certain predefined classes. For example, in the phrase \textit{Atrial fibrillation has strong associations with other cardiovascular diseases} the term \textit{Atrial fibrillation} is a named-entity that belongs to the class \textit{Disease}. The task of NER can be further divided in two subtasks: identify where in the text are the named-entities and classify the named-entities.
 
@@ -185,15 +186,16 @@ One could use RadLex to assist in the matching of articles manuscripts to review
 
 %One of the goals of RadLex is to standardize radiology terminology. \citep{Opulencia2011} tries to match the Lung Image Database Consortium database characteristics with RadLex terms.  
 
-% \subsection{Open Biomedical Annotator}
+\subsection{Open Biomedical Annotator}
 
-% The Open Biomedical Annotator (OBA)\footnote{http://bioportal.bioontology.org/annotator} is an open-source tool made available by the North-American National Center for Biomedical Ontology \citep{Jonquet2009}, which can be used to annotate text with concepts from ontologies. For example, if you go to the website, input a radiology report and choose the ontology RadLex, the tool will return all the mentions in the text of terms belonging to the RadLex terminology. It can easily be used as a web-service and it is relatively fast. 
+The Open Biomedical Annotator (OBA)\footnote{http://bioportal.bioontology.org/annotator} is an open-source tool for NER using a gazetteer-based approach, made available by the North-American National Center for Biomedical Ontology \citep{Jonquet2009}, which can be used to annotate text with concepts from ontologies. For example, if you go to the website, input a radiology report and choose the ontology RadLex, the tool will return all the mentions in the text of terms belonging to the RadLex terminology. It can easily be used as a web-service and it is relatively fast. It uses a case-insensitive direct match approach, not considering lexical variations of words (see \ref{Named-entity Recognition}). 
 
 \subsection{NOBLE Coder}
+\label{NOBLE Coder}
 
 NOBLE Coder\footnote{http://noble-tools.dbmi.pitt.edu/} \citep{Tseytlin2016} is a software for NER using a gazetteer-based approach. The gazetteer is set by the user (it  has to be in UMLS (RRF)\footnote{https://www.ncbi.nlm.nih.gov/books/NBK9685/}, OWL\footnote{https://www.w3.org/OWL/} or OBO\footnote{http://www.geneontology.org/faq/what-obo-file-format} formats or be present in BioPortal\footnote{http://bioportal.bioontology.org/ontologies}) and NOBLE finds, in an arbitrary text, mentions of terms found in the gazetteer.
 
-Unlike the system used by the Open Biomedical Annotator (OBA)\footnote{http://bioportal.bioontology.org/annotator}\citep{Jonquet2009}, NOBLE can find mentions of lexical variations of the terms present in the gazetteer because it applies word stemming. For example, \textit{lobe} is a term present in the RadLex terminology, but it's plural, \textit{lobes}, isn't. However, NOBLE considers that \textit{lobes} is a mention of the term \textit{lobe}, which is right. But this can sometimes go wrong; for example, NOBLE considers that \textit{headings} is a mention of the RadLex term \textit{head}, which is wrong. So although this strategy can improve recall it does so at the cost of precision. 
+Unlike the system used by OBA, NOBLE can find mentions of lexical variations of the terms present in the gazetteer because it applies word stemming. For example, \textit{lobe} is a term present in the RadLex terminology, but it's plural, \textit{lobes}, isn't. However, NOBLE considers that \textit{lobes} is a mention of the term \textit{lobe}, which is right. But this can sometimes go wrong; for example, NOBLE considers that \textit{headings} is a mention of the RadLex term \textit{head}, which is wrong. So although this strategy can improve recall it does so at the cost of precision. 
 
 The NOBLE tool is flexible in what is considered a mention of a gazetteer term, giving the user the power to adapt the tool for her specific purposes. This can be done by choosing to use or not a certain \textit{matching option}. These include:
 
