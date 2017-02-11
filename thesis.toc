@@ -45,5 +45,5 @@
 \contentsline {section}{\numberline {4.1}NER Gazetteer-based approach}{29}{section.4.1}
 \contentsline {section}{\numberline {4.2}Discussion}{30}{section.4.2}
 \contentsline {section}{\numberline {4.3}Conclusions}{30}{section.4.3}
-\contentsline {chapter}{\numberline {5}Conclusions}{31}{chapter.5}
-\contentsline {chapter}{References}{33}{section*.4}
+\contentsline {chapter}{\numberline {5}Conclusions}{33}{chapter.5}
+\contentsline {chapter}{References}{35}{section*.4}

@@ -37,37 +37,93 @@ Let's check the number of terms found by document.
 
 
 
-\begin{table}[ht]
+
+
+% Best Match Micro
+\begin{table}[h]
 \centering
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{@{}lccccccccc@{}}
+\begin{tabular}{@{}lccc@{}}
 \toprule
-\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Type of Translation}}} & \multicolumn{3}{c}{\textbf{Direct Match}}                          & \multicolumn{3}{c}{\textbf{All Match}}                             & \multicolumn{3}{c}{\textbf{Best Match}}                            \\ \cmidrule(l){2-10} 
-\multicolumn{1}{c}{}                                              & \textbf{Micro P}   & \textbf{Micro R}      & \textbf{Micro F}     & \textbf{Micro P}   & \textbf{Micro R}      & \textbf{Micro F}     & \textbf{Micro P}   & \textbf{Micro R}      & \textbf{Micro F}     \\ \midrule
-\textbf{Yandex Translation}   & 0.841    & 0.808     & 0.824     & 0.839     & 0.814     & 0.826     & 0.829     & 0.824     & 0.826                \\
-\textbf{Google Translation}   & 0.863    & 0.865     & 0.864     & 0.862     & 0.861     & 0.862     & 0.851     & 0.861     & 0.856                \\
-\textbf{Unbabel Translation}  & 0.867    & 0.876     & 0.871     & 0.864     & 0.868     & 0.866     & 0.853     & 0.870     & 0.862                 \\ \bottomrule
+\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Translation}}} & \multicolumn{3}{c}{\textbf{Best Match}}                            \\ \cmidrule(l){2-4}
+\multicolumn{1}{c}{}          & \textbf{Micro P}     & \textbf{Micro R}      & \textbf{Micro F}          \\ \midrule
+\textbf{Yandex}   & 0.829                & 0.824                 & 0.826                   \\ 
+
+\textbf{Google}   & 0.851                & 0.861                 & 0.856                   \\ 
+
+\textbf{Unbabel}  & 0.853                & 0.87                 & 0.862         \\ \bottomrule 
+
 \end{tabular}%
-}
-\caption{Micro-Evaluation of how close the annotations of MT and MT+PE translation are to the annotations of HT}
-\label{table:results_comparasion_translations_micro}
+\caption{Micro-Evaluation of how close the Best Match annotations of MT and MT+PE translation are to the annotations of HT}
+\label{table: Results Best Match Micro}
 \end{table}
 
-\begin{table}[ht]
+
+% All Match Micro
+\begin{table}[h]
 \centering
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{@{}lccccccccc@{}}
+\begin{tabular}{@{}lccc@{}}
 \toprule
-\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Type of Translation}}} & \multicolumn{3}{c}{\textbf{Direct Match}}                          & \multicolumn{3}{c}{\textbf{All Match}}                             & \multicolumn{3}{c}{\textbf{Best Match}}                            \\ \cmidrule(l){2-10} 
-\multicolumn{1}{c}{}                                              & \textbf{Macro P}   & \textbf{Macro R}      & \textbf{Macro F}     & \textbf{Macro P}   & \textbf{Macro R}      & \textbf{Macro F}     & \textbf{Macro P}   & \textbf{Macro R}      & \textbf{Macro F}     \\ \midrule
-\textbf{Yandex Translation}                            & 0.833   & 0.810  & 0.820  & 0.833     & 0.817     & 0.823     & 0.823     & 0.823     & 0.823                \\
-\textbf{Google Translation}                            & 0.853   & 0.859     & 0.855     & 0.856     & 0.855     & 0.854     & 0.843     & 0.855     & 0.848                \\
-\textbf{Unbabel Translation}                           & 0.857   & 0.871   & 0.863   & 0.858   & 0.862   & 0.859   & 0.845   & 0.866   & 0.854  \\ \bottomrule
+\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Translation}}} & \multicolumn{3}{c}{\textbf{All Match}}                            \\ \cmidrule(l){2-4}
+\multicolumn{1}{c}{}          & \textbf{Micro P}     & \textbf{Micro R}      & \textbf{Micro F}          \\ \midrule
+\textbf{Yandex}   & 0.839                & 0.814                 & 0.826                   \\ 
+
+\textbf{Google}   & 0.862                & 0.861                 & 0.862                   \\ 
+
+\textbf{Unbabel}  & 0.864                & 0.868                 & 0.866         \\ \bottomrule 
+
 \end{tabular}%
-}
-\caption{Macro-Evaluation of how close the annotations of MT and MT+PE translation are to the annotations of HT}
-\label{table:results_comparasion_translations_macro}
+\caption{Micro-Evaluation of how close the All Match annotations of MT and MT+PE translation are to the annotations of HT}
+\label{table: Results All Match Micro}
 \end{table}
+
+
+% Best Match Macro
+\begin{table}[h]
+\centering
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Translation}}} & \multicolumn{3}{c}{\textbf{Best Match}}                            \\ \cmidrule(l){2-4}
+\multicolumn{1}{c}{}          & \textbf{Macro P}     & \textbf{Macro R}      & \textbf{Macro F}          \\ \midrule
+\textbf{Yandex}   & 0.823                & 0.823                 & 0.823                   \\ 
+
+\textbf{Google}   & 0.843                & 0.855                 & 0.848                   \\ 
+
+\textbf{Unbabel}  & 0.845                & 0.865                 & 0.854         \\ \bottomrule 
+
+\end{tabular}%
+\caption{Macro-Evaluation of how close the Best Match annotations of MT and MT+PE translation are to the annotations of HT}
+\label{table: Results Best Match Macro}
+\end{table}
+
+
+% All Match Macro
+\begin{table}[hp]
+\centering
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Translation}}} & \multicolumn{3}{c}{\textbf{All Match}}                            \\ \cmidrule(l){2-4}
+\multicolumn{1}{c}{}          & \textbf{Macro P}     & \textbf{Macro R}      & \textbf{Macro F}          \\ \midrule
+\textbf{Yandex}   & 0.833                & 0.817                 & 0.823                   \\ 
+
+\textbf{Google}   & 0.856                & 0.855                 & 0.854                   \\ 
+
+\textbf{Unbabel}  & 0.858                & 0.862                 & 0.859         \\ \bottomrule 
+
+\end{tabular}%
+\caption{Macro-Evaluation of how close the All Match annotations of MT and MT+PE translation are to the annotations of HT}
+\label{table: Results All Match Macro}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
 
 The annotations of the Google MT translation are closer to the ones of the HT translation than the ones of the Yandex MT translation. This could be just because the human translators used Google translator to help them in their translation process, and so the translation is more similar than compared with the Yandex translation. 
 
