@@ -42,9 +42,8 @@
 \contentsline {subsection}{\numberline {3.2.2}All Match and Best Match - Annotation with NOBLE Coder}{26}{subsection.3.2.2}
 \contentsline {section}{\numberline {3.3}Evaluation}{27}{section.3.3}
 \contentsline {chapter}{\numberline {4}Experimental Results}{29}{chapter.4}
-\contentsline {section}{\numberline {4.1}Methods}{29}{section.4.1}
-\contentsline {section}{\numberline {4.2}Results}{29}{section.4.2}
-\contentsline {section}{\numberline {4.3}Discussion}{30}{section.4.3}
-\contentsline {section}{\numberline {4.4}Conclusions}{30}{section.4.4}
+\contentsline {section}{\numberline {4.1}NER Gazetteer-based approach}{29}{section.4.1}
+\contentsline {section}{\numberline {4.2}Discussion}{30}{section.4.2}
+\contentsline {section}{\numberline {4.3}Conclusions}{30}{section.4.3}
 \contentsline {chapter}{\numberline {5}Conclusions}{31}{chapter.5}
 \contentsline {chapter}{References}{33}{section*.4}

@@ -7,13 +7,35 @@
 % "Models" is not a valid title for PLoS ONE authors. However, PLoS ONE
 % authors may use "Analysis" 
 %\section*{Materials and Methods}
-\section{Methods}
+%\section{Methods}
 
 
 
 
 % Results and Discussion can be combined.
-\section{Results}
+\section{NER Gazetteer-based approach}
+
+Let's check the number of terms found by document.
+
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrr}
+\toprule
+ Translation   &   Direct Match &   All Match &   Best Match \\
+\midrule
+ Human         &         119.77 &      178.08 &       145.11 \\
+ Yandex        &         115.13 &      172.66 &       144.19 \\
+ Google        &         119.94 &      177.89 &       146.70 \\
+ Unbabel       &         120.98 &      178.79 &       148.09 \\
+\bottomrule
+\end{tabular} 
+\caption{Number of RadLex terms found by document}
+\label{table:terms_by_document}
+\end{table}
+
+
+
 
 \begin{table}[ht]
 \centering
