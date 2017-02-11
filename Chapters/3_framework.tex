@@ -16,9 +16,9 @@ For the purpose of this work, I've created a Portuguese-English parallel corpus 
 
 \subsection{Web Crawl of the articles (1,2)}
 
-First, I needed a list of articles related to radiography that were available both in English and in Portuguese. To get this list I’ve used the  NCBO Entrez Programming Utilities (E-utilities)\footnote{https://www.ncbi.nlm.nih.gov/books/NBK25501/} to query the PubMed database with the search query “portuguese[Language] AND english[Language] AND radiography[MeSH Major Topic] AND hasabstract[text]” (search done on 11/12/2016). The last filter is used to avoid getting texts for which only the title is available. 
+First, I needed a list of articles related to radiography that were available both in English and in Portuguese. To get this list I’ve used the  NCBO Entrez Programming Utilities (E-utilities)\footnote{\url{https://www.ncbi.nlm.nih.gov/books/NBK25501/}} to query the PubMed database with the search query “portuguese[Language] AND english[Language] AND radiography[MeSH Major Topic] AND hasabstract[text]” (search done on 11/12/2016). The last filter is used to avoid getting texts for which only the title is available. 
 
-Then I programmatically crawled each article PubMed page to get the URL where the full article could be found. Most of the articles were hosted in SciELO\footnote{http://www.scielo.br/} so for the sake of consistency I've only included in the corpus articles hosted in there. 
+Then I programmatically crawled each article PubMed page to get the URL where the full article could be found. Most of the articles were hosted in SciELO\footnote{\url{http://www.scielo.br/}} so for the sake of consistency I've only included in the corpus articles hosted in there. 
 
 For the purposes of this work, it made sense to only include articles for which the original language is Portuguese, so I've also filtered the corpus by this parameter. 
 
@@ -55,11 +55,11 @@ It is not known for sure how exactly the original human translations were done, 
 
 \subsection{Yandex Translation (3)}
 
-The Portuguese version of the articles were machine translated using Yandex's free Translate API\footnote{https://tech.yandex.com/translate/}. Each translation request had a limit of 10000 characters so an algorithm was used to break the text to various pieces, without breaking the text in the middle of sentences, send the translation request for each piece and then join everything back.
+The Portuguese version of the articles were machine translated using Yandex's free Translate API\footnote{\url{https://tech.yandex.com/translate/}}. Each translation request had a limit of 10000 characters so an algorithm was used to break the text to various pieces, without breaking the text in the middle of sentences, send the translation request for each piece and then join everything back.
 
 \subsection{Google and Unbabel Translation (4,5)}
 
-Both MT with Google and MT+PE with Unbabel were obtained using Unbabel's API\footnote{http://developers.unbabel.com/}. The requests for Unbabel Translations have a limit of words, so an algorithm similar used for the Yandex Translations was used. 
+Both MT with Google and MT+PE with Unbabel were obtained using Unbabel's API\footnote{\url{http://developers.unbabel.com/}}. The requests for Unbabel Translations have a limit of words, so an algorithm similar used for the Yandex Translations was used. 
 
 \section{Annotation}
 
