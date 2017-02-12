@@ -22,12 +22,16 @@ Let's check the number of terms found by document.
 \centering
 \begin{tabular}{lrrr}
 \toprule
- Translation   &   Direct Match &   All Match &   Best Match \\
+\textbf{Translation}   &   \textbf{Direct Match} &   \textbf{All Match} &   \textbf{Best Match} \\
 \midrule
- Human         &         119.77 &      178.08 &       145.11 \\
- Yandex        &         115.13 &      172.66 &       144.19 \\
- Google        &         119.94 &      177.89 &       146.70 \\
- Unbabel       &         120.98 &      178.79 &       148.09 \\
+ \textbf{Human}         &         119.98 &      178.08 &       145.11 \\
+ 
+ \textbf{Yandex}        &         115.34 &      172.66 &       144.19 \\
+ 
+ \textbf{Google}        &         120.15 &      177.89 &       146.70 \\
+ 
+ \textbf{Unbabel}       &         121.19 &      178.79 &       148.09 \\
+ 
 \bottomrule
 \end{tabular} 
 \caption{Number of RadLex terms found by document}
@@ -40,7 +44,7 @@ Let's check the number of terms found by document.
 
 
 % Best Match Micro
-\begin{table}[h]
+\begin{table}[!htp]
 \centering
 \begin{tabular}{@{}lccc@{}}
 \toprule
@@ -59,7 +63,7 @@ Let's check the number of terms found by document.
 
 
 % All Match Micro
-\begin{table}[h]
+\begin{table}[!htp]
 \centering
 \begin{tabular}{@{}lccc@{}}
 \toprule
@@ -77,8 +81,27 @@ Let's check the number of terms found by document.
 \end{table}
 
 
+% Direct Match Micro
+\begin{table}[!htp]
+\centering
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Translation}}} & \multicolumn{3}{c}{\textbf{Direct Match}}                            \\ \cmidrule(l){2-4}
+\multicolumn{1}{c}{}          & \textbf{Micro P}     & \textbf{Micro R}      & \textbf{Micro F}          \\ \midrule
+\textbf{Yandex}   & 0.841                & 0.809                 & 0.825                   \\ 
+
+\textbf{Google}   & 0.864                & 0.865                 & 0.864                   \\ 
+
+\textbf{Unbabel}  & 0.867                & 0.876                 & 0.872         \\ \bottomrule 
+
+\end{tabular}%
+\caption{Micro-Evaluation of how close the Direct Match annotations of MT and MT+PE translation are to the annotations of HT}
+\label{table: Results Direct Match Micro}
+\end{table}
+
+
 % Best Match Macro
-\begin{table}[h]
+\begin{table}[!htp]
 \centering
 \begin{tabular}{@{}lccc@{}}
 \toprule
@@ -97,7 +120,7 @@ Let's check the number of terms found by document.
 
 
 % All Match Macro
-\begin{table}[hp]
+\begin{table}[!htp]
 \centering
 \begin{tabular}{@{}lccc@{}}
 \toprule
@@ -112,6 +135,25 @@ Let's check the number of terms found by document.
 \end{tabular}%
 \caption{Macro-Evaluation of how close the All Match annotations of MT and MT+PE translation are to the annotations of HT}
 \label{table: Results All Match Macro}
+\end{table}
+
+
+% Direct Match Macro
+\begin{table}[!htp]
+\centering
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Translation}}} & \multicolumn{3}{c}{\textbf{Direct Match}}                            \\ \cmidrule(l){2-4}
+\multicolumn{1}{c}{}          & \textbf{Macro P}     & \textbf{Macro R}      & \textbf{Macro F}          \\ \midrule
+\textbf{Yandex}   & 0.833                & 0.811                 & 0.82                   \\ 
+
+\textbf{Google}   & 0.853                & 0.859                 & 0.855                   \\ 
+
+\textbf{Unbabel}  & 0.857                & 0.871                 & 0.863         \\ \bottomrule 
+
+\end{tabular}%
+\caption{Macro-Evaluation of how close the Direct Match annotations of MT and MT+PE translation are to the annotations of HT}
+\label{table: Results Direct Match Macro}
 \end{table}
 
 

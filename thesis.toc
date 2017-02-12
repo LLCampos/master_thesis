@@ -43,7 +43,7 @@
 \contentsline {section}{\numberline {3.3}Evaluation}{27}{section.3.3}
 \contentsline {chapter}{\numberline {4}Experimental Results}{29}{chapter.4}
 \contentsline {section}{\numberline {4.1}NER Gazetteer-based approach}{29}{section.4.1}
-\contentsline {section}{\numberline {4.2}Discussion}{30}{section.4.2}
-\contentsline {section}{\numberline {4.3}Conclusions}{30}{section.4.3}
+\contentsline {section}{\numberline {4.2}Discussion}{31}{section.4.2}
+\contentsline {section}{\numberline {4.3}Conclusions}{31}{section.4.3}
 \contentsline {chapter}{\numberline {5}Conclusions}{33}{chapter.5}
 \contentsline {chapter}{References}{35}{section*.4}
