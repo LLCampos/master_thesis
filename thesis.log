@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.11)  12 FEB 2017 13:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.11)  12 FEB 2017 16:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -843,7 +843,14 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 
 ]
 Chapter 4.
-(./Chapters/4_results.tex [29] [30]) [31] [32
+(./Chapters/4_results.tex [29] [30]
+<SupportFiles/plots/All_Match_Macro_plot.pdf, id=853, 371.3085pt x 229.48128pt>
+File: SupportFiles/plots/All_Match_Macro_plot.pdf Graphic file (type pdf)
+<use SupportFiles/plots/All_Match_Macro_plot.pdf>
+Package pdftex.def Info: SupportFiles/plots/All_Match_Macro_plot.pdf used on in
+put line 168.
+(pdftex.def)             Requested size: 371.30759pt x 229.48071pt.
+) [31 <./SupportFiles/plots/All_Match_Macro_plot.pdf>] [32
 
 ]
 Chapter 5.
@@ -876,10 +883,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
 ### semi simple group (level 1) entered at line 32 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13234 strings out of 493029
- 183182 string characters out of 6136233
+ 13240 strings out of 493029
+ 183416 string characters out of 6136233
  314956 words of memory out of 5000000
- 16208 multiletter control sequences out of 15000+600000
+ 16212 multiletter control sequences out of 15000+600000
  21870 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,12n,53p,1708b,2348s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -887,20 +894,23 @@ Here is how much of TeX's memory you used:
 r/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfb
-x1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/shar
-e/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/
-public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc
-1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share
-/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/p
-ublic/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1
-200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/
-texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on thesis.pdf (62 pages, 639626 bytes).
+/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/
+texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/pu
+blic/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx24
+88.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm100
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sftt1000.pfb>
+Output written on thesis.pdf (62 pages, 757339 bytes).
 PDF statistics:
- 1079 PDF objects out of 1200 (max. 8388607)
- 972 compressed objects within 10 object streams
+ 1104 PDF objects out of 1200 (max. 8388607)
+ 993 compressed objects within 10 object streams
  237 named destinations out of 1000 (max. 500000)
- 390 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 395 words of extra memory for PDF output out of 10000 (max. 10000000)
 
