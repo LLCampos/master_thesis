@@ -9,9 +9,6 @@
 %\section*{Materials and Methods}
 %\section{Methods}
 
-\the\textwidth
-
-
 
 % Results and Discussion can be combined.
 \section{NER Gazetteer-based approach}
@@ -39,10 +36,9 @@ Let's check the number of terms found by document.
 \label{table:terms_by_document}
 \end{table}
 
+One of the highlights here is that the All Match approach consistently found more terms than the Best Match approach, which itself found more terms than the Direct Match approach. This makes sense since the All Match approach its the most liberal one in what it considers to be a mention of a RadLex term. The Best Match approach is more conservative than the All Match approach but less than the Direct Match approach, considering lexical variations and word reordering, for example. Let's now look at the differences between translations.
 
-
-
-
+The highlights are that there were less RadLex terms in the Yandex translations than in any of the others. On average, there were less between 0.92 and 5.42 RadLex terms in each document, compared with the Human translations. On the other hand, on average there are more between 0.71 and 2.98 RadLex terms in each Unbabel translation than in each Human translation. The Unbabel's translations were the ones with the most RadLex terms. 
 
 % Best Match Micro
 \begin{table}[!htp]
