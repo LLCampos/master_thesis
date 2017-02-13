@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.11)  13 FEB 2017 10:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.11)  13 FEB 2017 12:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -843,29 +843,33 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 
 ]
 Chapter 4.
-(./Chapters/4_results.tex [29] [30]
-<SupportFiles/plots/All_Match_Macro_plot.pdf, id=853, 371.3085pt x 229.48128pt>
+(./Chapters/4_results.tex [29] [30] [31]
+<SupportFiles/plots/All_Match_Macro_plot.pdf, id=857, 371.3085pt x 229.48128pt>
 File: SupportFiles/plots/All_Match_Macro_plot.pdf Graphic file (type pdf)
 <use SupportFiles/plots/All_Match_Macro_plot.pdf>
 Package pdftex.def Info: SupportFiles/plots/All_Match_Macro_plot.pdf used on in
-put line 168.
+put line 172.
 (pdftex.def)             Requested size: 371.30759pt x 229.48071pt.
-) [31 <./SupportFiles/plots/All_Match_Macro_plot.pdf>] [32
+
+Underfull \vbox (badness 2689) has occurred while \output is active []
+
+ [32])
+[33 <./SupportFiles/plots/All_Match_Macro_plot.pdf>] [34
 
 ]
 Chapter 5.
-(./Chapters/5_conclusions.tex) [33] [34
+(./Chapters/5_conclusions.tex) [35] [36
 
 ] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [35
+ [37
 
 ]
-[36] [37] [38] [39] [40] [41])
+[38] [39] [40] [41] [42] [43])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
- [42]
+ [44]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
  (./thesis.aux (./Preface/resumo.aux)
 (./Preface/abstract.aux) (./Preface/resumolongo.aux)
@@ -883,9 +887,9 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
 ### semi simple group (level 1) entered at line 32 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13240 strings out of 493029
- 183416 string characters out of 6136233
- 314956 words of memory out of 5000000
+ 13242 strings out of 493029
+ 183430 string characters out of 6136233
+ 312956 words of memory out of 5000000
  16212 multiletter control sequences out of 15000+600000
  21870 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -907,10 +911,10 @@ lic/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm100
 0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/te
 xmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/publ
 ic/cm-super/sftt1000.pfb>
-Output written on thesis.pdf (62 pages, 757467 bytes).
+Output written on thesis.pdf (64 pages, 760337 bytes).
 PDF statistics:
- 1104 PDF objects out of 1200 (max. 8388607)
- 993 compressed objects within 10 object streams
- 237 named destinations out of 1000 (max. 500000)
+ 1112 PDF objects out of 1200 (max. 8388607)
+ 999 compressed objects within 10 object streams
+ 239 named destinations out of 1000 (max. 500000)
  395 words of extra memory for PDF output out of 10000 (max. 10000000)
 

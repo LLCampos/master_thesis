@@ -142,7 +142,7 @@ The highlights are that there were less RadLex terms in the Yandex translations 
 \toprule
 \multicolumn{1}{c}{\multirow{2}{*}{\textbf{Translation}}} & \multicolumn{3}{c}{\textbf{Direct Match}}                            \\ \cmidrule(l){2-4}
 \multicolumn{1}{c}{}          & \textbf{Macro P}     & \textbf{Macro R}      & \textbf{Macro F}          \\ \midrule
-\textbf{Yandex}   & 0.833                & 0.811                 & 0.82                   \\ 
+\textbf{Yandex}   & 0.833                & 0.811                 & 0.820                   \\ 
 
 \textbf{Google}   & 0.853                & 0.859                 & 0.855                   \\ 
 
@@ -154,12 +154,20 @@ The highlights are that there were less RadLex terms in the Yandex translations 
 \end{table}
 
 
+The annotations of the Google MT translation are closer to the ones of the HT translation than the ones of the Yandex MT translation. This could be just because the human translators used Google Translator to help them in their translation process, and so the translation is more similar than compared with the Yandex translation. This argument loses strength is we assume Google Translate translation outputs changed since the articles were human translated (publication years of the articles used range from 2003 to 2013), but I could not found data on this. 
+
+The annotations of Unbabel MT+PE translations are by itself closer to the ones of Human translations than the ones of Google translations. This is not surprising since the Post-Editing at Unbabel is done on the Google MT translation so we would expect the Unbabel results to the Human results than the Google results. The question is how much closer. 
+
+In the Introduction to thesis I've proposed the following hypothesis:
+
+\begin{description}
+	\item[Hypothesis:] MT-PE is a good trade-off between quality and cost, compared with MT and HT, for translating radiology reports for the purpose of identifying RadLex terms. 
+\end{description}
 
 
-The annotations of the Google MT translation are closer to the ones of the HT translation than the ones of the Yandex MT translation. This could be just because the human translators used Google translator to help them in their translation process, and so the translation is more similar than compared with the Yandex translation. 
+I've written that for this to be true, "MT-PE quality for the task at hand has to be close enough to HT quality". The MT+PE translation is indeed the one closest to HT quality at the task at hand. This is not surprising, since that, from the types of translation being compared against the Human Translation, MT+PE is the only one which also involves humans in the translation process. But is it close enough to HT? This really would depend on the application of the annotations, but the results show that MT+PE translation results are far from being identical to the HT ones.  
 
-But the annotations of Unbabel MT+PE are closer to the ones of the HT translation than any of the other two types of MT translation. 
-
+I also add the condition that for the hypothesis to be true, "MT-PE quality for the task at hand has to be better than MT quality, enough to compensate its higher cost". It is better indeed but if it is enough would also depend on the practical application of the annotations. Having said this, the results show that results from MT-PE translations are not very much closer to the results of HT translation comparing with Google MT translation. 
 
 \includegraphics{SupportFiles/plots/All_Match_Macro_plot.pdf}
 
