@@ -40,118 +40,11 @@ One of the highlights here is that the All Match approach consistently found mor
 
 The highlights are that there were less RadLex terms in the Yandex translations than in any of the others. On average, there were less between 0.92 and 5.42 RadLex terms in each document, compared with the Human translations. On the other hand, on average there are more between 0.71 and 2.98 RadLex terms in each Unbabel translation than in each Human translation. The Unbabel's translations were the ones with the most RadLex terms. 
 
-% Best Match Micro
-\begin{table}[!htp]
-\centering
-\begin{tabular}{@{}lccc@{}}
-\toprule
-\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Translation}}} & \multicolumn{3}{c}{\textbf{Best Match}}                            \\ \cmidrule(l){2-4}
-\multicolumn{1}{c}{}          & \textbf{Micro P}     & \textbf{Micro R}      & \textbf{Micro F}          \\ \midrule
-\textbf{Yandex}   & 0.829                & 0.824                 & 0.826                   \\ 
+\includegraphics{SupportFiles/plots/all_match_micro_total_plot.pdf}
 
-\textbf{Google}   & 0.851                & 0.861                 & 0.856                   \\ 
+\includegraphics{SupportFiles/plots/best_match_micro_total_plot.pdf}
 
-\textbf{Unbabel}  & 0.853                & 0.87                 & 0.862         \\ \bottomrule 
-
-\end{tabular}%
-\caption{Micro-Evaluation of how close the Best Match annotations of MT and MT+PE translation are to the annotations of HT}
-\label{table: Results Best Match Micro}
-\end{table}
-
-
-% All Match Micro
-\begin{table}[!htp]
-\centering
-\begin{tabular}{@{}lccc@{}}
-\toprule
-\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Translation}}} & \multicolumn{3}{c}{\textbf{All Match}}                            \\ \cmidrule(l){2-4}
-\multicolumn{1}{c}{}          & \textbf{Micro P}     & \textbf{Micro R}      & \textbf{Micro F}          \\ \midrule
-\textbf{Yandex}   & 0.839                & 0.814                 & 0.826                   \\ 
-
-\textbf{Google}   & 0.862                & 0.861                 & 0.862                   \\ 
-
-\textbf{Unbabel}  & 0.864                & 0.868                 & 0.866         \\ \bottomrule 
-
-\end{tabular}%
-\caption{Micro-Evaluation of how close the All Match annotations of MT and MT+PE translation are to the annotations of HT}
-\label{table: Results All Match Micro}
-\end{table}
-
-
-% Direct Match Micro
-\begin{table}[!htp]
-\centering
-\begin{tabular}{@{}lccc@{}}
-\toprule
-\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Translation}}} & \multicolumn{3}{c}{\textbf{Direct Match}}                            \\ \cmidrule(l){2-4}
-\multicolumn{1}{c}{}          & \textbf{Micro P}     & \textbf{Micro R}      & \textbf{Micro F}          \\ \midrule
-\textbf{Yandex}   & 0.841                & 0.809                 & 0.825                   \\ 
-
-\textbf{Google}   & 0.864                & 0.865                 & 0.864                   \\ 
-
-\textbf{Unbabel}  & 0.867                & 0.876                 & 0.872         \\ \bottomrule 
-
-\end{tabular}%
-\caption{Micro-Evaluation of how close the Direct Match annotations of MT and MT+PE translation are to the annotations of HT}
-\label{table: Results Direct Match Micro}
-\end{table}
-
-
-% Best Match Macro
-\begin{table}[!htp]
-\centering
-\begin{tabular}{@{}lccc@{}}
-\toprule
-\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Translation}}} & \multicolumn{3}{c}{\textbf{Best Match}}                            \\ \cmidrule(l){2-4}
-\multicolumn{1}{c}{}          & \textbf{Macro P}     & \textbf{Macro R}      & \textbf{Macro F}          \\ \midrule
-\textbf{Yandex}   & 0.823                & 0.823                 & 0.823                   \\ 
-
-\textbf{Google}   & 0.843                & 0.855                 & 0.848                   \\ 
-
-\textbf{Unbabel}  & 0.845                & 0.865                 & 0.854         \\ \bottomrule 
-
-\end{tabular}%
-\caption{Macro-Evaluation of how close the Best Match annotations of MT and MT+PE translation are to the annotations of HT}
-\label{table: Results Best Match Macro}
-\end{table}
-
-
-% All Match Macro
-\begin{table}[!htp]
-\centering
-\begin{tabular}{@{}lccc@{}}
-\toprule
-\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Translation}}} & \multicolumn{3}{c}{\textbf{All Match}}                            \\ \cmidrule(l){2-4}
-\multicolumn{1}{c}{}          & \textbf{Macro P}     & \textbf{Macro R}      & \textbf{Macro F}          \\ \midrule
-\textbf{Yandex}   & 0.833                & 0.817                 & 0.823                   \\ 
-
-\textbf{Google}   & 0.856                & 0.855                 & 0.854                   \\ 
-
-\textbf{Unbabel}  & 0.858                & 0.862                 & 0.859         \\ \bottomrule 
-
-\end{tabular}%
-\caption{Macro-Evaluation of how close the All Match annotations of MT and MT+PE translation are to the annotations of HT}
-\label{table: Results All Match Macro}
-\end{table}
-
-
-% Direct Match Macro
-\begin{table}[!htp]
-\centering
-\begin{tabular}{@{}lccc@{}}
-\toprule
-\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Translation}}} & \multicolumn{3}{c}{\textbf{Direct Match}}                            \\ \cmidrule(l){2-4}
-\multicolumn{1}{c}{}          & \textbf{Macro P}     & \textbf{Macro R}      & \textbf{Macro F}          \\ \midrule
-\textbf{Yandex}   & 0.833                & 0.811                 & 0.820                   \\ 
-
-\textbf{Google}   & 0.853                & 0.859                 & 0.855                   \\ 
-
-\textbf{Unbabel}  & 0.857                & 0.871                 & 0.863         \\ \bottomrule 
-
-\end{tabular}%
-\caption{Macro-Evaluation of how close the Direct Match annotations of MT and MT+PE translation are to the annotations of HT}
-\label{table: Results Direct Match Macro}
-\end{table}
+\includegraphics{SupportFiles/plots/direct_match_micro_total_plot.pdf}
 
 
 The annotations of the Google MT translation are closer to the ones of the HT translation than the ones of the Yandex MT translation. This could be just because the human translators used Google Translator to help them in their translation process, and so the translation is more similar than compared with the Yandex translation. This argument loses strength is we assume Google Translate translation outputs changed since the articles were human translated (publication years of the articles used range from 2003 to 2013), but I could not found data on this. 
@@ -167,9 +60,52 @@ In the Introduction to thesis I've proposed the following hypothesis:
 
 I've written that for this to be true, "MT+PE quality for the task at hand has to be close enough to HT quality". The MT+PE translation is indeed the one closest to HT quality at the task at hand. This is not surprising, since that, from the types of translation being compared against the Human Translation, MT+PE is the only one which also involves humans in the translation process. But is it close enough to HT? This really would depend on the application of the annotations, but the results show that MT+PE translation results are far from being identical to the HT ones.  
 
-I also add the condition that for the hypothesis to be true, "MT+PE quality for the task at hand has to be better than MT quality, enough to compensate its higher cost". It is better indeed but if it is enough would also depend on the practical application of the annotations. Having said this, the results show that results from MT+PE translations are not very much closer to the results of HT translation comparing with Google MT translation. 
+I also add the condition that for the hypothesis to be true, "MT+PE quality for the task at hand has to be better than MT quality, enough to compensate its higher cost". It is better indeed but if it is enough would also depend on the practical application of the annotations. Having said this, the results show that results from MT+PE translations are not very much closer to the results of HT translation comparing with Google MT translation. Again, how important this is would depend on the application of results of the NER task. 
 
-\includegraphics{SupportFiles/plots/All_Match_Macro_plot.pdf}
+\subsection{Clinical Finding Subset}
+
+Depending on the type of annotation approach and translation it was found between 15.75 and 22.58 "clinical finding" terms per document. For all three annotation strategies and both macro and micro evaluations, the terms extracted from the Yandex translation were the ones less similar to the ones extracted from the human translation. 
+
+In the micro evaluation, both Google and Unbabel were really similar, having equivalent F-scores in the Direct and Best Match Approach and Google having slightly higher F-Score score in the All-Match approach. In the macro evaluation, Unbabel had a slighter higher F-score in Direct and Best Match Approaches and equivalent to Google in the All Match approach.
+
+%\includegraphics{SupportFiles/plots/all_match_micro_clinical_finding_plot.pdf}
+
+%\includegraphics{SupportFiles/plots/best_match_micro_clinical_finding_plot.pdf}
+
+%\includegraphics{SupportFiles/plots/direct_match_micro_clinical_finding_plot.pdf}
+
+\subsection{Anatomical Entity Subset}
+
+Depending on the type of annotation approach and translation it was found between 19.15 and 32.38 "anatomical entity" terms per document. Scores similar to the total results in both Macro and Micro evaluations.
+
+\subsection{Imaging Modality Subset}
+
+Depending on the type of annotation approach and translation it was found between 2.64 and 3.62 "imaging modality" terms per document. 
+
+In the micro evaluation, Direct Match, approach the relative order in relation to F-Score are the same but the differences are really small. In the All Match approach, Yandex had the highest F-Score followed really closely by Unbabel and Google. In the Best Match approach, Yandex and Unbabel had the same scores and Google was the worst. For the macro evaluation, the results were similar although in in the Best Match Yandex was slightly (0.02 points) better than Unbabel)
+
+\subsection{Imaging Observation Subset}
+
+Depending on the type of annotation approach and translation it was found between 4.81 and 9.81 "imaging observation" terms per document. In the micro and macro evaluation, Google had better F-Scores than Unbabel and Yandex, except in the micro evaluation using a Best Match approach, in which it had the same F-Score as Unbabel.
+
+\subsection{Non-Anatomical Substance Subset}
+
+Depending on the type of annotation approach and translation it was found between 1.6 and 3.74 "Non-Anatomical Substance" terms per document. 
+
+In the micro evaluation, Unbabel had a better F-Score when Direct Match was used, Yandex when All Match was used and Google when Best Match was used. In the macro evaluation, when Direct Match was used the scores were lower than usual, around 0.65. Yandex had the best F-Score. Using other approaches, Google has a higher F-Score.
+
+\subsection{Object Subset}
+
+Depending on the type of annotation approach and translation it was found between 1.19 and 2.55 "Object" terms per document. In all cases Google had the highest F-Score.
+
+\subsection{Procedure Subset}
+
+Depending on the type of annotation approach and translation it was found between 5.36 and 7.38 "Procedure" terms per document.
+
+\subsection{Procedure Step}
+
+Depending on the type of annotation approach and translation it was found between 1.42 and 2.47 "Procedure Step" terms per document.
+
 
 
 \section{Discussion}
