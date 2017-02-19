@@ -24,9 +24,9 @@ For the purposes of this work, it made sense to only include articles for which 
 
 Finally, I've programmatically crawled the articles SciELO pages to get both language versions of articles text. I've extracted from the HTML everything from the abstract until, but not including, the references/bibliography.
 
-Three of the article contained were about surveys, containing to much vocabulary about radiology. They were excluded from the corpus.
+Three of the article contained were about surveys, containing to much vocabulary about radiology. They were excluded from the corpus. Other two contained encoding problems and were also excluded.
 
-What is left is a parallel corpus of 53 articles, distributed by journal in the following way:
+What is left is a parallel corpus of 51 articles, distributed by journal in the following way:
 
 \begin{table}[ht]
 \centering
@@ -35,7 +35,7 @@ What is left is a parallel corpus of 53 articles, distributed by journal in the 
 \begin{tabular}{@{}ll@{}}
 \toprule
 \multicolumn{1}{c}{\textbf{Journal}}                 & \textbf{Number Of Articles} \\ \midrule
-Arquivos Brasileiros de Cardiologia         & 26                          \\
+Arquivos Brasileiros de Cardiologia         & 24                          \\
 Jornal Brasileiro de Pneumologia            & 14                          \\
 Revista do Colégio Brasileiro de Cirurgiões & 4                           \\
 Brazilian Journal of Otorhinolaryngology    & 2                           \\
@@ -47,7 +47,7 @@ Revista Brasileira de Reumatologia                   & 1                        
 \end{tabular}
 \end{table}
 
-The corpus has a total of 170137 words\footnote{Tokenization done by NLTK's word\_tokenize function (\url{http://www.nltk.org/})} the longer article having 12451 and the smaller 848. The articles have an average of 3210 words each. 
+The corpus has a total of 163423 words\footnote{Tokenization done by NLTK's word\_tokenize function (\url{http://www.nltk.org/})} the longer article having 12451 and the smaller 848. The articles have an average of 3204 words each. 
 
 \subsection{Note On Human Translations}
 
