@@ -43,14 +43,7 @@
 \contentsline {section}{\numberline {3.3}Evaluation}{27}{section.3.3}
 \contentsline {chapter}{\numberline {4}Experimental Results}{29}{chapter.4}
 \contentsline {section}{\numberline {4.1}NER Gazetteer-based approach}{29}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Clinical Finding Subset}{32}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Anatomical Entity Subset}{32}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Imaging Modality Subset}{33}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Imaging Observation Subset}{33}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}Non-Anatomical Substance Subset}{33}{subsection.4.1.5}
-\contentsline {subsection}{\numberline {4.1.6}Object Subset}{33}{subsection.4.1.6}
-\contentsline {subsection}{\numberline {4.1.7}Procedure Subset}{34}{subsection.4.1.7}
-\contentsline {subsection}{\numberline {4.1.8}Procedure Step}{34}{subsection.4.1.8}
+\contentsline {subsection}{\numberline {4.1.1}Clinical Finding and Anatomical Entity Subtrees}{32}{subsection.4.1.1}
 \contentsline {section}{\numberline {4.2}Discussion}{34}{section.4.2}
 \contentsline {section}{\numberline {4.3}Conclusions}{34}{section.4.3}
 \contentsline {chapter}{\numberline {5}Conclusions}{35}{chapter.5}
