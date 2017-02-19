@@ -39,7 +39,6 @@ Let's check the number of terms found by document.
 One of the highlights here is that the All Match approach consistently found more terms than the Best Match approach, which itself found more terms than the Direct Match approach. This makes sense since the All Match approach its the most liberal one in what it considers to be a mention of a RadLex term. The Best Match approach is more conservative than the All Match approach but less than the Direct Match approach, considering lexical variations and word reordering, for example. Let's now look at the differences between translations.
 
 
-
 \includegraphics{SupportFiles/plots/all_match_micro_total_plot.pdf}
 
 \includegraphics{SupportFiles/plots/best_match_micro_total_plot.pdf}
@@ -47,9 +46,9 @@ One of the highlights here is that the All Match approach consistently found mor
 \includegraphics{SupportFiles/plots/direct_match_micro_total_plot.pdf}
 
 
-The annotations of the Google MT translation are closer to the ones of the HT translation than the ones of the Yandex MT translation. This could be just because the human translators used Google Translator to help them in their translation process, and so the translation is more similar than compared with the Yandex translation. This argument loses strength is we assume Google Translate translation outputs changed since the articles were human translated (publication years of the articles used range from 2003 to 2013), but I could not found data on this. 
+The terms extracted from Google translations are more similar to the ones extracted from HT translations than the ones from Yandex translations. This could be just because the human translators used Google Translator to help them in their translation process. This argument loses strength is we assume Google Translate translation outputs changed since the articles were human translated (publication years of the articles used range from 2003 to 2013), but I could not found  data on this. 
 
-The annotations of Unbabel MT+PE translations are by itself closer to the ones of Human translations than the ones of Google translations. This is not surprising since the Post-Editing at Unbabel is done on the Google MT translation so we would expect the Unbabel results to the Human results than the Google results. The question is how much closer. 
+The terms extracted from Unbabel and Google translations are really similar, the F-Scores being almost equal. That the translations are similar is not too surprising since the Post-Editing phase at Unbabel is done after MT translation using Google. What could be surprising is that Unbabel doesn't have a higher score. 
 
 In the Introduction to thesis I've proposed the following hypothesis:
 
@@ -57,10 +56,9 @@ In the Introduction to thesis I've proposed the following hypothesis:
 	\item[Hypothesis:] MT+PE is a good trade-off between quality and cost, compared with MT and HT, for translating radiology reports for the purpose of identifying RadLex terms. 
 \end{description}
 
+I've written that for this to be true, "MT+PE quality for the task at hand has to be better than MT quality, enough to compensate its higher cost". This does not hold. For this task, if someone had to choose between Google and Unbabel, this someone would be better off using Google since it is cheaper. 
 
-I've written that for this to be true, "MT+PE quality for the task at hand has to be close enough to HT quality". The MT+PE translation is indeed the one closest to HT quality at the task at hand. This is not surprising, since that, from the types of translation being compared against the Human Translation, MT+PE is the only one which also involves humans in the translation process. But is it close enough to HT? This really would depend on the application of the annotations, but the results show that MT+PE translation results are far from being identical to the HT ones.  
-
-I also add the condition that for the hypothesis to be true, "MT+PE quality for the task at hand has to be better than MT quality, enough to compensate its higher cost". It is better indeed but if it is enough would also depend on the practical application of the annotations. Having said this, the results show that results from MT+PE translations are not very much closer to the results of HT translation comparing with Google MT translation. Again, how important this is would depend on the application of results of the NER task. 
+I've also written that for the hypothesis to be true, "MT+PE quality for the task at hand has to be close enough to HT quality". We've already saw that for this specific task, using MT+PE is not worth it. But the question remains, is it worth to use Google MT? The terms extracted from the Google translations are more similar to the ones from HT translation than Yandex, but they are not extremely similar. If this matters probably depends on the practical application the results of this task would have. 
 
 I will now focus on the "Clinical Finding" and "Anatomical Entity" subtrees of RadLex. These are two of the subtrees that probably would be more important when applying RadLex to a Information Retrieval system. 
 
@@ -72,46 +70,7 @@ I will now focus on the "Clinical Finding" and "Anatomical Entity" subtrees of R
 
 \includegraphics{SupportFiles/plots/direct_match_micro_clinical_anatomical_subtrees_plot.pdf}
 
-Depending on the type of annotation approach and translation it was found between 34.91 and 54.87 "clinical finding" or "anatomical entity" terms per document. The scores obtained are similar to the ones obtained for all terms. But why these scores? Why do the terms extracted from the MT and MT+PE translated texts are not more similar to the ones extracted from the HT translated texts? 
-
-%\includegraphics{SupportFiles/plots/all_match_micro_clinical_finding_plot.pdf}
-
-%\includegraphics{SupportFiles/plots/best_match_micro_clinical_finding_plot.pdf}
-
-%\includegraphics{SupportFiles/plots/direct_match_micro_clinical_finding_plot.pdf}
-%
-%\subsection{Anatomical Entity Subset}
-%
-%Depending on the type of annotation approach and translation it was found between 19.15 and 32.38 "anatomical entity" terms per document. Scores similar to the total results in both Macro and Micro evaluations.
-%
-%\subsection{Imaging Modality Subset}
-%
-%Depending on the type of annotation approach and translation it was found between 2.64 and 3.62 "imaging modality" terms per document. 
-%
-%In the micro evaluation, Direct Match, approach the relative order in relation to F-Score are the same but the differences are really small. In the All Match approach, Yandex had the highest F-Score followed really closely by Unbabel and Google. In the Best Match approach, Yandex and Unbabel had the same scores and Google was the worst. For the macro evaluation, the results were similar although in in the Best Match Yandex was slightly (0.02 points) better than Unbabel)
-%
-%\subsection{Imaging Observation Subset}
-%
-%Depending on the type of annotation approach and translation it was found between 4.81 and 9.81 "imaging observation" terms per document. In the micro and macro evaluation, Google had better F-Scores than Unbabel and Yandex, except in the micro evaluation using a Best Match approach, in which it had the same F-Score as Unbabel.
-%
-%\subsection{Non-Anatomical Substance Subset}
-%
-%Depending on the type of annotation approach and translation it was found between 1.6 and 3.74 "Non-Anatomical Substance" terms per document. 
-%
-%In the micro evaluation, Unbabel had a better F-Score when Direct Match was used, Yandex when All Match was used and Google when Best Match was used. In the macro evaluation, when Direct Match was used the scores were lower than usual, around 0.65. Yandex had the best F-Score. Using other approaches, Google has a higher F-Score.
-%
-%\subsection{Object Subset}
-%
-%Depending on the type of annotation approach and translation it was found between 1.19 and 2.55 "Object" terms per document. In all cases Google had the highest F-Score.
-%
-%\subsection{Procedure Subset}
-%
-%Depending on the type of annotation approach and translation it was found between 5.36 and 7.38 "Procedure" terms per document.
-%
-%\subsection{Procedure Step}
-%
-%Depending on the type of annotation approach and translation it was found between 1.42 and 2.47 "Procedure Step" terms per document.
-
+Depending on the type of annotation approach and translation it was found between 35.25 and 55.55 "clinical finding" or "anatomical entity" terms per document. The scores obtained are similar to the ones obtained for all terms, with Yandex translation extracted terms being the less similar to the HT translation extracted terms and Google and Unbabel having similar scores. But why these scores? Why do the terms extracted from the MT and MT+PE translated texts are not more similar to the ones extracted from the HT translated texts? 
 
 
 \section{Discussion}
