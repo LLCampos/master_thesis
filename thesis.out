@@ -43,7 +43,8 @@
 \BOOKMARK [0][]{chapter.4}{4 Experimental Results}{}% 43
 \BOOKMARK [1][]{section.4.1}{4.1 NER Gazetteer-based approach}{chapter.4}% 44
 \BOOKMARK [2][]{subsection.4.1.1}{4.1.1 Clinical Finding and Anatomical Entity Subtrees}{section.4.1}% 45
-\BOOKMARK [1][]{section.4.2}{4.2 Discussion}{chapter.4}% 46
-\BOOKMARK [1][]{section.4.3}{4.3 Conclusions}{chapter.4}% 47
-\BOOKMARK [0][]{chapter.5}{5 Conclusions}{}% 48
-\BOOKMARK [0][]{section*.4}{References}{}% 49
+\BOOKMARK [3][]{subsubsection.4.1.1.1}{4.1.1.1 Error Analysis}{subsection.4.1.1}% 46
+\BOOKMARK [1][]{section.4.2}{4.2 Discussion}{chapter.4}% 47
+\BOOKMARK [1][]{section.4.3}{4.3 Conclusions}{chapter.4}% 48
+\BOOKMARK [0][]{chapter.5}{5 Conclusions}{}% 49
+\BOOKMARK [0][]{section*.4}{References}{}% 50
