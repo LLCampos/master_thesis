@@ -3,9 +3,9 @@
 \section{Motivation}
 \label{motivation}
 
-Radiology reports describe the results of radiography procedures (e.g., X-ray imaging) and have the potential of being an useful source of information, which can bring benefits to health care systems around the world. But because these reports are written in a free-text mode, it is hard to extract information automatically from them. This is more problematic when these reports were mostly stored in physical format (paper) - the fact that these reports can now be accessed digitally make them amenable for processing using Text Mining techniques. 
+Radiology reports describe the results of radiography procedures (e.g., X-ray imaging) and have the potential of being an useful source of information, which can bring benefits to health care systems around the world. But because these reports are written in a free-text mode, it is hard to extract information automatically from them. This was more problematic when these reports were mostly stored in physical format (paper) - the fact that these reports can now be accessed digitally make them amenable for processing using Text Mining techniques. 
 
-A lot of work has been done on this research area \citep{Pons2016}, but it is usually assumed that the reports are written in English. For example, \citep{Hassanpour2016} created an information extraction system for English reports that depends on RadLex, a lexicon for radiography terminology, which is freely available in English. Because of this, the system can not be applied to reports written in other languages. And even if the system was not dependable on an English lexicon, it is not certain if the results would be the same if text in another language was used.
+A lot of work has been done on this research topic \citep{Pons2016}, but it is usually assumed that the reports are written in English. For example, \citep{Hassanpour2016} created an information extraction system for English reports that depends on RadLex, a lexicon for radiography terminology, which is freely available in English. Because of this, the system can not be applied to reports written in other languages. And even if the system was not dependable on an English lexicon, it is not certain if the results would be the same if text in another language was used.
 
 Assuming that the information automatically extracted from radiology reports using Text Mining techniques can bring benefits to health care systems, this waste of information caused by language barriers can potentially have a negative impact on everyone's health.
 
@@ -40,7 +40,7 @@ The last condition its important because if MT+PE quality is similar to MT quali
 
 To answer these questions I've compared the results of the NER task on the MT and MT+PE translations with the results of the NER task on the HT translation. Assuming that the HT translation is the right translation, the closer the results are to the ones of the HT, the better the translation for the task at hand. So, for the proposed hypothesis to be true, the results of the NER task on the MT+PE task have to be closer to the results of the HT translation than the results of the MT translations.
 
-For this purposes I've created a parallel corpus containing a number of scientific articles related to radiology and corresponding HT, MT and MT+PE translations. These reports were annotated with RadLex terms using NOBLE Coder and a custom built tool. The annotations of the MT and MT+PE translations were then compared with the ones from HT.
+For this purposes I've created a parallel corpus containing a number of scientific articles related to radiology and corresponding HT, MT and MT+PE translations. These reports were annotated with RadLex terms using NCBO Annotator and NOBLE Coder. The annotations of the MT and MT+PE translations were then compared with the ones from HT.
 
 
 \section{Contributions}
