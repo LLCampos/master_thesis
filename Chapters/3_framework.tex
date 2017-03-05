@@ -71,18 +71,22 @@ Each class of the RadLex ontology has a \textit{preferred name} and a list of sy
 
 The articles were annotated with the NCBO Annotator using the REST API\footnote{\url{http://data.bioontology.org/documentation\#nav_annotator}}. The default parameters were used, namely:
 
-\begin{itemize}
-\setlength{\itemsep}{1pt}
-\setlength{\parskip}{0pt}
-\setlength{\parsep}{0pt}
-\item \textbf{expand\_class\_hierarchy} - false
-\item \textbf{expand\_mappings}        - false
-\item \textbf{minimum\_match\_length}   - 3
-\item \textbf{exclude\_numbers}        - false
-\item \textbf{whole\_word\_only}        - true
-\item \textbf{exclude\_synonyms}       - false
-\item \textbf{longest\_only}			  - false
-\end{itemize} 
+\begin{table}[h]
+\centering
+\caption{NCBO Annotator parameters used}
+\label{table-ncbo-parameters}
+\begin{tabular}{|l|l|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Parameter}}       & \multicolumn{1}{c|}{\textbf{Value}} \\ \hline
+\multicolumn{1}{|c|}{expand\_class\_hierarchy} & false                               \\ \hline
+expand\_mappings                               & false                               \\ \hline
+minimum\_match\_length                         & 3                                   \\ \hline
+exclude\_numbers                               & false                               \\ \hline
+whole\_word\_only                              & true                                \\ \hline
+exclude\_synonyms                              & false                               \\ \hline
+longest\_only                                  & false                               \\ \hline
+\end{tabular}
+\end{table}
 
 \subsection{All Match and Best Match - Annotation with NOBLE Coder}
 
