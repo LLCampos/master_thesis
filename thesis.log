@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.15)  19 MAR 2017 14:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.15)  19 MAR 2017 14:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -943,7 +943,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 22AEEAB9B5B65FC95083F47E379B57E3;3931.
+(rerunfilecheck)             Checksum: 255B6675EE2342E6AF59B3469E86F959;3929.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
 (rerunfilecheck)             Checksum: DB9931464AB965ADBD89ADF966F738AD;3767.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
@@ -978,9 +978,9 @@ nts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb>
-Output written on thesis.pdf (68 pages, 724506 bytes).
+Output written on thesis.pdf (68 pages, 723569 bytes).
 PDF statistics:
- 1778 PDF objects out of 2073 (max. 8388607)
+ 1776 PDF objects out of 2073 (max. 8388607)
  1126 compressed objects within 12 object streams
  245 named destinations out of 1000 (max. 500000)
  436 words of extra memory for PDF output out of 10000 (max. 10000000)
