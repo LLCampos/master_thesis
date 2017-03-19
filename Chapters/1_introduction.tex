@@ -21,7 +21,7 @@ Thus, I aimed at addressing the following research question: lacking the resourc
 
 \newcommand{\hypothesis}{
 \begin{description}
-	\item[Hypothesis:] MT+PE is a good trade-off between quality and cost, compared with MT and HT, for translating radiology reports for the purpose of identifying RadLex terms. 
+	\item[Hypothesis:] MT+PE is a good trade-off between quality and cost, compared with MT and HT, for translating Portuguese Radiology reports to English, for the purpose of identifying RadLex terms in the translated text. 
 \end{description}
 }
 \hypothesis
@@ -30,20 +30,15 @@ For this to be true, these conditions have to hold:
 
 \begin{enumerate}
 	\item MT+PE has to be cheaper than HT
-	\item MT+PE quality for the task at hand has to be close enough to HT quality
-	\item MT+PE quality for the task at hand has to be better than MT quality, enough to compensate its higher cost
+	\item The terms extracted from MT+PE translations have to be similar enough to the ones extracted from the HT translation
+	\item The terms extracted from MT+PE translations have to be more similar to the ones extracted from the HT translation than the ones extracted from MT translations (condition 3 above)
 \end{enumerate}
 
-The last condition its important because if MT+PE quality is similar to MT quality, as MT cost is lower, then it is worth to just use MT. In this thesis I only try to answer to the quality issues, not doing a thorough economic analysis of the problem. 
+The first condition is known to be true. The last condition its important because if MT+PE quality is similar to MT quality, as MT cost is lower, then it is worth to just use MT. In this thesis I only try to answer to the quality issues, not doing a thorough economic analysis of the problem. 
 
 \section{Methodology}
 
-To test this hypothesis I have compared the RadLex terms extracted from MT and MT+PE translations to the terms extracted from HT translations, which I assumed to be a gold standard. So, for the proposed hypothesis to be true:
-
-\begin{enumerate}
-	\item The terms extracted from MT+PE translations have to be similar enough to the ones extracted from the HT translation (condition 2 above);
-	\item The terms extracted from MT+PE translations have to be more similar to the ones extracted from the HT translation than the ones extracted from MT translations (condition 3 above);
-\end{enumerate}
+To test this hypothesis I have compared the RadLex terms extracted from MT and MT+PE translations to the terms extracted from HT translations, which I assumed to be a gold standard.
 
 For this purposes I've created MRRAD, a parallel corpus containing 51 Portuguese scientific articles related to Radiology and corresponding HT, MT (Google and Yandex) and MT+PE (Unbabel) English translations. These translations were annotated with RadLex terms using the Open Biomedical Annotator and NOBLE Coder. More than one annotation approach was used to experiment with different kinds annotation approaches. For each translation and annotation approach I created the set of the RadLex terms that were found in that translations with that annotation approach. The terms found in the MT and MT+PE translations were then compared with the ones found in the HT translations.
 
