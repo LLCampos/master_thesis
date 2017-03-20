@@ -88,39 +88,7 @@ longest\_only                                  & false                          
 
 NOBLE Coder was chosen against others similar tools because of its comparable quality and higher ease of use. Each of the articles was annotated twice with this tool, using two different matching strategies, Best match and All match.
 
-The commands used to annotate the reports were these:
-
-
-\begin{lstlisting}[language=bash]
-$ java -jar NobleCoder-1.0.jar -terminology radlex \
--input [portuguese reports path] -output [output path] \
--search all-match\textit{
-
-$ java -jar NobleCoder-1.0.jar -terminology radlex \
--input [portuguese reports path] -output [output path] \
--search best-match
-\end{lstlisting}
-
-
-The RadLex ontology .owl file had to be edited before it could be correctly processed and uploaded to NOBLE Coder. In the original .owl file the properties  "Preferred\_name" and "Synonym" are considered to be \textit{DatatypeProperty} but I had to change both to \textit{AnnotationProperty}. That is, where in the file was
-
-
-\begin{lstlisting}[language=xml]
-<owl:DatatypeProperty rdf:ID="Preferred_name">
-</owl:DatatypeProperty>
-\end{lstlisting}
-
-
-I've had to change it to:
-
-
-\begin{lstlisting}[language=xml]
-<owl:AnnotationProperty rdf:ID="Preferred_name">
-</owl:AnnotationProperty>
-\end{lstlisting}
-
-
-And the analogous thing for the "Synonym" property.
+More information on how NOBLE Coder was used can be found at the appendices.
 
 \section{Evaluation}
 

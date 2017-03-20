@@ -46,3 +46,5 @@
 \contentsline {subsection}{\numberline {4.1.1}Clinical Finding and Anatomical Entity Subtrees}{35}{subsection.4.1.1}
 \contentsline {chapter}{\numberline {5}Conclusions}{39}{chapter.5}
 \contentsline {chapter}{References}{41}{section*.4}
+\contentsline {chapter}{Commands used to run NOBLE Coder}{49}{appendix*.6}
+\contentsline {chapter}{Uploading RadLex ontology to NOBLE}{51}{appendix*.7}
