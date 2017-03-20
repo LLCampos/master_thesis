@@ -1,8 +1,8 @@
 \label{chap3}
 
-\section{Portuguese-English Parallel Corpus}
+\section{MRRAD (Multilingual Radiology Research Articles Dataset) Corpus}
 
-For the purpose of this work, I've created a Portuguese-English parallel corpus of research articles related to Radiology. For each research article there is:
+From the best of my knowledge there is no parallel corpus of Radiology reports. So I created a Portuguese-English parallel corpus of research articles related to Radiology, assuming that the writing style and content of these research articles are similar to Radiology reports. For each research article the MRRAD corpus contains:
 
 \begin{enumerate}
 \item Original Portuguese text
@@ -16,17 +16,15 @@ For the purpose of this work, I've created a Portuguese-English parallel corpus 
 
 \subsection{Web Crawl of the articles (1,2)}
 
-First, I needed a list of articles related to radiography that were available both in English and in Portuguese. To get this list I’ve used the  NCBO Entrez Programming Utilities (E-utilities)\footnote{\url{https://www.ncbi.nlm.nih.gov/books/NBK25501/}} to query the PubMed database with the search query “portuguese[Language] AND english[Language] AND radiography[MeSH Major Topic] AND hasabstract[text]” (search done on 11/12/2016). The last filter is used to avoid getting texts for which only the title is available. 
+To obtain a list of research articles related to Radiology, that were available both in English and in Portuguese, I used used the  NCBO Entrez Programming Utilities (E-utilities)\footnote{\url{https://www.ncbi.nlm.nih.gov/books/NBK25501/}} to query the PubMed database with the search query “portuguese[Language] AND english[Language] AND radiography[MeSH Major Topic] AND hasabstract[text]” (search done on 11/12/2016). The last filter is used to avoid getting texts for which only the title is available. 
 
-Then I programmatically crawled each article PubMed page to get the URL where the full article could be found. Most of the articles were hosted in SciELO\footnote{\url{http://www.scielo.br/}} so for the sake of consistency I've only included in the corpus articles hosted in there. 
+Then I programmatically crawled each article PubMed page to get the URL where the full article could be found. Most of the articles were hosted in SciELO\footnote{\url{http://www.scielo.br/}} and only articles hosted in there were included in the corpus. More, only articles for which the original language is Portuguese are included in the corpus. 
 
-For the purposes of this work, it made sense to only include articles for which the original language is Portuguese, so I've also filtered the corpus by this parameter. 
+Finally, I programmatically crawled the SciELO pages for each article to get both the original Portuguese texts and corresponding the English translations. From the HTML of each page I extracted everything from the abstract until, but not including, the references/bibliography.
 
-Finally, I've programmatically crawled the articles SciELO pages to get both language versions of articles text. I've extracted from the HTML everything from the abstract until, but not including, the references/bibliography.
+Three of the articles were about surveys, not containing much vocabulary about Radiology (PMIDS: 19936506, 22002140, 23515770). They were excluded from the corpus. Other two contained encoding problems and were also excluded (PMIDs: 21793046 and 24263777).
 
-Three of the article contained were about surveys, not containing much vocabulary about Radiology. They were excluded from the corpus. Other two contained encoding problems and were also excluded.
-
-What is left is a parallel corpus of 51 articles, distributed by journal in the following way:
+The final result is a parallel corpus of 51 articles, distributed by journal as shown in Table \ref{table:articles_by_journal}.
 
 \begin{table}[ht]
 \centering
@@ -47,29 +45,27 @@ Revista Brasileira de Reumatologia                   & 1                        
 \end{tabular}
 \end{table}
 
-The corpus has a total of 163423 words\footnote{Tokenization done by NLTK's word\_tokenize function (\url{http://www.nltk.org/})} the longer article having 12451 and the smaller 848. The articles have an average of 3204 words each. 
+The give a sense of the corpus size, the human English translations have a total of 163,423 words\footnote{Tokenization done by NLTK's word\_tokenize function (\url{http://www.nltk.org/})} the longer article having 12,451 and the smaller 848. The articles have an average of 3,204 words each. 
 
 \subsection{Note On Human Translations}
 
-It is not known for sure how exactly the original human translations were done, since some of the articles are not recent and some of the journals did not answer my emails questioning about this, but all the answers received mentioned the use of specialized translation services. Having said this, we assume that the translations are of high quality since they were published by scientific magazines. 
+It is not known for sure how exactly the original human translations were performed, since some of the articles are not recent and some of the journals did not answer our request for more information about the translation, but all the answers received mentioned the use of specialized translation services. Having said this, it is being assumed that the translations are of high quality since they are published by scientific magazines. 
 
 \subsection{Yandex Translation (3)}
 
-The Portuguese version of the articles were machine translated using Yandex's free Translate API\footnote{\url{https://tech.yandex.com/translate/}}. Each translation request had a limit of 10000 characters so an algorithm was used to break the text to various pieces, without breaking the text in the middle of sentences, send the translation request for each piece and then join everything back.
+I used Yandex's free Translate API\footnote{\url{https://tech.yandex.com/translate/}} to machine translate the Portuguese version of the articles. Yandex is a Russian company which, among other things, sells automatic translation services, but it has a limited free service. It currently uses a Statistical approach to Machine Translation. Each translation request had a limit of 10,000 characters so we developed software to break the text to various pieces, without breaking the text in the middle of sentences, send the translation request for each piece and then join everything back. 
 
 \subsection{Google and Unbabel Translation (4,5)}
 
-Both MT with Google and MT+PE with Unbabel were obtained using Unbabel's API\footnote{\url{http://developers.unbabel.com/}}. The requests for Unbabel Translations have a limit of words, so an algorithm similar used for the Yandex Translations was used. 
+Both MT with Google and MT+PE with Unbabel were obtained using Unbabel's API\footnote{\url{http://developers.unbabel.com/}}. I obtained Google’s Statistical Machine translation using the \textit{mt\_translation} endpoint of the API and Unbabel’s Machine Translation + Post-Editing using the \textit{translation} API’s endpoint.  The requests for Unbabel Translations have a limit of words, so I used a software similar to the one utilized for the Yandex Translations. 
 
 \section{Annotation}
 
-All the English versions of the articles in the corpus were annotated thrice with RadLex terms, one time using a direct matching approach and two using two of the built-in matching strategies provided by NOBLE Coder. I'm calling the three approaches Direct Match\footnote{See \ref{Named-entity Recognition}}, All Match and Best Match\footnote{See \ref{NOBLE Coder}}. Three different kinds of approaches were used to check what effect the annotation strategy have on the results.
-
-Each class of the RadLex ontology has a \textit{preferred name} and a list of synonyms. For all the approaches the output of each annotation process consists in the set of the preferred names of the RadLex terms that are mentioned in the corresponding article. I normalize all the mentions to the preferred name so that a use of the preferred name in one translation and the use of one of the synonyms in another translation are considered mentions of the same term. 
+All the English versions of the articles in the corpus were annotated three with RadLex terms, one time using a direct matching approach and two using two of the built-in matching strategies provided by NOBLE Coder. I'm calling the three approaches Direct Match\footnote{See \ref{Named-entity Recognition}}, All Match and Best Match\footnote{See \ref{NOBLE Coder}}. Three different kinds of approaches were used to check what effect the annotation strategy have on the results.
 
 \subsection{Direct Match - Annotation with NCBO Annotator}
 
-The articles were annotated with the NCBO Annotator using the REST API\footnote{\url{http://data.bioontology.org/documentation\#nav_annotator}}. The default parameters were used, namely:
+The articles were annotated with the NCBO Annotator using the REST API\footnote{\url{http://data.bioontology.org/documentation\#nav_annotator}}. The default parameters were used, namely the ones shown in Table \ref{table-ncbo-parameters}.
 
 \begin{table}[h]
 \centering
@@ -90,7 +86,7 @@ longest\_only                                  & false                          
 
 \subsection{All Match and Best Match - Annotation with NOBLE Coder}
 
-NOBLE Coder was chosen against others similar tools because of it's comparable quality and higher ease of use. Each of the articles was annotated twice with this tool, using two different matching strategies, Best match and All match.
+NOBLE Coder was chosen against others similar tools because of its comparable quality and higher ease of use. Each of the articles was annotated twice with this tool, using two different matching strategies, Best match and All match.
 
 The commands used to annotate the reports were these:
 
@@ -128,12 +124,11 @@ And the analogous thing for the "Synonym" property.
 
 \section{Evaluation}
 
-The annotations of each MT or MT+PE translated article were compared against the annotations of corresponding HT translated article, which was considered a gold standard. Both Micro- and Macro- Precision, Recall and F1-scores were calculated. This was done for each matching approach. 
+For each document and annotation approach I created the set of the RadLex terms (identified by their RIDs) that were found in that document with that annotation approach. This is the data used in the assessment of translation solutions that follows.
 
-To facilitate the understanding of the results, I will now walk trough a short example for one document. Consider that we have two Portuguese documents and for each one we have a HT English translation and a MT English translation. There were found 4 terms of interest in the HT translation, {bone, cell, finger, colon}. This is going to be our gold standard. In the MT translation, 2 terms of interest were found, {brain, bone}. One of these terms is also in the gold standard so there is 1 True Positive, but the other term is  not, so that is 1 False Positive. In the gold standard there are 3 terms that were not found in the MT translation. That is 3 False Negatives. After calculations (see \ref{Evaluation Metrics}), this gives us a Precision score of 0.5, a Recall score of 0.25 and F-Score of 0.33. 
+The RadLex terms extracted from each MT or MT+PE translated article were compared against the ones extracted from the corresponding HT translated article, which was considered the gold standard. Both Micro- and Macro- Precision, Recall and F1-scores were calculated. This was done for each matching approach. 
 
-These methods measure how similar are the terms annotated on the MT or MT+PE texts to the terms annotated on the HT texts. They don't say nothing about the quality of the annotations, however is that measured. 
-
+To facilitate the understanding of the results, we will now walk trough a short example. Consider that we have one Portuguese document and corresponding HT English translation and MT English translation. Four terms of interest were identified in the HT translation, {bone, cell, finger, colon}\footnote{We use here human understandable names instead of RIDs so that the example is easier to follow}. This is going to be our gold standard. In the MT translation, 2 terms of interest were found, {brain, bone}. One of these terms is also in the gold standard, which means TP = 1, but the other term is not, FP = 1. In the gold standard there are 3 terms that were not found in the MT translation, which means FN = 3. After calculations (see \ref{Evaluation Metrics}), this gives us a Precision score of 0.5, a Recall score of 0.25 and F-Score of 0.33. These methods measure how similar are the terms annotated on the MT or MT+PE texts to the terms annotated on the HT texts.
 
 
 
