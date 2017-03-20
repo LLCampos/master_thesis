@@ -43,9 +43,6 @@
 \contentsline {section}{\numberline {3.3}Evaluation}{29}{section.3.3}
 \contentsline {chapter}{\numberline {4}Experimental Results}{31}{chapter.4}
 \contentsline {section}{\numberline {4.1}NER Lexicon-based approach}{31}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Clinical Finding and Anatomical Entity Subtrees}{34}{subsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.1.1}Error Analysis}{36}{subsubsection.4.1.1.1}
-\contentsline {section}{\numberline {4.2}Discussion}{37}{section.4.2}
-\contentsline {section}{\numberline {4.3}Conclusions}{37}{section.4.3}
+\contentsline {subsection}{\numberline {4.1.1}Clinical Finding and Anatomical Entity Subtrees}{35}{subsection.4.1.1}
 \contentsline {chapter}{\numberline {5}Conclusions}{39}{chapter.5}
 \contentsline {chapter}{References}{41}{section*.4}
