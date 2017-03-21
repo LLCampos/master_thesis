@@ -11,6 +11,14 @@ Because Text Mining has to manipulate text, it is not too surprising that it bor
 
 \subsubsection{Tokenization}
 
+Tokenization is one of the main tasks of NLP and consists in dividing a certain text in pieces called \textit{tokens}. A token can be defined as "an instance
+of a sequence of characters in some particular document that are grouped
+together as a useful semantic unit for processing" \citep{Manning2009a}. So, for the sentence \textit{the mother had a surgery}, it is possible to divide it in five tokens, one for which word, using the heuristic that each token is separated by a whitespace. For more complicated text, one could intuitively think that a good strategy would be to split on all non-alphanumeric characters, but this sometimes raises problems. This strategy would tokenize \textit{isn't} in \textit{isn} and \textit{t} which is intuitively wrong. More complicated strategies are needed. Relevant to this work, the tokenization strategies used are language specific. One should not use a English tokenizer to tokenize Portuguese text \citep{Branco2003}.
+
+
+
+
+
 \subsubsection{Stemming and Lemmatization}
 
 

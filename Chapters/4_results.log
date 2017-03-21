@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.15)  20 MAR 2017 16:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.15)  21 MAR 2017 11:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -864,7 +864,7 @@ or  <return>  to continue without it.
 
 ! Undefined control sequence.
 l.41 	\includegraphics
-                      {SupportFiles/plots/all_match_micro_total_plot.pdf}
+                      [width=0.9\textwidth]{SupportFiles/plots/all_match_mic...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -878,11 +878,44 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 	\includegraphics{S
-                        upportFiles/plots/all_match_micro_total_plot.pdf}
+l.41 	\includegraphics[
+                       width=0.9\textwidth]{SupportFiles/plots/all_match_mic...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.41 	\includegraphics[width=0.9\textwidth]
+                                           {SupportFiles/plots/all_match_mic...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.41 	\includegraphics[width=0.9\textwidth]
+                                           {SupportFiles/plots/all_match_mic...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -908,8 +941,8 @@ Missing character: There is no l in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.41 	\includegraphics{SupportFiles/plots/all_
-                                              match_micro_total_plot.pdf}
+l.41 ...dth=0.9\textwidth]{SupportFiles/plots/all_
+                                                  match_micro_total_plot.pdf}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -989,7 +1022,7 @@ or  <return>  to continue without it.
 
 ! Undefined control sequence.
 l.48 	\includegraphics
-                      {SupportFiles/plots/best_match_micro_total_plot.pdf}
+                      [width=0.9\textwidth]{SupportFiles/plots/best_match_mi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1003,11 +1036,44 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 	\includegraphics{S
-                        upportFiles/plots/best_match_micro_total_plot.pdf}
+l.48 	\includegraphics[
+                       width=0.9\textwidth]{SupportFiles/plots/best_match_mi...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.48 	\includegraphics[width=0.9\textwidth]
+                                           {SupportFiles/plots/best_match_mi...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.48 	\includegraphics[width=0.9\textwidth]
+                                           {SupportFiles/plots/best_match_mi...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -1034,8 +1100,8 @@ Missing character: There is no t in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.48 	\includegraphics{SupportFiles/plots/best_
-                                               match_micro_total_plot.pdf}
+l.48 ...th=0.9\textwidth]{SupportFiles/plots/best_
+                                                  match_micro_total_plot.pdf}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -1115,7 +1181,7 @@ or  <return>  to continue without it.
 
 ! Undefined control sequence.
 l.55 	\includegraphics
-                      {SupportFiles/plots/direct_match_micro_total_plot.pdf}
+                      [width=0.9\textwidth]{SupportFiles/plots/direct_match_...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1129,11 +1195,44 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 	\includegraphics{S
-                        upportFiles/plots/direct_match_micro_total_plot.pdf}
+l.55 	\includegraphics[
+                       width=0.9\textwidth]{SupportFiles/plots/direct_match_...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.55 	\includegraphics[width=0.9\textwidth]
+                                           {SupportFiles/plots/direct_match_...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.55 	\includegraphics[width=0.9\textwidth]
+                                           {SupportFiles/plots/direct_match_...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -1162,8 +1261,8 @@ Missing character: There is no t in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.55 	\includegraphics{SupportFiles/plots/direct_
-                                                 match_micro_total_plot.pdf}
+l.55 ...=0.9\textwidth]{SupportFiles/plots/direct_
+                                                  match_micro_total_plot.pdf}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -3824,7 +3923,7 @@ or  <return>  to continue without it.
 
 ! Undefined control sequence.
 l.82 	\includegraphics
-                      {SupportFiles/plots/all_match_micro_clinical_anatomica...
+                      [width=0.9\textwidth]{SupportFiles/plots/all_match_mic...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3838,12 +3937,44 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.82 	\includegraphics{S
-                        upportFiles/plots/all_match_micro_clinical_anatomica...
+l.82 	\includegraphics[
+                       width=0.9\textwidth]{SupportFiles/plots/all_match_mic...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.82 	\includegraphics[width=0.9\textwidth]
+                                           {SupportFiles/plots/all_match_mic...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.82 	\includegraphics[width=0.9\textwidth]
+                                           {SupportFiles/plots/all_match_mic...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -3869,8 +4000,8 @@ Missing character: There is no l in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.82 	\includegraphics{SupportFiles/plots/all_
-                                              match_micro_clinical_anatomica...
+l.82 ...dth=0.9\textwidth]{SupportFiles/plots/all_
+                                                  match_micro_clinical_anato...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -3951,7 +4082,7 @@ or  <return>  to continue without it.
 
 ! Undefined control sequence.
 l.90 	\includegraphics
-                      {SupportFiles/plots/best_match_micro_clinical_anatomic...
+                      [width=0.9\textwidth]{SupportFiles/plots/best_match_mi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3965,12 +4096,44 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.90 	\includegraphics{S
-                        upportFiles/plots/best_match_micro_clinical_anatomic...
+l.90 	\includegraphics[
+                       width=0.9\textwidth]{SupportFiles/plots/best_match_mi...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.90 	\includegraphics[width=0.9\textwidth]
+                                           {SupportFiles/plots/best_match_mi...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.90 	\includegraphics[width=0.9\textwidth]
+                                           {SupportFiles/plots/best_match_mi...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -3997,8 +4160,8 @@ Missing character: There is no t in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.90 	\includegraphics{SupportFiles/plots/best_
-                                               match_micro_clinical_anatomic...
+l.90 ...th=0.9\textwidth]{SupportFiles/plots/best_
+                                                  match_micro_clinical_anato...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -4079,7 +4242,7 @@ or  <return>  to continue without it.
 
 ! Undefined control sequence.
 l.98 	\includegraphics
-                      {SupportFiles/plots/direct_match_micro_clinical_anatom...
+                      [width=0.9\textwidth]{SupportFiles/plots/direct_match_...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4093,12 +4256,44 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 	\includegraphics{S
-                        upportFiles/plots/direct_match_micro_clinical_anatom...
+l.98 	\includegraphics[
+                       width=0.9\textwidth]{SupportFiles/plots/direct_match_...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.98 	\includegraphics[width=0.9\textwidth]
+                                           {SupportFiles/plots/direct_match_...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.98 	\includegraphics[width=0.9\textwidth]
+                                           {SupportFiles/plots/direct_match_...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -4127,8 +4322,8 @@ Missing character: There is no t in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.98 	\includegraphics{SupportFiles/plots/direct_
-                                                 match_micro_clinical_anatom...
+l.98 ...=0.9\textwidth]{SupportFiles/plots/direct_
+                                                  match_micro_clinical_anato...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
