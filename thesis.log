@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.15)  22 MAR 2017 17:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.15)  22 MAR 2017 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -938,10 +938,6 @@ Package pdftex.def Info: SupportFiles/plots/best_match_macro_total_plot.pdf use
 d on input line 48.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 <SupportFiles/plots/direct_match_macro_total_plot.pdf, id=1229, 442.06543pt x 2
 81.14906pt>
 File: SupportFiles/plots/direct_match_macro_total_plot.pdf Graphic file (type p
@@ -950,10 +946,6 @@ df)
 Package pdftex.def Info: SupportFiles/plots/direct_match_macro_total_plot.pdf u
 sed on input line 55.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 <SupportFiles/plots/all_match_macro_clinical_anatomical_subtrees_plot.pdf, id=1
 230, 442.06543pt x 281.14906pt>
@@ -965,10 +957,6 @@ Package pdftex.def Info: SupportFiles/plots/all_match_macro_clinical_anatomical
 _subtrees_plot.pdf used on input line 63.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 <SupportFiles/plots/best_match_macro_clinical_anatomical_subtrees_plot.pdf, id=
 1231, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/best_match_macro_clinical_anatomical_subtrees_plot.pdf
@@ -978,9 +966,6 @@ File: SupportFiles/plots/best_match_macro_clinical_anatomical_subtrees_plot.pdf
 Package pdftex.def Info: SupportFiles/plots/best_match_macro_clinical_anatomica
 l_subtrees_plot.pdf used on input line 71.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 <SupportFiles/plots/direct_match_macro_clinical_anatomical_subtrees_plot.pdf, i
 d=1232, 442.06543pt x 281.14906pt>
@@ -992,10 +977,6 @@ f>
 Package pdftex.def Info: SupportFiles/plots/direct_match_macro_clinical_anatomi
 cal_subtrees_plot.pdf used on input line 79.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
  [55 <./SupportFiles/plots/all_match_macro_total_plot.pdf>] [56 <./SupportFiles
