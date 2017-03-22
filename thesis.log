@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.15)  22 MAR 2017 16:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.15)  22 MAR 2017 17:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -821,7 +821,7 @@ Chapter 3.
 ]
 Chapter 4.
 (./Chapters/4_results.tex
-<SupportFiles/plots/all_match_micro_total_plot.pdf, id=940, 442.06543pt x 281.1
+<SupportFiles/plots/all_match_micro_total_plot.pdf, id=942, 442.06543pt x 281.1
 4906pt>
 File: SupportFiles/plots/all_match_micro_total_plot.pdf Graphic file (type pdf)
 
@@ -830,7 +830,7 @@ Package pdftex.def Info: SupportFiles/plots/all_match_micro_total_plot.pdf used
  on input line 41.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
-<SupportFiles/plots/best_match_micro_total_plot.pdf, id=941, 442.06543pt x 281.
+<SupportFiles/plots/best_match_micro_total_plot.pdf, id=943, 442.06543pt x 281.
 14906pt>
 File: SupportFiles/plots/best_match_micro_total_plot.pdf Graphic file (type pdf
 )
@@ -839,7 +839,7 @@ Package pdftex.def Info: SupportFiles/plots/best_match_micro_total_plot.pdf use
 d on input line 48.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
-<SupportFiles/plots/direct_match_micro_total_plot.pdf, id=942, 442.06543pt x 28
+<SupportFiles/plots/direct_match_micro_total_plot.pdf, id=944, 442.06543pt x 28
 1.14906pt>
 File: SupportFiles/plots/direct_match_micro_total_plot.pdf Graphic file (type p
 df)
@@ -856,7 +856,7 @@ otal_plot.pdf): PDF inclusion: multiple pdfs with page group included in a sing
 le page
 >] [35 <./SupportFiles/plots/direct_match_micro_total_plot.pdf>]
 <SupportFiles/plots/all_match_micro_clinical_anatomical_subtrees_plot.pdf, id=1
-008, 442.06543pt x 281.14906pt>
+010, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/all_match_micro_clinical_anatomical_subtrees_plot.pdf 
 Graphic file (type pdf)
 
@@ -866,7 +866,7 @@ _subtrees_plot.pdf used on input line 82.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
 <SupportFiles/plots/best_match_micro_clinical_anatomical_subtrees_plot.pdf, id=
-1009, 442.06543pt x 281.14906pt>
+1011, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/best_match_micro_clinical_anatomical_subtrees_plot.pdf
  Graphic file (type pdf)
 
@@ -876,7 +876,7 @@ l_subtrees_plot.pdf used on input line 90.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
 <SupportFiles/plots/direct_match_micro_clinical_anatomical_subtrees_plot.pdf, i
-d=1010, 442.06543pt x 281.14906pt>
+d=1012, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/direct_match_micro_clinical_anatomical_subtrees_plot.p
 df Graphic file (type pdf)
 
@@ -920,7 +920,7 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 ) [53] [54
 
 ]
-<SupportFiles/plots/all_match_macro_total_plot.pdf, id=1224, 442.06543pt x 281.
+<SupportFiles/plots/all_match_macro_total_plot.pdf, id=1226, 442.06543pt x 281.
 14906pt>
 File: SupportFiles/plots/all_match_macro_total_plot.pdf Graphic file (type pdf)
 
@@ -929,7 +929,7 @@ Package pdftex.def Info: SupportFiles/plots/all_match_macro_total_plot.pdf used
  on input line 41.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
-<SupportFiles/plots/best_match_macro_total_plot.pdf, id=1225, 442.06543pt x 281
+<SupportFiles/plots/best_match_macro_total_plot.pdf, id=1227, 442.06543pt x 281
 .14906pt>
 File: SupportFiles/plots/best_match_macro_total_plot.pdf Graphic file (type pdf
 )
@@ -942,7 +942,7 @@ d on input line 48.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<SupportFiles/plots/direct_match_macro_total_plot.pdf, id=1226, 442.06543pt x 2
+<SupportFiles/plots/direct_match_macro_total_plot.pdf, id=1228, 442.06543pt x 2
 81.14906pt>
 File: SupportFiles/plots/direct_match_macro_total_plot.pdf Graphic file (type p
 df)
@@ -956,7 +956,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 <SupportFiles/plots/all_match_macro_clinical_anatomical_subtrees_plot.pdf, id=1
-227, 442.06543pt x 281.14906pt>
+229, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/all_match_macro_clinical_anatomical_subtrees_plot.pdf 
 Graphic file (type pdf)
 
@@ -970,7 +970,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 <SupportFiles/plots/best_match_macro_clinical_anatomical_subtrees_plot.pdf, id=
-1228, 442.06543pt x 281.14906pt>
+1230, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/best_match_macro_clinical_anatomical_subtrees_plot.pdf
  Graphic file (type pdf)
 
@@ -983,7 +983,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 <SupportFiles/plots/direct_match_macro_clinical_anatomical_subtrees_plot.pdf, i
-d=1229, 442.06543pt x 281.14906pt>
+d=1231, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/direct_match_macro_clinical_anatomical_subtrees_plot.p
 df Graphic file (type pdf)
 
@@ -1015,10 +1015,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
 (./Preface/dedication.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A40602368E5402A6992E06C0A5A8C307;4295.
-Package rerunfilecheck Info: File `thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: BAE0C5611786BFDC2B6DE3EC4AB1A549;4069.
+
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: A40602368E5402A6992E06C0A5A8C307;4295
+(rerunfilecheck)             After:  43BDA35A2361863E5C01A0BDF7648E73;4304.
+
+Package rerunfilecheck Warning: File `thesis.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `thesis.brf':
+(rerunfilecheck)             Before: BAE0C5611786BFDC2B6DE3EC4AB1A549;4069
+(rerunfilecheck)             After:  98332BA8EDD8020A396E54C65D65F324;4122.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  )
 (\end occurred inside a group at level 1)
@@ -1051,10 +1063,10 @@ s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on thesis.pdf (81 pages, 738293 bytes).
+Output written on thesis.pdf (81 pages, 738412 bytes).
 PDF statistics:
- 2025 PDF objects out of 2073 (max. 8388607)
- 1321 compressed objects within 14 object streams
+ 2027 PDF objects out of 2073 (max. 8388607)
+ 1323 compressed objects within 14 object streams
  281 named destinations out of 1000 (max. 500000)
  498 words of extra memory for PDF output out of 10000 (max. 10000000)
 
