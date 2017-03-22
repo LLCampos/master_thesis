@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.15)  22 MAR 2017 15:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.15)  22 MAR 2017 16:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -938,6 +938,10 @@ Package pdftex.def Info: SupportFiles/plots/best_match_macro_total_plot.pdf use
 d on input line 48.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 <SupportFiles/plots/direct_match_macro_total_plot.pdf, id=1226, 442.06543pt x 2
 81.14906pt>
 File: SupportFiles/plots/direct_match_macro_total_plot.pdf Graphic file (type p
@@ -946,6 +950,10 @@ df)
 Package pdftex.def Info: SupportFiles/plots/direct_match_macro_total_plot.pdf u
 sed on input line 55.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 <SupportFiles/plots/all_match_macro_clinical_anatomical_subtrees_plot.pdf, id=1
 227, 442.06543pt x 281.14906pt>
@@ -957,6 +965,10 @@ Package pdftex.def Info: SupportFiles/plots/all_match_macro_clinical_anatomical
 _subtrees_plot.pdf used on input line 63.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 <SupportFiles/plots/best_match_macro_clinical_anatomical_subtrees_plot.pdf, id=
 1228, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/best_match_macro_clinical_anatomical_subtrees_plot.pdf
@@ -966,6 +978,9 @@ File: SupportFiles/plots/best_match_macro_clinical_anatomical_subtrees_plot.pdf
 Package pdftex.def Info: SupportFiles/plots/best_match_macro_clinical_anatomica
 l_subtrees_plot.pdf used on input line 71.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 <SupportFiles/plots/direct_match_macro_clinical_anatomical_subtrees_plot.pdf, i
 d=1229, 442.06543pt x 281.14906pt>
@@ -977,23 +992,23 @@ f>
 Package pdftex.def Info: SupportFiles/plots/direct_match_macro_clinical_anatomi
 cal_subtrees_plot.pdf used on input line 79.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
- [55] [56 <./SupportFiles/plots/all_match_macro_total_plot.pdf> <./SupportFiles
-/plots/best_match_macro_total_plot.pdf
+ [55 <./SupportFiles/plots/all_match_macro_total_plot.pdf>] [56 <./SupportFiles
+/plots/best_match_macro_total_plot.pdf> <./SupportFiles/plots/direct_match_macr
+o_total_plot.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./SupportFiles/plots/best_match_macro_t
-otal_plot.pdf): PDF inclusion: multiple pdfs with page group included in a sing
-le page
->] [57 <./SupportFiles/plots/direct_match_macro_total_plot.pdf> <./SupportFiles
-/plots/all_match_macro_clinical_anatomical_subtrees_plot.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./SupportFiles/plots/all_match_macro_cl
-inical_anatomical_subtrees_plot.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
->] [58 <./SupportFiles/plots/best_match_macro_clinical_anatomical_subtrees_plot
-.pdf>] [59 <./SupportFiles/plots/direct_match_macro_clinical_anatomical_subtree
-s_plot.pdf>]
+pdfTeX warning: /usr/bin/pdflatex (file ./SupportFiles/plots/direct_match_macro
+_total_plot.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+>] [57 <./SupportFiles/plots/all_match_macro_clinical_anatomical_subtrees_plot.
+pdf>] [58 <./SupportFiles/plots/best_match_macro_clinical_anatomical_subtrees_p
+lot.pdf>] [59 <./SupportFiles/plots/direct_match_macro_clinical_anatomical_subt
+rees_plot.pdf>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
  (./thesis.aux (./Preface/resumo.aux) (./Preface/abstract.aux)
 (./Preface/resumolongo.aux) (./Preface/acknowledgements.aux)
@@ -1036,10 +1051,10 @@ s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on thesis.pdf (81 pages, 738233 bytes).
+Output written on thesis.pdf (81 pages, 738293 bytes).
 PDF statistics:
- 2024 PDF objects out of 2073 (max. 8388607)
- 1320 compressed objects within 14 object streams
+ 2025 PDF objects out of 2073 (max. 8388607)
+ 1321 compressed objects within 14 object streams
  281 named destinations out of 1000 (max. 500000)
  498 words of extra memory for PDF output out of 10000 (max. 10000000)
 
