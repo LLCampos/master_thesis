@@ -14,42 +14,42 @@ Warning--missing publisher in Manning2009a
 You've used 56 entries,
             3009 wiz_defined-function locations,
             1022 strings with 19942 characters,
-and the built_in function-call counts, 48249 in all, are:
-= -- 3745
+and the built_in function-call counts, 48162 in all, are:
+= -- 3732
 > -- 3566
 < -- 27
 + -- 1227
 - -- 1170
 * -- 4229
-:= -- 7271
+:= -- 7264
 add.period$ -- 164
 call.type$ -- 56
-change.case$ -- 691
+change.case$ -- 690
 chr.to.int$ -- 55
 cite$ -- 58
-duplicate$ -- 2963
-empty$ -- 2719
+duplicate$ -- 2950
+empty$ -- 2718
 format.name$ -- 1347
-if$ -- 9490
+if$ -- 9467
 int.to.chr$ -- 2
 int.to.str$ -- 1
 missing$ -- 705
 newline$ -- 172
 num.names$ -- 222
-pop$ -- 1725
+pop$ -- 1724
 preamble$ -- 1
 purify$ -- 615
 quote$ -- 0
-skip$ -- 1241
+skip$ -- 1233
 stack$ -- 0
-substring$ -- 1627
-swap$ -- 1786
+substring$ -- 1621
+swap$ -- 1777
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 498
+type$ -- 495
 warning$ -- 2
-while$ -- 258
+while$ -- 257
 width$ -- 0
-write$ -- 610
+write$ -- 609
 (There were 2 warnings)
