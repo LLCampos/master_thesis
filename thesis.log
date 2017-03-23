@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.22)  23 MAR 2017 10:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.22)  23 MAR 2017 12:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1009,10 +1009,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
 ### semi simple group (level 1) entered at line 32 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13390 strings out of 494953
- 188286 string characters out of 6180977
- 304253 words of memory out of 5000000
- 16052 multiletter control sequences out of 15000+600000
+ 13389 strings out of 494953
+ 188271 string characters out of 6180977
+ 304290 words of memory out of 5000000
+ 16051 multiletter control sequences out of 15000+600000
  22556 words of font info for 63 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  39i,12n,53p,1665b,2339s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1034,7 +1034,7 @@ s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on thesis.pdf (81 pages, 735777 bytes).
+Output written on thesis.pdf (81 pages, 736032 bytes).
 PDF statistics:
  2025 PDF objects out of 2073 (max. 8388607)
  1324 compressed objects within 14 object streams

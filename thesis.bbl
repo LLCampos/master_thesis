@@ -12,8 +12,8 @@
 {\sc Ananda-Rajah, M.R., Martinez, D., Slavin, M.A., Cavedon, L., Dooley, M.,
   Cheng, A. \& Thursky, K.A.} (2014). {Facilitating surveillance of pulmonary
   invasive mold diseases in patients with haematological malignancies by
-  screening computed tomography reports using natural language processing.}
-  {\em PloS one\/}, {\bf 9}, e107797.
+  screening computed tomography reports using natural language processing}.
+  {\em PloS one\/}, {\bf 9}, 1--8.
 
 \bibitem[{Bentivogli {\em et~al.\/}(2016)Bentivogli, Bisazza, Cettolo \&
   Federico}]{Bentivogli2016}
@@ -56,7 +56,8 @@
   Bauer \& Hammon}]{Bretschneider}
 {\sc Bretschneider, C., Oberkampf, H., Zillner, S., Bauer, B. \& Hammon, M.}
   (2014). {Corpus-based Translation of Ontologies for Improved Multilingual
-  Semantic Annotation}. {\em Coling\/}, 1--8.
+  Semantic Annotation}. In {\em Proceedings of the Third Workshop on Semantic
+  Web and Information Extraction\/}, 1--8.
 
 \bibitem[{Castilla(2007)}]{Castilla2007a}
 {\sc Castilla, C.} (2007). {\em {Instrumento de Investiga{\c{c}}{\~{a}}o
@@ -277,7 +278,8 @@
   Joskowicz}]{Spanier2016}
 {\sc Spanier, A.B., Cohen, D. \& Joskowicz, L.} (2016). {A new method for the
   automatic retrieval of medical cases based on the RadLex ontology}. {\em
-  International Journal of Computer Assisted Radiology and Surgery\/}.
+  International Journal of Computer Assisted Radiology and Surgery\/}, {\bf
+  12}, 471--484.
 
 \bibitem[{Stewart {\em et~al.\/}(2012)Stewart, {Von Maltzahn} \&
   Abidi}]{Stewart}
@@ -285,16 +287,19 @@
   metamap to mgrep as a tool for mapping free text to formal medical lexicons}.
   In {\em CEUR Workshop Proceedings\/}, vol. 895, 63--77.
 
-\bibitem[{Tatsumi \& Aikawa(2012)}]{Tatsumi2012a}
-{\sc Tatsumi, M. \& Aikawa, T.} (2012). {How Good Is Crowd Post-Editing? Its
-  Potential and Limitations}. {\em {\ldots} 2012 Workshop on {\ldots}\/}.
+\bibitem[{Tatsumi {\em et~al.\/}(2012)Tatsumi, Aikawa, Yamamoto \&
+  Isahara}]{Tatsumi2012a}
+{\sc Tatsumi, M., Aikawa, T., Yamamoto, K. \& Isahara, H.} (2012). {How Good Is
+  Crowd Post-Editing? Its Potential and Limitations}. In {\em The Proceedings
+  of Association for Machine Translation in the Americas (AMTA)\/}, San Diego,
+  CA.
 
 \bibitem[{Tseytlin {\em et~al.\/}(2016)Tseytlin, Mitchell, Legowski, Corrigan,
   Chavan \& Jacobson}]{Tseytlin2016}
 {\sc Tseytlin, E., Mitchell, K., Legowski, E., Corrigan, J., Chavan, G. \&
   Jacobson, R.S.} (2016). {NOBLE - Flexible concept recognition for large-scale
   biomedical natural language processing.} {\em BMC bioinformatics\/}, {\bf
-  17}, 32.
+  17}.
 
 \bibitem[{Turner {\em et~al.\/}(2015)Turner, Dew, Desai, Martin \&
   Kirchhoff}]{Turner2015}

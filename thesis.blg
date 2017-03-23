@@ -9,47 +9,49 @@ A level-1 auxiliary file: Preface/dedication.aux
 The style file: Classes/jmb.bst
 Database file #1: References/library.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--missing publisher in Bretschneider
 Warning--missing publisher in Manning2009c
 Warning--missing publisher in Manning2009a
+Warning--missing publisher in Tatsumi2012a
 You've used 56 entries,
             3009 wiz_defined-function locations,
-            1022 strings with 17293 characters,
-and the built_in function-call counts, 38747 in all, are:
-= -- 3271
-> -- 2061
-< -- 29
-+ -- 725
-- -- 668
-* -- 3250
-:= -- 5809
+            1023 strings with 17462 characters,
+and the built_in function-call counts, 39039 in all, are:
+= -- 3287
+> -- 2079
+< -- 28
++ -- 731
+- -- 674
+* -- 3286
+:= -- 5836
 add.period$ -- 166
 call.type$ -- 56
-change.case$ -- 524
+change.case$ -- 530
 chr.to.int$ -- 55
-cite$ -- 58
-duplicate$ -- 2654
-empty$ -- 2607
-format.name$ -- 843
-if$ -- 7739
+cite$ -- 60
+duplicate$ -- 2676
+empty$ -- 2637
+format.name$ -- 847
+if$ -- 7798
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 545
+missing$ -- 551
 newline$ -- 172
 num.names$ -- 225
-pop$ -- 1229
+pop$ -- 1240
 preamble$ -- 1
-purify$ -- 447
+purify$ -- 449
 quote$ -- 0
-skip$ -- 1081
+skip$ -- 1089
 stack$ -- 0
-substring$ -- 1678
-swap$ -- 1469
+substring$ -- 1689
+swap$ -- 1486
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 495
-warning$ -- 2
-while$ -- 264
+warning$ -- 4
+while$ -- 266
 width$ -- 0
-write$ -- 614
-(There were 2 warnings)
+write$ -- 616
+(There were 4 warnings)
