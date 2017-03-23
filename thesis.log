@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.15)  22 MAR 2017 17:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.22)  23 MAR 2017 10:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
 (./Classes/FCULthesisPSnPDF.cls
 Document Class: Classes/FCULthesisPSnPDF 2006/06/02 v1.0 FCUL thesis class
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
@@ -75,6 +75,8 @@ File: babel.def 2016/02/24 3.9q Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
 )
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -999,7 +1001,7 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 43BDA35A2361863E5C01A0BDF7648E73;4304.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: 22930149DBBF1002DABFC969D94216BB;4123.
+(rerunfilecheck)             Checksum: 49FB86CCD169F53202151E793CC2440B;4120.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  )
 (\end occurred inside a group at level 1)
@@ -1007,12 +1009,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
 ### semi simple group (level 1) entered at line 32 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13388 strings out of 494910
- 188287 string characters out of 6179836
- 304444 words of memory out of 5000000
- 16057 multiletter control sequences out of 15000+600000
+ 13390 strings out of 494953
+ 188286 string characters out of 6180977
+ 304253 words of memory out of 5000000
+ 16052 multiletter control sequences out of 15000+600000
  22556 words of font info for 63 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
+ 14 hyphenation exceptions out of 8191
  39i,12n,53p,1665b,2339s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/lcampos/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200
 .600pk> </home/lcampos/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> <
@@ -1032,7 +1034,7 @@ s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on thesis.pdf (81 pages, 735823 bytes).
+Output written on thesis.pdf (81 pages, 735777 bytes).
 PDF statistics:
  2025 PDF objects out of 2073 (max. 8388607)
  1324 compressed objects within 14 object streams

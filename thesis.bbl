@@ -210,12 +210,6 @@
   {Tokenization}. In {\em Introduction to Information Retrieval\/}, chap.
   2.2.1.
 
-\bibitem[{Mansouri {\em et~al.\/}(2008)Mansouri, Affendey \&
-  Mamayt}]{Mansouri2008}
-{\sc Mansouri, A., Affendey, L. \& Mamayt, A.} (2008). {Named Entity
-  Recognition Approaches :}. {\em IJCSNS International Journal of Computer
-  Science and Network Security\/}, {\bf 8}.
-
 \bibitem[{{Marta R. Costa-juss{\`{a}}, Mireia
   Farr{\'{u}}s}(2012)}]{Conference2012}
 {\sc {Marta R. Costa-juss{\`{a}}, Mireia Farr{\'{u}}s}, J.S.P.} (2012).
@@ -234,6 +228,11 @@
 {\sc Marwede, D., Schulz, T. \& Kahn, T.} (2008). {Indexing thoracic CT reports
   using a preliminary version of a standardized radiological lexicon (RadLex)}.
   {\em Journal of Digital Imaging\/}, {\bf 21}, 363--370.
+
+\bibitem[{Mohit(2014)}]{Mohit2014}
+{\sc Mohit, B.} (2014). {Named Entity Recognition}. In I.~Zitouni, ed., {\em
+  Natural Language Processing of Semitic Languages\/}, chap.~7, 221--246,
+  Springer.
 
 \bibitem[{Musleh {\em et~al.\/}(2016)Musleh, Durrani, Temnikova, Nakov, Vogel
   \& Alsaad}]{Musleh2016}
