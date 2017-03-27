@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.22)  27 MAR 2017 17:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.22)  27 MAR 2017 18:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -829,7 +829,7 @@ File: SupportFiles/plots/all_match_micro_total_plot.pdf Graphic file (type pdf)
 
  <use SupportFiles/plots/all_match_micro_total_plot.pdf>
 Package pdftex.def Info: SupportFiles/plots/all_match_micro_total_plot.pdf used
- on input line 41.
+ on input line 39.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
 <SupportFiles/plots/best_match_micro_total_plot.pdf, id=950, 442.06543pt x 281.
@@ -838,7 +838,7 @@ File: SupportFiles/plots/best_match_micro_total_plot.pdf Graphic file (type pdf
 )
  <use SupportFiles/plots/best_match_micro_total_plot.pdf>
 Package pdftex.def Info: SupportFiles/plots/best_match_micro_total_plot.pdf use
-d on input line 48.
+d on input line 46.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
 <SupportFiles/plots/direct_match_micro_total_plot.pdf, id=951, 442.06543pt x 28
@@ -847,7 +847,7 @@ File: SupportFiles/plots/direct_match_micro_total_plot.pdf Graphic file (type p
 df)
  <use SupportFiles/plots/direct_match_micro_total_plot.pdf>
 Package pdftex.def Info: SupportFiles/plots/direct_match_micro_total_plot.pdf u
-sed on input line 55.
+sed on input line 53.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
  [33]
 [34 <./SupportFiles/plots/all_match_micro_total_plot.pdf> <./SupportFiles/plots
@@ -864,7 +864,7 @@ Graphic file (type pdf)
 
 <use SupportFiles/plots/all_match_micro_clinical_anatomical_subtrees_plot.pdf>
 Package pdftex.def Info: SupportFiles/plots/all_match_micro_clinical_anatomical
-_subtrees_plot.pdf used on input line 82.
+_subtrees_plot.pdf used on input line 80.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
 <SupportFiles/plots/best_match_micro_clinical_anatomical_subtrees_plot.pdf, id=
@@ -874,7 +874,7 @@ File: SupportFiles/plots/best_match_micro_clinical_anatomical_subtrees_plot.pdf
 
 <use SupportFiles/plots/best_match_micro_clinical_anatomical_subtrees_plot.pdf>
 Package pdftex.def Info: SupportFiles/plots/best_match_micro_clinical_anatomica
-l_subtrees_plot.pdf used on input line 90.
+l_subtrees_plot.pdf used on input line 88.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
 <SupportFiles/plots/direct_match_micro_clinical_anatomical_subtrees_plot.pdf, i
@@ -885,7 +885,7 @@ df Graphic file (type pdf)
 <use SupportFiles/plots/direct_match_micro_clinical_anatomical_subtrees_plot.pd
 f>
 Package pdftex.def Info: SupportFiles/plots/direct_match_micro_clinical_anatomi
-cal_subtrees_plot.pdf used on input line 98.
+cal_subtrees_plot.pdf used on input line 96.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
  [36] [37 <./SupportFiles/plots/all_match_micro_clinical_anatomical_subtrees_pl
 ot.pdf>] [38 <./SupportFiles/plots/best_match_micro_clinical_anatomical_subtree
@@ -1034,9 +1034,9 @@ s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on thesis.pdf (81 pages, 736858 bytes).
+Output written on thesis.pdf (81 pages, 736451 bytes).
 PDF statistics:
- 2035 PDF objects out of 2073 (max. 8388607)
+ 2034 PDF objects out of 2073 (max. 8388607)
  1334 compressed objects within 14 object streams
  283 named destinations out of 1000 (max. 500000)
  498 words of extra memory for PDF output out of 10000 (max. 10000000)
