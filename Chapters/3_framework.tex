@@ -2,7 +2,7 @@
 
 \section{MRRAD (Multilingual Radiology Research Articles Dataset) Corpus}
 
-From the best of my knowledge there is no parallel corpus of Radiology reports. So I created a Portuguese-English parallel corpus of research articles related to Radiology, assuming that the writing style and content of these research articles are similar to Radiology reports. For each research article the MRRAD corpus contains:
+To the best of my knowledge there is no parallel corpus of Radiology reports. So I created a Portuguese-English parallel corpus of research articles related to Radiology, assuming that the writing style and content of these research articles are similar to Radiology reports. For each research article the MRRAD corpus contains:
 
 \begin{enumerate}
 \item Original Portuguese text
@@ -16,13 +16,13 @@ From the best of my knowledge there is no parallel corpus of Radiology reports. 
 
 \subsection{Web Crawl of the articles (1,2)}
 
-To obtain a list of research articles related to Radiology, that were available both in English and in Portuguese, I used used the  NCBO Entrez Programming Utilities (E-utilities)\footnote{\url{https://www.ncbi.nlm.nih.gov/books/NBK25501/}} to query the PubMed database with the search query “portuguese[Language] AND english[Language] AND radiography[MeSH Major Topic] AND hasabstract[text]” (search done on 11/12/2016). The last filter is used to avoid getting texts for which only the title is available. 
+To obtain a list of research articles related to Radiology, that were available both in English and in Portuguese, I used used the  NCBO Entrez Programming Utilities (E-utilities)\footnote{\url{https://www.ncbi.nlm.nih.gov/books/NBK25501/}} to query the PubMed database with the search query “portuguese[Language] AND english[Language] AND radiography[MeSH Major Topic] AND hasabstract[text]” (search done on Dec 11, 2016). The last filter is used to avoid getting texts for which only the title is available. 
 
 Then I programmatically crawled each article PubMed page to get the URL where the full article could be found. Most of the articles were hosted in SciELO\footnote{\url{http://www.scielo.br/}} and only articles hosted in there were included in the corpus. More, only articles for which the original language is Portuguese are included in the corpus. 
 
 Finally, I programmatically crawled the SciELO pages for each article to get both the original Portuguese texts and corresponding the English translations. From the HTML of each page I extracted everything from the abstract until, but not including, the references/bibliography.
 
-Three of the articles were about surveys, not containing much vocabulary about Radiology (PMIDS: 19936506, 22002140, 23515770). They were excluded from the corpus. Other two contained encoding problems and were also excluded (PMIDs: 21793046 and 24263777).
+Three of the articles were surveys, not containing much vocabulary about Radiology (PMIDs: 19936506, 22002140, 23515770). They were excluded from the corpus. Other two contained encoding problems and were also excluded (PMIDs: 21793046 and 24263777).
 
 The final result is a parallel corpus of 51 articles, distributed by journal as shown in Table \ref{table:articles_by_journal}.
 
@@ -96,7 +96,7 @@ For each document and annotation approach I created the set of the RadLex terms 
 
 The RadLex terms extracted from each MT or MT+PE translated article were compared against the ones extracted from the corresponding HT translated article, which was considered the gold standard. Both Micro- and Macro- Precision, Recall and F1-scores were calculated. This was done for each matching approach. 
 
-To facilitate the understanding of the results, we will now walk trough a short example. Consider that we have one Portuguese document and corresponding HT English translation and MT English translation. Four terms of interest were identified in the HT translation, {bone, cell, finger, colon}\footnote{We use here human understandable names instead of RIDs so that the example is easier to follow}. This is going to be our gold standard. In the MT translation, 2 terms of interest were found, {brain, bone}. One of these terms is also in the gold standard, which means TP = 1, but the other term is not, FP = 1. In the gold standard there are 3 terms that were not found in the MT translation, which means FN = 3. After calculations (see \ref{Evaluation Metrics}), this gives us a Precision score of 0.5, a Recall score of 0.25 and F-Score of 0.33. These methods measure how similar are the terms annotated on the MT or MT+PE texts to the terms annotated on the HT texts.
+To facilitate the understanding of the results, we will now walk trough a short example. Consider that we have one Portuguese document and corresponding HT English translation and MT English translation. Four terms of interest were identified in the HT translation, {bone, cell, finger, colon}\footnote{We use here human understandable names instead of RIDs so that the example is easier to follow}. This is going to be our gold standard. In the MT translation, two terms of interest were found, {brain, bone}. One of these terms is also in the gold standard, which means TP = 1, but the other term is not, FP = 1. In the gold standard there are three terms that were not found in the MT translation, which means FN = 3. After calculations (see \ref{Evaluation Metrics}), this gives us a Precision score of 0.5, a Recall score of 0.25 and F-Score of 0.33. These methods measure how similar are the terms annotated on the MT or MT+PE texts to the terms annotated on the HT texts.
 
 
 
