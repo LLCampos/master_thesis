@@ -6,6 +6,10 @@ A level-1 auxiliary file: Preface/abstract.aux
 A level-1 auxiliary file: Preface/resumolongo.aux
 A level-1 auxiliary file: Preface/acknowledgements.aux
 A level-1 auxiliary file: Preface/dedication.aux
+White space in argument---line 80 of file thesis.aux
+ : \citation{Gerstmair
+ :                     2012}
+I'm skipping whatever remains of this command
 The style file: Classes/jmb.bst
 Database file #1: References/library.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
@@ -13,45 +17,45 @@ Warning--missing publisher in Bretschneider
 Warning--missing publisher in Manning2009c
 Warning--missing publisher in Manning2009a
 Warning--missing publisher in Tatsumi2012a
-You've used 58 entries,
+You've used 61 entries,
             3009 wiz_defined-function locations,
-            1038 strings with 17931 characters,
-and the built_in function-call counts, 40497 in all, are:
-= -- 3418
-> -- 2135
+            1056 strings with 18796 characters,
+and the built_in function-call counts, 43184 in all, are:
+= -- 3627
+> -- 2336
 < -- 30
-+ -- 751
-- -- 692
-* -- 3403
-:= -- 6040
-add.period$ -- 172
-call.type$ -- 58
-change.case$ -- 548
-chr.to.int$ -- 57
-cite$ -- 62
-duplicate$ -- 2782
-empty$ -- 2748
-format.name$ -- 873
-if$ -- 8101
++ -- 820
+- -- 758
+* -- 3657
+:= -- 6444
+add.period$ -- 181
+call.type$ -- 61
+change.case$ -- 585
+chr.to.int$ -- 60
+cite$ -- 65
+duplicate$ -- 2943
+empty$ -- 2898
+format.name$ -- 948
+if$ -- 8620
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 571
-newline$ -- 178
-num.names$ -- 233
-pop$ -- 1283
+missing$ -- 611
+newline$ -- 187
+num.names$ -- 245
+pop$ -- 1373
 preamble$ -- 1
-purify$ -- 463
+purify$ -- 497
 quote$ -- 0
-skip$ -- 1134
+skip$ -- 1192
 stack$ -- 0
-substring$ -- 1774
-swap$ -- 1545
+substring$ -- 1879
+swap$ -- 1646
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 513
+type$ -- 540
 warning$ -- 4
-while$ -- 277
+while$ -- 292
 width$ -- 0
-write$ -- 640
-(There were 4 warnings)
+write$ -- 673
+(There was 1 error message)

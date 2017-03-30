@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.22)  28 MAR 2017 09:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.22)  30 MAR 2017 09:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -814,16 +814,16 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24]
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-34.def
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
-)) [25] [26
-
-]
+) [25]) [26]
 Chapter 3.
-(./Chapters/3_framework.tex [27] [28] [29] [30]) [31] [32
+(./Chapters/3_framework.tex [27
+
+] [28] [29] [30]) [31] [32
 
 ]
 Chapter 4.
 (./Chapters/4_results.tex
-<SupportFiles/plots/all_match_micro_total_plot.pdf, id=949, 442.06543pt x 281.1
+<SupportFiles/plots/all_match_micro_total_plot.pdf, id=964, 442.06543pt x 281.1
 4906pt>
 File: SupportFiles/plots/all_match_micro_total_plot.pdf Graphic file (type pdf)
 
@@ -832,7 +832,7 @@ Package pdftex.def Info: SupportFiles/plots/all_match_micro_total_plot.pdf used
  on input line 39.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
-<SupportFiles/plots/best_match_micro_total_plot.pdf, id=950, 442.06543pt x 281.
+<SupportFiles/plots/best_match_micro_total_plot.pdf, id=965, 442.06543pt x 281.
 14906pt>
 File: SupportFiles/plots/best_match_micro_total_plot.pdf Graphic file (type pdf
 )
@@ -841,7 +841,7 @@ Package pdftex.def Info: SupportFiles/plots/best_match_micro_total_plot.pdf use
 d on input line 46.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
-<SupportFiles/plots/direct_match_micro_total_plot.pdf, id=951, 442.06543pt x 28
+<SupportFiles/plots/direct_match_micro_total_plot.pdf, id=966, 442.06543pt x 28
 1.14906pt>
 File: SupportFiles/plots/direct_match_micro_total_plot.pdf Graphic file (type p
 df)
@@ -858,7 +858,7 @@ otal_plot.pdf): PDF inclusion: multiple pdfs with page group included in a sing
 le page
 >] [35 <./SupportFiles/plots/direct_match_micro_total_plot.pdf>]
 <SupportFiles/plots/all_match_micro_clinical_anatomical_subtrees_plot.pdf, id=1
-017, 442.06543pt x 281.14906pt>
+032, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/all_match_micro_clinical_anatomical_subtrees_plot.pdf 
 Graphic file (type pdf)
 
@@ -868,7 +868,7 @@ _subtrees_plot.pdf used on input line 80.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
 <SupportFiles/plots/best_match_micro_clinical_anatomical_subtrees_plot.pdf, id=
-1018, 442.06543pt x 281.14906pt>
+1033, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/best_match_micro_clinical_anatomical_subtrees_plot.pdf
  Graphic file (type pdf)
 
@@ -878,7 +878,7 @@ l_subtrees_plot.pdf used on input line 88.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
 <SupportFiles/plots/direct_match_micro_clinical_anatomical_subtrees_plot.pdf, i
-d=1019, 442.06543pt x 281.14906pt>
+d=1034, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/direct_match_micro_clinical_anatomical_subtrees_plot.p
 df Graphic file (type pdf)
 
@@ -903,15 +903,15 @@ Chapter 5.
  [43
 
 ]
-[44] [45] [46] [47] [48]) (./Chapters/appendices.tex [49] [50
-
-]
+[44] [45] [46] [47] [48] [49]) (./Chapters/appendices.tex [50]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [51] [52
+) [51
+
+] [52
 
 ]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -922,7 +922,7 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 ) [53] [54
 
 ]
-<SupportFiles/plots/all_match_macro_total_plot.pdf, id=1236, 442.06543pt x 281.
+<SupportFiles/plots/all_match_macro_total_plot.pdf, id=1257, 442.06543pt x 281.
 14906pt>
 File: SupportFiles/plots/all_match_macro_total_plot.pdf Graphic file (type pdf)
 
@@ -931,7 +931,7 @@ Package pdftex.def Info: SupportFiles/plots/all_match_macro_total_plot.pdf used
  on input line 41.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
-<SupportFiles/plots/best_match_macro_total_plot.pdf, id=1237, 442.06543pt x 281
+<SupportFiles/plots/best_match_macro_total_plot.pdf, id=1258, 442.06543pt x 281
 .14906pt>
 File: SupportFiles/plots/best_match_macro_total_plot.pdf Graphic file (type pdf
 )
@@ -940,7 +940,7 @@ Package pdftex.def Info: SupportFiles/plots/best_match_macro_total_plot.pdf use
 d on input line 48.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
-<SupportFiles/plots/direct_match_macro_total_plot.pdf, id=1238, 442.06543pt x 2
+<SupportFiles/plots/direct_match_macro_total_plot.pdf, id=1259, 442.06543pt x 2
 81.14906pt>
 File: SupportFiles/plots/direct_match_macro_total_plot.pdf Graphic file (type p
 df)
@@ -950,7 +950,7 @@ sed on input line 55.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
 <SupportFiles/plots/all_match_macro_clinical_anatomical_subtrees_plot.pdf, id=1
-239, 442.06543pt x 281.14906pt>
+260, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/all_match_macro_clinical_anatomical_subtrees_plot.pdf 
 Graphic file (type pdf)
 
@@ -960,7 +960,7 @@ _subtrees_plot.pdf used on input line 63.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
 <SupportFiles/plots/best_match_macro_clinical_anatomical_subtrees_plot.pdf, id=
-1240, 442.06543pt x 281.14906pt>
+1261, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/best_match_macro_clinical_anatomical_subtrees_plot.pdf
  Graphic file (type pdf)
 
@@ -970,7 +970,7 @@ l_subtrees_plot.pdf used on input line 71.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
 <SupportFiles/plots/direct_match_macro_clinical_anatomical_subtrees_plot.pdf, i
-d=1241, 442.06543pt x 281.14906pt>
+d=1262, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/direct_match_macro_clinical_anatomical_subtrees_plot.p
 df Graphic file (type pdf)
 
@@ -1001,7 +1001,7 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 43BDA35A2361863E5C01A0BDF7648E73;4304.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: 5E5019163A1DC66F8781C739A4655159;4211.
+(rerunfilecheck)             Checksum: 1CA515D63E688E95E2EB0D54EB094429;4529.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  )
 (\end occurred inside a group at level 1)
@@ -1009,10 +1009,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
 ### semi simple group (level 1) entered at line 32 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13403 strings out of 494953
- 188486 string characters out of 6180977
- 304489 words of memory out of 5000000
- 16063 multiletter control sequences out of 15000+600000
+ 13423 strings out of 494953
+ 188771 string characters out of 6180977
+ 304922 words of memory out of 5000000
+ 16080 multiletter control sequences out of 15000+600000
  22556 words of font info for 63 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  39i,12n,53p,1665b,2339s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1034,10 +1034,10 @@ s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on thesis.pdf (81 pages, 736501 bytes).
+Output written on thesis.pdf (81 pages, 739390 bytes).
 PDF statistics:
- 2034 PDF objects out of 2073 (max. 8388607)
- 1334 compressed objects within 14 object streams
- 283 named destinations out of 1000 (max. 500000)
+ 2055 PDF objects out of 2073 (max. 8388607)
+ 1355 compressed objects within 14 object streams
+ 286 named destinations out of 1000 (max. 500000)
  498 words of extra memory for PDF output out of 10000 (max. 10000000)
 

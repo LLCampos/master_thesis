@@ -1,4 +1,4 @@
-\begin{thebibliography}{58}
+\begin{thebibliography}{61}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aires {\em et~al.\/}(2016)Aires, Lopes \& Gomes}]{Aires2016}
@@ -129,6 +129,14 @@
 {\sc Gerstmair, A., Daumke, P., Simon, K., Langer, M. \& Kotter, E.} (2012).
   {Intelligent image retrieval based on radiology reports}. {\em European
   Radiology\/}, {\bf 22}, 2750--2758.
+
+\bibitem[{Groza {\em et~al.\/}(2015)Groza, K{\"{o}}hler, Doelken, Collier,
+  Oellrich, Smedley, Couto, Baynam, Zankl \& Robinson}]{Groza2015}
+{\sc Groza, T., K{\"{o}}hler, S., Doelken, S., Collier, N., Oellrich, A.,
+  Smedley, D., Couto, F.M., Baynam, G., Zankl, A. \& Robinson, P.N.} (2015).
+  {Automatic concept recognition using the human phenotype ontology reference
+  and test suite corpora}. {\em Database : the journal of biological databases
+  and curation\/}, {\bf 2015}, bav005--bav005.
 
 \bibitem[{Hassanpour \& Langlotz(2016)}]{Hassanpour2016}
 {\sc Hassanpour, S. \& Langlotz, C.P.} (2016). {Information extraction from
@@ -329,6 +337,11 @@
   brachial plexus using AIM and radlex}. {\em Radiographics\/}, {\bf 35},
   142--151.
 
+\bibitem[{Wei {\em et~al.\/}(2016)Wei, Chen, Xu, He \& Gui}]{Wei2016}
+{\sc Wei, Q., Chen, T., Xu, R., He, Y. \& Gui, L.} (2016). {Disease named
+  entity recognition by combining conditional random fields and bidirectional
+  recurrent neural networks}. {\em Database\/}, {\bf 2016}, 1--8.
+
 \bibitem[{Wo{\l}k \& Marasek(2015)}]{Wok2015}
 {\sc Wo{\l}k, K. \& Marasek, K.} (2015). {Neural-based Machine Translation for
   Medical Text Domain. Based on European Medicines Agency Leaflet Texts}. In
@@ -345,5 +358,11 @@
   multilingual machine translation help make medical record content more
   comprehensible to patients?} In {\em Studies in Health Technology and
   Informatics\/}, vol. 160, 73--77.
+
+\bibitem[{Zhang {\em et~al.\/}(2016)Zhang, Xu, Chen, Wang, Wu, Prakasam \&
+  Xu}]{Zhang2016}
+{\sc Zhang, Y., Xu, J., Chen, H., Wang, J., Wu, Y., Prakasam, M. \& Xu, H.}
+  (2016). {Chemical named entity recognition in patents by domain knowledge and
+  unsupervised feature learning}. {\em Database (Oxford)\/}, {\bf 2016}, 1--10.
 
 \end{thebibliography}
