@@ -1,5 +1,10 @@
 \begin{abstractspt}
 
+Os relatórios de Radiologia descrevem os resultados dos procedimentos de radiografia e têm o potencial de ser uma fonte de informação útil que pode trazer benefícios para os sistemas de saúde ao redor do mundo. Uma maneira de extrair automaticamente informação dos relatórios é usando ferramentas de Prospeção de Texto \textit{Text Mining}. O problema é que estas ferramentas são principalmente desenvolvidas para Inglês e os relatórios são geralmente escritos na língua nativa do radiologista, que não é necessariamente o Inglês. Isso cria um obstáculo para a partilha de informação de Radiologia entre diferentes comunidades.
+
+Este trabalho explora a solução de traduzir os relatórios para Inglês antes de aplicar as ferramentas de Prospeção de Texto, analisando a questão de qual abordagem de tradução que deve ser usada. Com este fim, criei MRRAD (\textit{Multilingual Radiology Research Articles Dataset}), um corpus paralelo de artigos portugueses de investigação relacionadas com Radiologia, e uma série de traduções alternativas (humanas, automáticas e semi-automáticas) para Inglês. Este é um corpus original que pode ser usado no avanço da investigação sobre este tema. 
+
+Usando o MRRAD estudei que tipo de abordagem de tradução automática ou semi-automática é mais eficaz na tarefa de Reconhecimento de Entidades RadLex na versão em Inglês dos artigos. Considerando os termos extraídos das traduções humanas como o nosso \textit{gold-standard}, calculei o quão semelhante a este \textit{standard} foram os termos extraídos usando outras abordagens de tradução. Descobri que uma abordagem completamente automática de tradução utilizando o Google leva a F-Scores (entre 0,861 e 0,868, dependendo da abordagem de reconhecimento) semelhantes aos obtidos através de uma abordagem mais cara, tradução semi-automática usando Unbabel (entre 0,862 e 0,870). Para entender melhor os resultados, também realizei uma análise qualitativa do tipo de erros encontrados nas traduções automáticas e semi-automáticas.
 
 \end{abstractspt}
 
