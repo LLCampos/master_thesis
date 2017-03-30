@@ -3,56 +3,55 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: Preface/resumo.aux
 A level-1 auxiliary file: Preface/abstract.aux
-A level-1 auxiliary file: Preface/resumolongo.aux
 A level-1 auxiliary file: Preface/acknowledgements.aux
-A level-1 auxiliary file: Preface/dedication.aux
 The style file: Classes/jmb.bst
 Database file #1: References/library.bib
-Warning--I didn't find a database entry for "Manning"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in Bretschneider
+Warning--empty year in Manning2009b; set to ????
+Warning--missing publisher in Manning2009b
 Warning--missing publisher in Manning2009c
 Warning--missing publisher in Manning2009a
 Warning--missing publisher in Tatsumi2012a
-You've used 62 entries,
+You've used 64 entries,
             3009 wiz_defined-function locations,
-            1065 strings with 18967 characters,
-and the built_in function-call counts, 43842 in all, are:
-= -- 3694
-> -- 2355
-< -- 31
-+ -- 827
-- -- 764
-* -- 3700
-:= -- 6537
-add.period$ -- 184
-call.type$ -- 62
-change.case$ -- 592
-chr.to.int$ -- 61
-cite$ -- 66
-duplicate$ -- 2992
-empty$ -- 2946
-format.name$ -- 959
-if$ -- 8762
+            1071 strings with 19266 characters,
+and the built_in function-call counts, 45488 in all, are:
+= -- 3813
+> -- 2474
+< -- 32
++ -- 868
+- -- 803
+* -- 3855
+:= -- 6783
+add.period$ -- 190
+call.type$ -- 64
+change.case$ -- 617
+chr.to.int$ -- 63
+cite$ -- 70
+duplicate$ -- 3099
+empty$ -- 3046
+format.name$ -- 1004
+if$ -- 9081
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 618
-newline$ -- 190
-num.names$ -- 249
-pop$ -- 1390
+missing$ -- 643
+newline$ -- 196
+num.names$ -- 257
+pop$ -- 1456
 preamble$ -- 1
-purify$ -- 503
+purify$ -- 524
 quote$ -- 0
-skip$ -- 1219
+skip$ -- 1256
 stack$ -- 0
-substring$ -- 1922
-swap$ -- 1672
-text.length$ -- 8
+substring$ -- 1962
+swap$ -- 1735
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 549
-warning$ -- 4
-while$ -- 298
+type$ -- 567
+warning$ -- 6
+while$ -- 305
 width$ -- 0
-write$ -- 684
-(There were 5 warnings)
+write$ -- 706
+(There were 6 warnings)

@@ -12,44 +12,48 @@
 \contentsline {subsubsection}{\numberline {2.1.2.2}Stemming and Lemmatization}{9}{subsubsection.2.1.2.2}
 \contentsline {subsection}{\numberline {2.1.3}Application of Text Mining on Radiology Reports}{9}{subsection.2.1.3}
 \contentsline {subsection}{\numberline {2.1.4}Ontologies}{10}{subsection.2.1.4}
-\contentsline {section}{\numberline {2.2}Translation}{11}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Terminology}{11}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Machine Translation}{11}{subsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.2.1}Word-Based Models}{12}{subsubsection.2.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2.2}Phrase-Based Models}{14}{subsubsection.2.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Post-editing}{14}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Machine Translation Services}{15}{subsection.2.2.4}
-\contentsline {subsubsection}{\numberline {2.2.4.1}Yandex}{15}{subsubsection.2.2.4.1}
-\contentsline {subsubsection}{\numberline {2.2.4.2}Google}{15}{subsubsection.2.2.4.2}
-\contentsline {subsubsection}{\numberline {2.2.4.3}Unbabel}{15}{subsubsection.2.2.4.3}
-\contentsline {subsection}{\numberline {2.2.5}Translation of Medical Text}{16}{subsection.2.2.5}
-\contentsline {subsubsection}{\numberline {2.2.5.1}Multilingual Text Mining}{16}{subsubsection.2.2.5.1}
-\contentsline {subsubsection}{\numberline {2.2.5.2}Machine Translation of Doctor-Patient Communication}{16}{subsubsection.2.2.5.2}
-\contentsline {subsubsection}{\numberline {2.2.5.3}Machine Translation of Public-Health Information}{17}{subsubsection.2.2.5.3}
-\contentsline {subsubsection}{\numberline {2.2.5.4}Machine Translation for Information Retrieval}{18}{subsubsection.2.2.5.4}
-\contentsline {subsubsection}{\numberline {2.2.5.5}Machine Translation of Other Types of Medical Text}{18}{subsubsection.2.2.5.5}
-\contentsline {subsection}{\numberline {2.2.6}Translation of Biomedical Lexicons}{19}{subsection.2.2.6}
-\contentsline {section}{\numberline {2.3}External Tools and Terminologies}{19}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}RadLex}{20}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Open Biomedical Annotator}{21}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}NOBLE Coder}{22}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Evaluation Metrics}{24}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Micro- and Macro- Evaluation Metrics}{26}{subsection.2.4.1}
-\contentsline {chapter}{\numberline {3}Framework}{27}{chapter.3}
-\contentsline {section}{\numberline {3.1}MRRAD (Multilingual Radiology Research Articles Dataset) Corpus}{27}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Web Crawl of the articles (1,2)}{28}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Note On Human Translations}{28}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Yandex Translation (3)}{29}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Google and Unbabel Translation (4,5)}{29}{subsection.3.1.4}
-\contentsline {section}{\numberline {3.2}Annotation}{30}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Direct Match - Annotation with Open Biomedical Annotator}{30}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}All Match and Best Match - Annotation with NOBLE Coder}{30}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Evaluation}{31}{section.3.3}
-\contentsline {chapter}{\numberline {4}Experimental Results}{33}{chapter.4}
-\contentsline {section}{\numberline {4.1}NER Lexicon-based approach}{33}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Clinical Finding and Anatomical Entity Subtrees}{36}{subsection.4.1.1}
-\contentsline {chapter}{\numberline {5}Conclusions}{41}{chapter.5}
-\contentsline {chapter}{References}{43}{section*.4}
-\contentsline {chapter}{Commands used to run NOBLE Coder}{51}{appendix*.6}
-\contentsline {chapter}{Uploading RadLex ontology to NOBLE}{53}{appendix*.7}
-\contentsline {chapter}{Macro Evaluations}{55}{appendix*.8}
+\contentsline {subsection}{\numberline {2.1.5}Datasets and Corpora}{11}{subsection.2.1.5}
+\contentsline {subsubsection}{\numberline {2.1.5.1}MIMIC II Clinical Database and MIMIC III Critical Care Database}{11}{subsubsection.2.1.5.1}
+\contentsline {subsubsection}{\numberline {2.1.5.2}Lurie Children's Teaching File Library}{11}{subsubsection.2.1.5.2}
+\contentsline {subsubsection}{\numberline {2.1.5.3}iDASH - Clinical Notes and Reports}{12}{subsubsection.2.1.5.3}
+\contentsline {section}{\numberline {2.2}Translation}{12}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Terminology}{12}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Machine Translation}{12}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Word-Based Models}{13}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Phrase-Based Models}{15}{subsubsection.2.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Post-editing}{15}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Machine Translation Services}{16}{subsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.4.1}Yandex}{16}{subsubsection.2.2.4.1}
+\contentsline {subsubsection}{\numberline {2.2.4.2}Google}{16}{subsubsection.2.2.4.2}
+\contentsline {subsubsection}{\numberline {2.2.4.3}Unbabel}{16}{subsubsection.2.2.4.3}
+\contentsline {subsection}{\numberline {2.2.5}Translation of Medical Text}{17}{subsection.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.5.1}Multilingual Text Mining}{17}{subsubsection.2.2.5.1}
+\contentsline {subsubsection}{\numberline {2.2.5.2}Machine Translation of Doctor-Patient Communication}{17}{subsubsection.2.2.5.2}
+\contentsline {subsubsection}{\numberline {2.2.5.3}Machine Translation of Public-Health Information}{18}{subsubsection.2.2.5.3}
+\contentsline {subsubsection}{\numberline {2.2.5.4}Machine Translation for Information Retrieval}{19}{subsubsection.2.2.5.4}
+\contentsline {subsubsection}{\numberline {2.2.5.5}Machine Translation of Other Types of Medical Text}{19}{subsubsection.2.2.5.5}
+\contentsline {subsection}{\numberline {2.2.6}Translation of Biomedical Lexicons}{20}{subsection.2.2.6}
+\contentsline {section}{\numberline {2.3}External Tools and Terminologies}{20}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}RadLex}{21}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Open Biomedical Annotator}{22}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}NOBLE Coder}{23}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Evaluation Metrics}{25}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Micro- and Macro- Evaluation Metrics}{27}{subsection.2.4.1}
+\contentsline {chapter}{\numberline {3}Framework}{29}{chapter.3}
+\contentsline {section}{\numberline {3.1}MRRAD (Multilingual Radiology Research Articles Dataset) Corpus}{29}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Web Crawl of the articles (1,2)}{30}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Note On Human Translations}{30}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Yandex Translation (3)}{31}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Google and Unbabel Translation (4,5)}{31}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}Annotation}{32}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Direct Match - Annotation with Open Biomedical Annotator}{32}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}All Match and Best Match - Annotation with NOBLE Coder}{32}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Evaluation}{33}{section.3.3}
+\contentsline {chapter}{\numberline {4}Experimental Results}{35}{chapter.4}
+\contentsline {section}{\numberline {4.1}NER Lexicon-based approach}{35}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Clinical Finding and Anatomical Entity Subtrees}{38}{subsection.4.1.1}
+\contentsline {chapter}{\numberline {5}Conclusions}{43}{chapter.5}
+\contentsline {chapter}{References}{45}{section*.4}
+\contentsline {chapter}{Commands used to run NOBLE Coder}{53}{appendix*.6}
+\contentsline {chapter}{Uploading RadLex ontology to NOBLE}{55}{appendix*.7}
+\contentsline {chapter}{Macro Evaluations}{57}{appendix*.8}
