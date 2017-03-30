@@ -401,7 +401,7 @@
   \college{\href{http://www.fc.ul.pt}{FACULDADE DE CI\^{E}NCIAS}}
   \department{\href{http://www.di.fc.ul.pt}{DEPARTAMENTO DE INFORM\'{A}TICA}}
   \university{\href{http://www.ul.pt}{UNIVERSIDADE DE LISBOA}}
-  \crest{\includegraphics[width=5cm]{ULISBOA_VERTICAL_RGB}}
+  \crest{\includegraphics[width=10cm]{logo_fcul}}
   \crestsmall{\includegraphics[width=1cm]{ULISBOA_VERTICAL_RGB}}
 \fi
 
@@ -504,6 +504,10 @@
     \if@thtypemsc
 ESPECIALIDADE EM \@speciality
      \fi
+     
+  \vspace{\@thsubjskip}
+  {Disserta\c{c}\~{a}o orientada por:\\ Prof. Doutor \@thadv}\\
+  \if@coadv{Dr. \@thcoadv} \fi
 
     }
 
@@ -514,49 +518,47 @@ ESPECIALIDADE EM \@speciality
 \cleardoublepage
 % end of the exterior thesis cover
 % To produce the interior thesis cover
-\begin{center}
-\centerline{{\@university}}
-\centerline{{\@college}}
-\centerline{{\@deptartment}}
-\end{center}
-  \centerline{{\@crest}}
-  \begin{center}
-    %\vspace{\@thlogoskip}
-    {\Large
-       \bf{\@title}
-    }
-    \vskip \@thtitleskipcover
-    {\large
-      \if@thauthemail
-        \bf{\href{mailto:\@thauthemail}{\@author}}
-      \else
-        \bf{\@author}
-      \fi
-    }
-    \vskip \@thauthskip
-    {
-
-    }
-
-    \vspace{\@thsubjskip}
-	\@thesisname
-	
-	\@degreename\ EM BIOINFORM\'{A}TICA E BIOLOGIA COMPUTACIONAL  
-	
-	    \if@thtypemsc
-	ESPECIALIDADE EM \@speciality
-	     \fi
-	
-	
-	    \vspace{\@thsubjskip}
-  {Tese orientada pelo Prof. Doutor \@thadv}
-  \if@coadv{e pelo Dr. \@thcoadv} \fi
-  
-    \vspace{\@thsubjskip}
-      
-    {\@degreedate}
-  \end{center}
-  \cleardoublepage
+%\begin{center}
+%\centerline{{\@university}}
+%\centerline{{\@college}}
+%\centerline{{\@deptartment}}
+%\end{center}
+%  \centerline{{\@crest}}
+%  \begin{center}
+%    %\vspace{\@thlogoskip}
+%    {\Large
+%       \bf{\@title}
+%    }
+%    \vskip \@thtitleskipcover
+%    {\large
+%      \if@thauthemail
+%        \bf{\href{mailto:\@thauthemail}{\@author}}
+%      \else
+%        \bf{\@author}
+%      \fi
+%    }
+%    \vskip \@thauthskip
+%    {
+%    }
+%    \vspace{\@thsubjskip}
+%    \@thesisname
+%    
+%    \@degreename\ EM BIOINFORM\'{A}TICA E BIOLOGIA COMPUTACIONAL  
+%    
+%        \if@thtypemsc
+%    ESPECIALIDADE EM \@speciality
+%         \fi
+%    
+%    
+%        \vspace{\@thsubjskip}
+%  {Disserta\c{c}\~{a}o orientada por:\\ Prof. Doutor \@thadv}\\
+%  \if@coadv{Dr. \@thcoadv} \fi
+%  
+%    \vspace{\@thsubjskip}
+%      
+%    {\@degreedate}
+%  \end{center}
+%  \cleardoublepage
 \else
 \begin{alwayssingle}
     \renewcommand{\footnotesize}{\small}

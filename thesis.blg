@@ -6,56 +6,53 @@ A level-1 auxiliary file: Preface/abstract.aux
 A level-1 auxiliary file: Preface/resumolongo.aux
 A level-1 auxiliary file: Preface/acknowledgements.aux
 A level-1 auxiliary file: Preface/dedication.aux
-White space in argument---line 80 of file thesis.aux
- : \citation{Gerstmair
- :                     2012}
-I'm skipping whatever remains of this command
 The style file: Classes/jmb.bst
 Database file #1: References/library.bib
+Warning--I didn't find a database entry for "Manning"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in Bretschneider
 Warning--missing publisher in Manning2009c
 Warning--missing publisher in Manning2009a
 Warning--missing publisher in Tatsumi2012a
-You've used 61 entries,
+You've used 62 entries,
             3009 wiz_defined-function locations,
-            1056 strings with 18796 characters,
-and the built_in function-call counts, 43184 in all, are:
-= -- 3627
-> -- 2336
-< -- 30
-+ -- 820
-- -- 758
-* -- 3657
-:= -- 6444
-add.period$ -- 181
-call.type$ -- 61
-change.case$ -- 585
-chr.to.int$ -- 60
-cite$ -- 65
-duplicate$ -- 2943
-empty$ -- 2898
-format.name$ -- 948
-if$ -- 8620
+            1065 strings with 18967 characters,
+and the built_in function-call counts, 43842 in all, are:
+= -- 3694
+> -- 2355
+< -- 31
++ -- 827
+- -- 764
+* -- 3700
+:= -- 6537
+add.period$ -- 184
+call.type$ -- 62
+change.case$ -- 592
+chr.to.int$ -- 61
+cite$ -- 66
+duplicate$ -- 2992
+empty$ -- 2946
+format.name$ -- 959
+if$ -- 8762
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 611
-newline$ -- 187
-num.names$ -- 245
-pop$ -- 1373
+missing$ -- 618
+newline$ -- 190
+num.names$ -- 249
+pop$ -- 1390
 preamble$ -- 1
-purify$ -- 497
+purify$ -- 503
 quote$ -- 0
-skip$ -- 1192
+skip$ -- 1219
 stack$ -- 0
-substring$ -- 1879
-swap$ -- 1646
+substring$ -- 1922
+swap$ -- 1672
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 540
+type$ -- 549
 warning$ -- 4
-while$ -- 292
+while$ -- 298
 width$ -- 0
-write$ -- 673
-(There was 1 error message)
+write$ -- 684
+(There were 5 warnings)
