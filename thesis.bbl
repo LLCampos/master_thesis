@@ -1,4 +1,4 @@
-\begin{thebibliography}{64}
+\begin{thebibliography}{65}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aires {\em et~al.\/}(2016)Aires, Lopes \& Gomes}]{Aires2016}
@@ -265,6 +265,13 @@
 {\sc Mohit, B.} (2014). {Named Entity Recognition}. In I.~Zitouni, ed., {\em
   Natural Language Processing of Semitic Languages\/}, chap.~7, 221--246,
   Springer.
+
+\bibitem[{Monteiro {\em et~al.\/}(2016)Monteiro, Sernadela, Matos, Costa \&
+  Oliveira}]{Monteiro2016}
+{\sc Monteiro, E., Sernadela, P., Matos, S., Costa, C. \& Oliveira, J.L.}
+  (2016). {Semantic Knowledge Base Construction from Radiology Reports}. {\em
+  Proceedings of the 9th International Joint Conference on Biomedical
+  Engineering Systems and Technologies\/}, {\bf 5}, 345--352.
 
 \bibitem[{Musleh {\em et~al.\/}(2016)Musleh, Durrani, Temnikova, Nakov, Vogel
   \& Alsaad}]{Musleh2016}
