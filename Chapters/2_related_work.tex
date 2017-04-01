@@ -8,7 +8,7 @@ Text Mining consists in the machine supported analysis of text \citep{Hotho2005}
 \subsection{Named-entity Recognition}
 \label{Named-entity Recognition}
 
-Named-entity recognition (NER) is a task of Text Mining that has the goal of locate and classify all the named-entities in a certain document. Named-entities are elements of the text that belong to one of certain predefined classes. For example, there are NER systems that can recognize mentions of chemical entities \citep{Zhang2016}, diseases \citep{Wei2016} or terms from specific ontologies like HPO (Human Phenotype Ontology) \citep{Groza2015}. Considering the case of diseases , in the phrase \textit{Atrial fibrillation has strong associations with other cardiovascular diseases} the term \textit{Atrial fibrillation} is a named-entity that represents a disease. This is a relevant task since the outputs from NER systems can be used in Image Retrieval \citep{Gerstmair2012} and Information Retrieval \citep{Antony2015} systems and can be useful for improving automatic Question Answering \citep{Toral2005}.
+Named-entity recognition (NER) is a task of Text Mining that has the goal of locate and classify all the named-entities in a certain document. Named-entities are elements of the text that belong to one of certain predefined classes. For example, there are NER systems that can recognize mentions of chemical entities \citep{Zhang2016}, diseases \citep{Wei2016} or terms from specific ontologies like HPO (Human Phenotype Ontology) \citep{Groza2015}. Considering the case of diseases, in the phrase \textit{Atrial fibrillation has strong associations with other cardiovascular diseases} the term \textit{Atrial fibrillation} is a named-entity that represents a disease. This is a relevant task since the outputs from NER systems can be used in Image Retrieval \citep{Gerstmair2012} and Information Retrieval \citep{Antony2015} systems and can be useful for improving automatic Question Answering \citep{Toral2005}.
 
 The approaches of NER can be divided into three categories \citep{Mohit2014}: Rule-based approaches, Machine Learning based approaches and hybrid approaches.
 
@@ -18,7 +18,7 @@ The approaches of NER can be divided into three categories \citep{Mohit2014}: Ru
 \item Hybrids approaches combines the two last approaches.
 \end{itemize}
 
-Lexicon based-approaches are a subset of the rule-based approaches. In this approach we already have a list of the named-entities (a lexicon) that we want to identify in the text. For example, if we want to identify chemical entities in text, we use a chemical-entities lexicon. The goal of the lexicon based-approach is then to identify, in text, mentions of terms presented in the lexicon. This could be done by direct matching, as implemented by the Open Biomedical Annotator \footnote{\url{http://bioportal.bioontology.org/annotator}} \citep{Jonquet2009}. In this strategy, the system only tries to find in text terms that are also in the lexicon, not considering, for example, lexical variations. The recall can be lower than expected because lexical variants (like plurals), abbreviations and partial matchings of lexicon terms are not recognized in the text. For this purpose, more complex tools like NOBLE Coder\footnote{\url{http://noble-tools.dbmi.pitt.edu/}} \citep{Tseytlin2016} or Concept Mapper \citep{Stewart} can be used.
+Lexicon based-approaches are a subset of the rule-based approaches. In this approach we already have a list of the named-entities (a lexicon) that we want to identify in the text. For example, if we want to identify chemical entities in text, we use a chemical-entities lexicon. The goal of the lexicon based-approach is then to identify, in text, mentions of terms presented in the lexicon. This could be done by direct matching, as implemented by the Open Biomedical Annotator\footnote{\url{http://bioportal.bioontology.org/annotator}} \citep{Jonquet2009}. In this strategy, the system only tries to find in text terms that are also in the lexicon, not considering, for example, lexical variations. The recall can be lower than expected because lexical variants (like plurals), abbreviations and partial matchings of lexicon terms are not recognized in the text. For this purpose, more complex tools like NOBLE Coder\footnote{\url{http://noble-tools.dbmi.pitt.edu/}} \citep{Tseytlin2016} or Concept Mapper \citep{Stewart} can be used.
 
 \subsection{Natural Language Processing}
 
@@ -28,7 +28,7 @@ Because Text Mining has to manipulate text, it is not too surprising that it bor
 
 Tokenization is one of the main tasks of NLP and consists in dividing a certain text in pieces called \textit{tokens}. A token can be defined as "an instance
 of a sequence of characters in some particular document that are grouped
-together as a useful semantic unit for processing" \citep{Manning2009a}. So, for the sentence \textit{the mother had a surgery}, it is possible to divide it in five tokens, one for which word, using the heuristic that each token is separated by a whitespace. For more complicated text, one could intuitively think that a good strategy would be to split on all non-alphanumeric characters, but this sometimes raises problems. This strategy would tokenize \textit{isn't} in \textit{isn} and \textit{t} which is intuitively wrong. More complicated strategies are needed. Relevant to this work, the tokenization strategies used are language specific. One should not use a English tokenizer to tokenize Portuguese text \citep{Branco2003}.
+together as a useful semantic unit for processing" \citep{Manning2009a}. So, for the sentence \textit{the mother had a surgery}, it is possible to divide it in five tokens, one for which word, using the heuristic that each token is separated by a whitespace. For more complicated text, one could intuitively think that a good strategy would be to split on all non-alphanumeric characters, but this sometimes raises problems. This strategy would tokenize \textit{isn't} in \textit{isn} and \textit{t} which is intuitively wrong. More complicated strategies are needed. Relevant to this work, the tokenization strategies used are language specific. For example, one should not use an English tokenizer to tokenize Portuguese text \citep{Branco2003}.
 
 \subsubsection{Stemming and Lemmatization}
 
@@ -38,7 +38,7 @@ Sometimes it is necessary to normalize lexical variations of a word to a base fo
 
 Text Mining tools can be used for automatic detection of important findings in Radiology Reports. For example, \citep{Dreyer2005} used an algorithm based on information theory to classify reports as having or not having important clinical findings and as having or not having recommendations for subsequent action. \citep{Cotik2015} did something similar for Spanish reports, using a translation of RadLex terms. These tools can also be used to detect the presence of more specific findings, as the presence of invasive mold diseases  \citep{Ananda-Rajah2014a} or invasive fungal diseases \citep{Martinez2015}, both using a classifier based on a Support Vector Machine. Also possible is to extract general information about reports \citep{Hassanpour2016} and the data obtained can be used as input to other tools.
 
-In literature it's possible to find some examples of Radiology reports/images search applications, that use NLP tools. The goals of these search tools include search for educational, research and clinical decision support purposes. One example of such a system is Render \citep{Dang2009}, which even applies one of the information extraction system mentioned above \citep{Dreyer2005} to improve relevance of information retrieved.
+In literature its possible to find some examples of Radiology reports/images search applications, that use NLP tools. The goals of these search tools include search for educational, research and clinical decision support purposes. One example of such a system is Render \citep{Dang2009}, which even applies one of the information extraction system mentioned above \citep{Dreyer2005} to improve the relevance of the retrieved information.
 
 Other applications include studying the appropriateness of existing Radiology reports templates, as done by \citep{Hong2013}.
 
@@ -46,27 +46,27 @@ Other applications include studying the appropriateness of existing Radiology re
 
 To answer the questions presented in Chapter \ref{chap1}, the RadLex ontology is used. An ontology is a "common, controlled knowledge representation designed to help knowledge sharing and computer reasoning" \citep{Robinson2011}. It is a way to represent a subset of the real word  which can be used as basis for communication between parties wanting to change information about that subset of the real word.
 
-RadLex, for example, is a representation of the subset of the world related to Radiology which can be used as standard on how to talk about Radiology. Ontologies usually have a tree structure in which a class, representing some abstract entity in the real world, can have subclasses. For example, in RadLex, there is the class \textit{clinical finding} which has subclasses \textit{benign finding} and \textit{pathophysiologic finding} (among others). This subclasses have a \textit{is a} relationship with their parent classes: \textit{benign finding} is a \textit{clinical finding}. Other common relationship used in ontologies is the \textit{part of} relationship.
+RadLex, for example, is a representation of the subset of the world related to Radiology which can be used as a standard on how to talk about Radiology. Ontologies usually have a tree structure in which a class, representing some abstract entity in the real world, can have subclasses. For example, in RadLex, there is the class \textit{clinical finding} which has subclasses \textit{benign finding} and \textit{pathophysiologic finding} (among others). This subclasses have a \textit{is a} relationship with their parent classes: \textit{benign finding} is a \textit{clinical finding}. Other common relationship used in ontologies is the \textit{part of} relationship.
 
 Other popular examples of ontologies include the Gene Ontology\footnote{\url{http://www.geneontology.org/}}, focused on genomics, SNOMED CT\footnote{\url{http://www.snomed.org/snomed-ct}}, a healthcare related ontology and ChEBI\footnote{\url{https://www.ebi.ac.uk/chebi/}}, an ontology of small molecular entities.
 
-\subsection{Datasets and Corpora}
+\section{Datasets and Corpora}
 
 Since one of the main goals of this thesis was to study Radiology reports, I did research on the available relevant datasets/corpora. Although I found a lot of public accessible Radiology documents, translations were not available and so they were not used in the work leading to this dissertation. A briefly description of each of the datasets/corpora found is presented next. 
 
-\subsubsection{MIMIC II Clinical Database and MIMIC III Critical Care Database}
+\subsection{MIMIC II Clinical Database and MIMIC III Critical Care Database}
 
-The MIMIC II Clinical Database\footnote{\url{https://physionet.org/mimic2/mimic2\_clinical\_overview.shtml}} is one of the MIMIC II (Multiparameter Intelligent Monitoring in Intensive Care) Databases. This dataset contains clinical data on tens of thousands of patients in Intensive Care Units, collected between 2001 and 2008. The data includes radiology a number of procedures reports, including radiology reports. 
+The MIMIC II Clinical Database\footnote{\url{https://physionet.org/mimic2/mimic2\_clinical\_overview.shtml}} is one of the MIMIC II (Multiparameter Intelligent Monitoring in Intensive Care) Databases. This dataset contains clinical data on tens of thousands of patients in Intensive Care Units, collected between 2001 and 2008. The data includes a number of procedures reports, including Radiology reports. 
 
 In August of 2015, a extension of MIMIC II was launched, called MIMIC III\footnote{\url{https://mimic.physionet.org/}} (Medical Information Mart for Intensive Care III)\citep{Johnson2016}, containing new data collected between 2008 and 2012.
 
-\subsubsection{Lurie Children's Teaching File Library}
+\subsection{Lurie Children's Teaching File Library}
 
 The Medical Imaging Resource Community (MIRC) is an open-source project which aims to develop free software tools for education and research in Radiology. Lurie Children's Hospital of Chicago\footnote{\url{https://www.luriechildrens.org/en-us/Pages/index.aspx}} makes use of one of these tools, the Teaching Files System (TFS), to make available\footnote{\url{http://mirc.luriechildrens.org/query}}, for education purposes, more than 2.000 Radiology reports accompanied with corresponding Radiology images. 
  
-\subsubsection{iDASH - Clinical Notes and Reports}
+\subsection{iDASH - Clinical Notes and Reports}
 
-iDASH\footnote{\url{https://idash.ucsd.edu/}} openly provides 2363 medical transcription samples, including radiology reports, extracted from Medical Transcription Samples website\footnote{url{http://www.medicaltranscriptionsamples.com}}. 
+iDASH\footnote{\url{https://idash.ucsd.edu/}} openly provides 2.363 medical transcription samples, including Radiology reports, extracted from Medical Transcription Samples website\footnote{url{http://www.medicaltranscriptionsamples.com}}. 
 
 \section{Translation}
 
@@ -93,7 +93,7 @@ These kind of models are not the state of the art anymore, but many of the princ
 \textbf{Portuguese} -  O  osso   está     partido
 \end{center}
 
-This is easy for a human to translate, but how would a computer know that \textit{partido} is the translation of \textit{broken} when \textit{broken} has other potential translations? For example, the word \textit{broken} could be interpreted as being financially ruined, as in “I’ve spent all the money in the casino, I'm completely \textit{broken}". In that case, \textit{broken} would be translated to \textit{falido}. Of course, this doesn't make sense but the computer does not know that.
+This is easy for a human to translate, but how would a computer know that \textit{partido} is the translation of \textit{broken} when \textit{broken} has other potential translations? For example, the word \textit{broken} could be interpreted as being financially ruined, as in "I’ve spent all the money in the casino, I'm completely \textit{broken}". In that case, \textit{broken} would be translated to \textit{falido}. Of course, this does not make sense but the computer does not know that.
 
 One way to teach the computer which translation to use would be to pick a large collection of English texts paired with the corresponding Portuguese translation and check how many times \textit{broken} is translated to \textit{partido} and how many times it is translated to \textit{falido}. Lets assume that in our collection of texts the word \textit{broken} is translated to \textit{partido} 80\% of the times and to \textit{falido} 20\% of the time. With this we could create a lexical translation probability table for the word \textit{broken}. We could have a table like this for every word in the source text.
 
@@ -111,9 +111,9 @@ t                     & p(t|s)      \\ \hline
 
 Here \textit{t} stands for target, \textit{s} stands for source and \textit{p(t|s)} is the probability that the target word is the translation of the source word. So, when the computer is translating the sentence above and arrives to the word \textit{broken}, it checks the table and chooses \textit{partido} as the translation because it has the higher probability of being the real translation. This type of estimation is called maximum likelihood estimation. What we are doing here is estimating what is called lexical translation probability distributions.
 
-The example above was easy because the sentences were aligned word by word. This is not always the case. For example, the English expression \textit{red swelling} should be translated to \textit{inchaço vermelho}, not \textit{vermelho inchaço}\footnote{\textit{red} can be translated to \textit{vermelho} and \textit{swelling} to \textit{inchaço}}. Meaning, sometimes we must do some word reordering so that the translation is correct. This is accommodated by using an alignment model. But how can we generate an alignment model from a pair of collection of texts if we don't know which word is aligned with which word? This is done by using the expectation maximization algorithm, which, in this case, iteratively applies the alignment model to the texts (expectation step) and learns the alignment model from the texts (maximization step) until convergence of the parameters in the algorithm.
+The example above was easy because the sentences were aligned word by word. This is not always the case. For example, the English expression \textit{red swelling} should be translated to \textit{inchaço vermelho}, not \textit{vermelho inchaço}\footnote{\textit{red} can be translated to \textit{vermelho} and \textit{swelling} to \textit{inchaço}}. Meaning, sometimes we must do some word reordering so that the translation is correct. This is accommodated by using an alignment model. But how can we generate an alignment model from a pair of collection of texts if we do not know which word is aligned with which word? This is done by using the expectation maximization algorithm, which, in this case, iteratively applies the alignment model to the texts (expectation step) and learns the alignment model from the texts (maximization step) until convergence of the parameters in the algorithm.
 
-With the lexical translation probability distributions and an alignment model we have a translation model. But this is not enough. A translation could be syntactically and semantically right but still not sounding right. For example, two possible translations of \textit{chá forte} are \textit{strong tea} and \textit{powerful tea}. However, the second option doesn't sound right, it is not fluent. This problem is solved by using a language model. With an English language model, for example, we could calculate the probability that a certain sentence is correct English, considering all the data that was used to train the model. A language model would probably give a low probability to the phrase \textit{powerful tea} because normally the word powerful is not used with the word \textit{tea}.
+With the lexical translation probability distributions and an alignment model we have a translation model. But this is not enough. A translation could be syntactically and semantically right but still not sounding right. For example, two possible translations of \textit{chá forte} are \textit{strong tea} and \textit{powerful tea}. However, the second option does not sound right, it is not fluent. This problem is solved by using a language model. With an English language model, for example, we could calculate the probability that a certain sentence is correct English, considering all the data that was used to train the model. A language model would probably give a low probability to the phrase \textit{powerful tea} because normally the word \textit{powerful} is not used with the word \textit{tea}.
 
 We combine the language model and the translation model this way:
 
@@ -122,7 +122,7 @@ We combine the language model and the translation model this way:
 \end{equation}
 
 
-We want to find the target word (\textit{t}) with the higher probability of being the translation of the source word (\textit{s}). $\Pr(t|s)$ represents the translation model and the the $\Pr(t)$ represents the language model. This way of combining the translation and the language models is called noisy-channel model.
+We want to find the target word (\textit{t}) with the higher probability of being the translation of the source word (\textit{s}). $\Pr(s|t)$ represents the translation model and the the $\Pr(t)$ represents the language model. This way of combining the translation and the language models is called noisy-channel model.
 
 \subsubsection{Phrase-Based Models}
 
@@ -130,7 +130,7 @@ In this approach, instead of translating a sentence word by word we translate sm
 
 \subsection{Post-editing}
 
-Post-editing (PE) is the task of editing, modifying and/or correcting a text that was pre-translated by use of MT, in order to improve the translation. \citep{Somers2003} refers to the lower cost of MT+PE compared with HT to explain the growth of PE: companies want to become global but can't afford the cost of HT to translate from native language to the many languages they want to operate on.
+Post-editing (PE) is the task of editing, modifying and/or correcting a text that was pre-translated by use of MT, in order to improve the translation. \citep{Somers2003} refers to the lower cost of MT+PE compared with HT to explain the growth of PE: companies want to become global but cannot afford the cost of HT to translate from native language to the many languages they want to operate on.
 
 \citep{Koponen2016a} tried to understand if MT+PE is really worth, compared with just HT, concluding that yes, most of the times it is worth it. But this depends on the quality of the MT, which in turn depends on, for example, the quality of the MT system and on the language pair.
 
@@ -142,23 +142,23 @@ Most of the research regarding PE refers to work done by professional translator
 
 Yandex\footnote{\url{https://yandex.com/}} is a Russian search-engine company. Currently, Yandex.Translate (the name given to Yandex's MT system) uses a statistical approach. From their website\footnote{\url{https://tech.yandex.com/translate/doc/intro/concepts/how-works-machine-translation-docpage/}}, the system is composed by three components, a translation model, a language model and a decoder which is the part that actually does the translation.
 
-I couldn't find any research paper evaluating the translation's quality of Yandex.Translate in the language pair Portuguese-English.
+I could not find any research paper evaluating the translation's quality of Yandex.Translate in the language pair Portuguese-English.
 
 \subsubsection{Google}
 
-Google\footnote{\url{https://www.google.com}} is a company from the United States that offers a lot of technological services, including machine translation. For the language pair Portuguese-English, their translation services now use Neural Machine Translation\footnote{\url{https://blog.google/products/translate/found\%2Dtranslation\%2Dmore\%2Daccurate\%2Dfluent\%2Dsentences\%2Dgoogle\%2Dtranslate}} (see section 2.3.1).
+Google\footnote{\url{https://www.google.com}} is a company from the United States that sells a lot of technological services, including Machine Translation. For the language pair Portuguese-English, their translation services now uses Neural Machine Translation\footnote{\url{https://blog.google/products/translate/found\%2Dtranslation\%2Dmore\%2Daccurate\%2Dfluent\%2Dsentences\%2Dgoogle\%2Dtranslate}} (see section 2.3.1), although it is still possible to obtain Statistical based translations through their API.
 
 \subsubsection{Unbabel}
 
-Unbabel\footnote{\url{https://unbabel.com/}} is a Portuguese start-up which sells translation services focused on conversational content like costumer service or website copywriting, using an MT+PE approach. Although it is not mentioned in the Unbabel's API documentation, for the language pair Portuguese-English, currently Unbabel uses Google Translate's services in MT step of the MT+PE approach (personal communication). Next is an overview of Unbabel's translation pipeline:
+Unbabel\footnote{\url{https://unbabel.com/}} is a Portuguese start-up which sells translation services focused on conversational content like costumer service or website copywriting, using an MT+PE approach. Although it is not mentioned in the Unbabel's API documentation, for the language pair Portuguese-English, Unbabel currently uses Google Translate's services in the MT step of the MT+PE approach (personal communication). Next is an overview of Unbabel's translation pipeline:
 
 \begin{enumerate}
-\item Text is translated by MT (in this case, using Google Translate)
-\item MT translated text is post-edited by users of the Unbabel platform. Users translate the text using Unbabel's web-interface or mobile app.
-\item Translation resulting from last step is reviewed by an Unbabel's senior user, an user that was promoted for having good ratings
+\item Text is translated by MT (in this case, using Google Translate);
+\item MT translated text is post-edited by users of the Unbabel platform. Users translate the text using Unbabel's web-interface or mobile app;
+\item Translation resulting from last step is reviewed by an Unbabel's senior user, an user that was promoted for having good ratings;
 \end{enumerate}
 
-From now on I'm going to call this type of translation \textit{Unbabel Translation}.
+From now on I am going to call this type of translation \textit{Unbabel Translation}.
 
 
 \subsection{Translation of Medical Text}
@@ -185,11 +185,11 @@ In the USA, most of the public health information is written in English, althoug
 
 \subsubsection{Machine Translation for Information Retrieval}
 
-The ACL 2014 Ninth Workshop on Statistical Machine Translation had a Medical Translation Task \citep{Bojar2014}, which consisted in two subtasks: translation of sentences from summaries of medical articles and translation of queries entered by users of medical information search engines. This task was supported by the Khresmoi \footnote{\url{http://khresmoi.eu/}} project which develops a multilingual search and access system for biomedical information and documents, allowing the user to make search queries and read summaries of the results in their own language. The task had 8 participants, the winner being the UEDIN team \citep{Durrani2014} which used the Moses phrase-based system\footnote{\url{http://www.statmt.org/moses/}}.
+The ACL 2014 Ninth Workshop on Statistical Machine Translation had a Medical Translation Task \citep{Bojar2014}, which consisted in two subtasks: translation of sentences from summaries of medical articles and translation of queries entered by users of medical information search engines. This task was supported by the Khresmoi\footnote{\url{http://khresmoi.eu/}} project which develops a multilingual search and access system for biomedical information and documents, allowing the user to make search queries and read summaries of the results in their own language. The task had 8 participants, the winner being the UEDIN team \citep{Durrani2014} which used the Moses phrase-based system\footnote{\url{http://www.statmt.org/moses/}}.
 
 \subsubsection{Machine Translation of Other Types of Medical Text}
 
-Studies of the translation of other types of documents are also present in the literature. For example, \citep{Wok2015} compares neural based with statistical machine translation of descriptions of medical products in the language pair Polish-English, obtaining mixed results.
+Studies of the translation of other types of documents are also present in the literature. For example, \citep{Wok2015} compares neural based with statistical Machine Translation of descriptions of medical products in the language pair Polish-English, obtaining mixed results.
 
 % I only want to refer to section 5.2 of the thesis I'm citing
 More related to the work done on this thesis, \citep{Castilla2007a} studied the use of the MT application SYSTRAN to translate sentences from Radiology reports. The MT system uses a ruled-based approach and was complemented with a specialized medical translation dictionary. The translations were evaluated by an expert in the field, finding good scores for understandability, fidelity with original text and translation coverage of the original text.
@@ -200,9 +200,9 @@ More recently, there was a Biomedical Translation Task during the ACL 2016 First
 
 \subsection{Translation of Biomedical Lexicons}
 
-One alternative solution to the one I am exploring in this thesis, translating the medical text to English, is to translate the lexicon, on which the task at hand depends on, to the language of the medical documents we want to study. For example, if a researcher have a Spanish corpus and wants to annotate it with terms of some lexicon, it will be a problematic task since most of the available ontologies are not multilingual. To solve this the researcher could translate the ontologies she wants to use to the language of the corpus. This example is similar to \citep{Cotik2015}, in which all RadLex terms were translated to Spanish using Google Translate and medical reports were annotated with this translated terms. 
+One alternative solution to the one I am exploring in this thesis, translating the medical text to English, is to translate the lexicon, on which the task at hand depends on, to the language of the medical documents we want to study. For example, if a researcher has a Spanish corpus and wants to annotate it with terms of some lexicon, it will be a problematic task since most of the available ontologies are not multilingual. To solve this the researcher could translate the ontologies she wants to use to the language of the corpus. This example is similar to \citep{Cotik2015}, in which all RadLex terms were translated to Spanish using Google Translate and medical reports were annotated with this translated terms. 
 
-For the German language there is \citep{Bretschneider}. Having in mind that translating all the entries of an ontology one wants to use would be expensive, the authors propose translating only a subset of the ontology, a subset relevant to the task at hand. They do this semi-automatically with the help of the corpus one wants to annotate. With this, the authors improved the annotation of German text with RadLex terms.
+For the German language there is \citep{Bretschneider}. Having in mind that translating all the entries of an ontology one wants to use would be expensive, the authors propose translating only a subset of the ontology, a subset relevant to the task at hand. They do this semi-automatically with the help of the corpus they wanted to annotate. With this, the authors improved the annotation of German text with RadLex terms.
 
 \section{External Tools and Terminologies}
 
@@ -211,9 +211,9 @@ Some of the work done during the thesis used and was inspired by some external t
 \subsection{RadLex}
 \label{Radlex}
 
-RadLex\footnote{\url{http://www.rsna.org/RadLex.aspx}} is an ontology which focuses on Radiology-related terms. It was developed to standardize annotation, indexation, and retrieval of Radiology information resources in the digital world \citep{Langlotz2006} and it helped to fill a gap in Radiology terminology \citep{Langlotz2002, Woods2013}. The RadLex terms were originally gathered from existing ontologies at the time, including the American College of Radiology (ACR) Index, SNOMED-CT, and the Foundational Model Anatomy and it is a highly dynamic ontology: its number of terms grew from around 8000 to around 75000 in just ten years. Being an ontology, RadLex can be visualized as a tree, which contains other subtrees. This characteristic can be used to extract subsets of the RadLex ontology. For example, if someone just wants to use the RadLex classes related to clinical findings she could just use the RadLex subtree containing just the children of the RadLex class "clinical finding".
+RadLex\footnote{\url{http://www.rsna.org/RadLex.aspx}} is an ontology which focuses on Radiology-related terms. It was developed to standardize annotation, indexation, and retrieval of Radiology information resources in the digital world \citep{Langlotz2006} and it helped to fill a gap in Radiology terminology \citep{Langlotz2002, Woods2013}. The RadLex terms were originally gathered from existing ontologies at the time, including the American College of Radiology (ACR) Index, SNOMED-CT, and the Foundational Model Anatomy and it is a highly dynamic ontology: its number of terms grew from around 8.000 to around 75.000 in just ten years. Being an ontology, RadLex can be visualized as a tree, which contains other subtrees. This characteristic can be used to extract subsets of the RadLex ontology. For example, if someone just wants to use the RadLex classes related to clinical findings she could just use the RadLex subtree containing just the children of the RadLex class \textit{clinical finding}.
 
-There are a few studies on the completeness of RadLex. \citep{Marwede2008} found that an old version of RadLex covered 84\% of terms extracted manually from 250 thoracic CT reports, with higher coverage for terms in the \textit{Findings} (90\%) category and lower coverage for the \textit{Modifier} category (78\%). Curiously, in a study using more recent versions of RadLex (versions 3.1–3.5) \citep{Woods2013} found a lower coverage of 62\% using the same type of reports (they used less reports in this study, just 100). They find higher coverage for the categories of \textit{anatomic objects} and \textit{physiological conditions} and lower coverage for the categories of \textit{imaging observations} and \textit{procedures} (the categories used in both studies are not the same). The authors justify the lower coverage with the inclusion in the study of categories such as \textit{procedures}, which did not had any match with RadLex terms. They also used a different methodology to find matches between manual extracted terms and Radlex terms. These studies analyzed the coverage of RadLex of terms mentioned in the contents of radiology reports. \citep{Hong2012}, on the other hand, studied how well RadLex covers the terms of templates of structured Radiology reports developed by the Radiological Society of North America, finding that 41\% of the terms found in the templates matched exactly to RadLex and that 26\% matched partially. Since these analysis, new versions of RadLex were launched so the results and critics present in the studies are not necessarily relevant anymore.
+There are a few studies on the completeness of RadLex. \citep{Marwede2008} found that an old version of RadLex covered 84\% of terms extracted manually from 250 thoracic CT reports, with higher coverage for terms in the \textit{Findings} (90\%) category and lower coverage for the \textit{Modifier} category (78\%). Curiously, in a study using more recent versions of RadLex (versions 3.1–3.5) \citep{Woods2013} found a lower coverage of 62\% using the same type of reports (they used less reports in this study, just 100). They find higher coverage for the categories of \textit{anatomic objects} and \textit{physiological conditions} and lower coverage for the categories of \textit{imaging observations} and \textit{procedures} (the categories used in both studies are not the same). The authors justify the lower coverage with the inclusion in the study of categories such as \textit{procedures}, which did not had any match with RadLex terms. They also used a different methodology to find matches between manual extracted terms and Radlex terms. These studies analyzed the coverage of RadLex of terms mentioned in the contents of Radiology reports. \citep{Hong2012}, on the other hand, studied how well RadLex covers the terms of templates of structured Radiology reports developed by the Radiological Society of North America, finding that 41\% of the terms found in the templates matched exactly to RadLex and that 26\% matched partially. Since these analysis, new versions of RadLex were launched so the results and critics present in the studies are not necessarily relevant anymore.
 
 One could use RadLex to assist in the matching of research articles manuscripts to reviewers profiles, like done by the RadioGraphics journal \citep{Klein2013}. Or to help in the visual analysis of neurography images \citep{Wang2015}. Having said this, most of the examples described in the literature are of applications related to Information Retrieval (IR), the task of extracting some information resource from a collection of information resources. These resources can be images or websites, for example. One such example of a IR system using Radlex, is \citep{Spanier2016}, who takes advantage of the tree structure of this ontology to create a new method of case-based image retrieval (M-CBIR). Most existing M-CBIR systems use low-level characteristics of medical images (like color, shape and texture) to induce similarity between them. But this is problematic since medical images which show the same type of content can have different low-level characteristics. One solution is to induce this similarity from the information contained in the textual radiological reports that accompany the images and the authors take advantage of RadLex to do just that. This can help radiologists to find related medical cases in a certain database which then can help them in their decision-making process. Other approaches to IR systems using Radlex include the ones described in \citep{Do2010}, \citep{Kurtz2014} and \citep{Gerstmair2012}.
 
@@ -227,7 +227,7 @@ The Open Biomedical Annotator (OBA)\footnote{\url{http://bioportal.bioontology.o
 
 NOBLE Coder\footnote{\url{http://noble-tools.dbmi.pitt.edu/}} \citep{Tseytlin2016} is a software for NER using a lexicon-based approach. The lexicon is set by the user (it  has to be in UMLS (RRF)\footnote{\url{https://www.ncbi.nlm.nih.gov/books/NBK9685/}}, OWL\footnote{\url{https://www.w3.org/OWL/}} or OBO\footnote{\url{http://www.geneontology.org/faq/what-obo-file-format}} formats or be present in BioPortal\footnote{\url{http://bioportal.bioontology.org/ontologies}}). The lexicon is processed into two hash-tables which are then used during by NOBLE to find, in an arbitrary text, mentions of terms found in the lexicon.
 
-Unlike the system used by OBA, NOBLE can find mentions of lexical variations of the terms present in the Lexicon because it applies word Stemming. For example, \textit{lobe} is a term present in the RadLex terminology, but its plural, \textit{lobes}, is not. However, NOBLE considers that \textit{lobes} is a mention of the term \textit{lobe}, which is right. But this can sometimes go wrong; for example, NOBLE considers that \textit{headings} is a mention of the RadLex term \textit{head}, which is wrong. So although this strategy can improve recall it does so at the cost of precision.
+Unlike the system used by OBA, NOBLE can find mentions of lexical variations of the terms present in the lexicon because it applies word Stemming. For example, \textit{lobe} is a term present in the RadLex terminology, but its plural, \textit{lobes}, is not. However, NOBLE considers that \textit{lobes} is a mention of the term \textit{lobe}, which is right. But this can sometimes go wrong; for example, NOBLE considers that \textit{headings} is a mention of the RadLex term \textit{head}, which is wrong. So although this strategy can improve recall it does so at the cost of precision.
 
 The NOBLE tool is flexible in what is considered a mention of a lexicon term, giving the user the power to adapt the tool for her specific purposes. This can be done by choosing to use or not a certain \textit{matching option}. These include:
 
@@ -237,11 +237,11 @@ The NOBLE tool is flexible in what is considered a mention of a lexicon term, gi
 
 \item \textbf{Overlap} - If this option is used, matched terms can overlap each other. For example, if this option is not set, NOBLE will only recognize the terms \textit{deep} and \textit{lateral margin} in the text \textit{deep lateral margin}. If it is set, it will also regnize the term \textit{deep margin} which overlaps with the two other terms.
 
-\item \textbf{Contiguity} - Terms must be contiguous to be matched. For example, if set, in the text \textit{multiple ducts lesions} both \textit{multiple ducts} and \textit{multiple lesions} are considered matches, although \textit{multiple} and \textit{lesions} are not adjacent to each other. It's possible to set how many irrelevant words can be between words belonging to a term (in Table \ref{table:matching-strategies}, this is called \textit{gap}).
+\item \textbf{Contiguity} - Terms must be contiguous to be matched. For example, if set, in the text \textit{multiple ducts lesions} both \textit{multiple ducts} and \textit{multiple lesions} are considered matches, although \textit{multiple} and \textit{lesions} are not adjacent to each other. Its possible to set how many irrelevant words can be between words belonging to a term (in Table \ref{table:matching-strategies}, this is called \textit{gap}).
 
-\item \textbf{Order} - Terms must be in the same order as in the Lexicon to be considered mentions. If not set, \textit{lesions multiple} is considered a mention of the Radlex term \textit{multiple lesions}.
+\item \textbf{Order} - Terms must be in the same order as in the lexicon to be considered mentions. If not set, \textit{lesions multiple} is considered a mention of the Radlex term \textit{multiple lesions}.
 
-\item \textbf{Partial} - Partial match with terms in Lexicon are considered a Lexicon term mention. If set, \textit{multiple} is considered a mention of \textit{multiple lesions}.
+\item \textbf{Partial} - Partial match with terms in lexicon are considered a lexicon term mention. If set, \textit{multiple} is considered a mention of \textit{multiple lesions}.
 
 \end{itemize}
 
@@ -251,7 +251,7 @@ The user can also choose to, for example:
 \item Skip single letter words
 \item Skip stop words
 \item Use heuristics to filter out potential false positives
-\item When a term can be considered a mention of more than one concept in the Lexicon,  select only the highest scoring one
+\item When a term can be considered a mention of more than one concept in the lexicon,  select only the highest scoring one
 \end{itemize}
 
 Different combinations of these options are useful for different purposes. NOBLE already offers some built-in matching strategies, listed in Table \ref{table:matching-strategies}.
@@ -273,23 +273,23 @@ Different combinations of these options are useful for different purposes. NOBLE
 \label{table:matching-strategies}
 \end{table}
 
-The authors of the tool provide suggestion for what kind of task each strategy is more appropriate. For example, they suggest that the \textit{best match} strategy is best for concept coding and information extraction and that the \textit{all match} strategy is more suitable for information retrieval and text mining.
+The authors of the tool provide suggestion for what kind of task each strategy is more appropriate. For example, they suggest that the \textit{Best match} strategy is best for concept coding and information extraction and that the \textit{All match} strategy is more suitable for information retrieval and text mining.
 
-\citep{Tseytlin2016} compares the NOBLE tool with other Lexicon-based NER tools, finding that its performance in recognizing terms from lexicons its comparable with other similar software like Concept Mapper\citep{Stewart} or cTAKES\footnote{\url{https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+3.0+-+Dictionary+Lookup}}\footnote{\url{https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+3.2+-+Fast+Dictionary+Lookup}}, although it probably depends a lot on the corpus used.
+\citep{Tseytlin2016} compares the NOBLE tool with other lexicon-based NER tools, finding that its performance in recognizing terms from lexicons its comparable with other similar software like Concept Mapper \citep{Stewart} or cTAKES\footnote{\url{https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+3.0+-+Dictionary+Lookup}}\footnote{\url{https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+3.2+-+Fast+Dictionary+Lookup}}, although it probably depends a lot on the corpus used.
 
 One big advantage of NOBLE is its ease of use compared with other similar systems. Little or no programming skills are needed to use the software since it includes a GUI (Graphical User Interface) which allows an user to upload lexicons in a number of formats and easily annotate texts.
 
 \section{Evaluation Metrics}
 \label{Evaluation Metrics}
 
-For a certain task (for example, annotation of a corpus with terms related do deseases) it is useful to have standard evaluation metrics so that we can compare many systems and know which one is the best. In information retrieval and information extraction systems precision (P), recall (R) and F-score (F) are the measures that are mostly used. For example they were the measures used in a competition which involved a task similar to the example I gave above \citep{Elhadad2015}.
+For a certain task (for example, annotation of a corpus with terms related to diseases) it is useful to have standard evaluation metrics so that we can compare many systems and know which one is the best. In information retrieval and information extraction systems precision (P), recall (R) and F-score (F) are the measures that are mostly used. For example they were the measures used in a competition which involved a task similar to the example I gave above \citep{Elhadad2015}.
 
 To use this measures we need to have a reference, a gold-standard, which we assume represents the perfect performance in a certain task, the ground truth. In the example of extraction of disorder mentions, it could be an annotation done by an human expert. To calculate this measures we also need the number of true positives, false positives and false negatives. I will illustrate each one of these with the example of the annotation of diseases mentions.
 
 \begin{itemize}
-\item True positive (TP) – The system being tested annotated a term also annotated in the reference.
-\item False positive (FP) – The system annotated a term that is not annotated in the reference.
-\item False negative (FN) – The system did not annotate a term that is annotated in the reference.
+\item True positive (TP) – The system being tested annotated a term also annotated in the reference;
+\item False positive (FP) – The system annotated a term that is not annotated in the reference;
+\item False negative (FN) – The system did not annotate a term that is annotated in the reference;
 \end{itemize}
 
 Precision corresponds to the fraction of the terms annotated by the system that are also annotated in the reference.
@@ -298,7 +298,7 @@ Precision corresponds to the fraction of the terms annotated by the system that 
 P = \frac{TP}{TP+FP}
 \end{equation}
 
-If of the 10 terms annotated by the system, only 6 are annotated by the reference, then the system has a precision of 0.6. If every term extracted by the system is also extracted by the reference, then the system has a precision of 1, the best score possible. But the system can have a score of 1 if only annotates one right term, even though there are a lot of other terms annotated in the reference. This system, although having a score of 1, would not be very useful. Recall is a measure that helps to solve this issue.
+If of the ten terms annotated by the system, only six are annotated by the reference, then the system has a precision of 0.6. If every term extracted by the system is also extracted by the reference, then the system has a precision of 1, the best score possible. But the system can have a score of 1 if it only annotates one right term, even though there are a lot of other terms annotated in the reference. This system, although having a score of 1, would not be very useful. Recall is a measure that helps to solve this issue.
 
 Recall calculates what fraction of all terms annotated in the reference are annotated by the system.
 
@@ -306,7 +306,7 @@ Recall calculates what fraction of all terms annotated in the reference are anno
 R = \frac{TP}{TP+FN}
 \end{equation}
 
-If the system annotates 8 terms of the 10 that are annotated in the reference, then it has a recall of 0.8. If it annotates all of them, it has a recall of 1, the perfect score. But, as is the case with precision, this measure also has problems. If the system annotates all the terms in a corpus, it will have a perfect score in the recall measure, because it is sure to have annotated all the terms annotated in the reference, although it also annotated a lot of wrong terms.
+If the system annotates eight terms of the ten that are annotated in the reference, then it has a recall of 0.8. If it annotates all of them, it has a recall of 1, the perfect score. But, as is the case with precision, this measure also has problems. If the system annotates all the terms in a corpus, it will have a perfect score in the recall measure, because it is sure to have annotated all the terms annotated in the reference, although it also annotated a lot of wrong terms.
 
 As you can see, both measures have problems when used in isolation. One way to combine them is by using the F-score measure, that corresponds to the harmonic mean of precision and recall.
 
