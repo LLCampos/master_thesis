@@ -30,15 +30,15 @@ For this to be true, these conditions have to hold:
 
 \begin{enumerate}
 	\item MT+PE has to be cheaper than HT
-	\item The terms extracted from MT+PE translations have to be similar enough to the ones extracted from the HT translation
-	\item The terms extracted from MT+PE translations have to be more similar to the ones extracted from the HT translation than the ones extracted from MT translations
+	\item The terms identified in the MT+PE translations have to be similar enough to the ones identified in the HT translation
+	\item The terms identified in MT+PE translations have to be more similar to the ones identified in the HT translation than the ones identified in MT translations
 \end{enumerate}
 
 The first condition is known to be true. The last condition its important because if MT+PE quality is similar to MT quality, as MT cost is lower, then it is worth to just use MT. In this thesis I only try to answer to the quality issues, not doing a thorough economic analysis of the problem. 
 
 \section{Methodology}
 
-To test this hypothesis I have compared the RadLex terms extracted from MT and MT+PE translations to the terms extracted from HT translations, which I assumed to be a gold standard.
+To test this hypothesis I have compared the RadLex terms identified in MT and MT+PE translations to the terms identified in HT translations, which I assumed to be a gold standard.
 
 For this purposes I've created MRRAD, a parallel corpus containing 51 Portuguese scientific articles related to Radiology and corresponding HT, MT (Google and Yandex) and MT+PE (Unbabel) English translations. These translations were annotated with RadLex terms using the Open Biomedical Annotator and NOBLE Coder. More than one annotation approach was used to experiment with different kinds annotation approaches. For each translation and annotation approach I created the set of the RadLex terms that were found in that translations with that annotation approach. The terms found in the MT and MT+PE translations were then compared with the ones found in the HT translations.
 
