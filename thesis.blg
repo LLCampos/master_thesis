@@ -8,50 +8,49 @@ The style file: Classes/jmb.bst
 Database file #1: References/library.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in Bretschneider
-Warning--empty year in Manning2009b; set to ????
 Warning--missing publisher in Manning2009b
 Warning--missing publisher in Manning2009c
 Warning--missing publisher in Manning2009a
 Warning--missing publisher in Tatsumi2012a
 You've used 65 entries,
             3009 wiz_defined-function locations,
-            1078 strings with 19587 characters,
-and the built_in function-call counts, 46249 in all, are:
-= -- 3876
-> -- 2520
+            1071 strings with 19299 characters,
+and the built_in function-call counts, 46296 in all, are:
+= -- 3877
+> -- 2526
 < -- 32
-+ -- 884
-- -- 818
-* -- 3926
-:= -- 6897
-add.period$ -- 193
++ -- 887
+- -- 820
+* -- 3927
+:= -- 6907
+add.period$ -- 195
 call.type$ -- 65
 change.case$ -- 627
-chr.to.int$ -- 64
-cite$ -- 71
-duplicate$ -- 3148
-empty$ -- 3094
-format.name$ -- 1022
-if$ -- 9229
-int.to.chr$ -- 2
+chr.to.int$ -- 63
+cite$ -- 70
+duplicate$ -- 3168
+empty$ -- 3097
+format.name$ -- 1025
+if$ -- 9240
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 654
+missing$ -- 658
 newline$ -- 199
-num.names$ -- 261
+num.names$ -- 262
 pop$ -- 1479
 preamble$ -- 1
 purify$ -- 533
 quote$ -- 0
-skip$ -- 1273
+skip$ -- 1278
 stack$ -- 0
-substring$ -- 1998
-swap$ -- 1764
+substring$ -- 1959
+swap$ -- 1776
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 576
-warning$ -- 6
+warning$ -- 5
 while$ -- 310
 width$ -- 0
-write$ -- 717
-(There were 6 warnings)
+write$ -- 721
+(There were 5 warnings)

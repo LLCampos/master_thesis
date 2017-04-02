@@ -13,7 +13,7 @@
   Cheng, A. \& Thursky, K.A.} (2014). {Facilitating surveillance of pulmonary
   invasive mold diseases in patients with haematological malignancies by
   screening computed tomography reports using natural language processing}.
-  {\em PloS one\/}, {\bf 9}, 1--8.
+  {\em PLOS ONE\/}, {\bf 9}, 1--8.
 
 \bibitem[{Antony \& {Suryanarayanan Mahalakshmi}(2015)}]{Antony2015}
 {\sc Antony, B.J. \& {Suryanarayanan Mahalakshmi}, G.} (2015). {Content-based
@@ -76,7 +76,9 @@
   S{\~{a}}o Paulo, S{\~{a}}o Paulo.
 
 \bibitem[{Cohen \& Hersh(2005)}]{Cohen2005a}
-{A survey of current work in biomedical text mining}.
+{\sc Cohen, A.M. \& Hersh, W.R.} (2005). {A survey of current work in
+  biomedical text mining}. {\em Briefings in Bioinformatics\/}, {\bf 6},
+  57--71.
 
 \bibitem[{Cotik {\em et~al.\/}(2015)Cotik, Filippo \&
   Casta{\~{n}}o}]{Cotik2015}
@@ -88,8 +90,7 @@
   Dreyer}]{Dang2009}
 {\sc Dang, P.A., Kalra, M.K., Schultz, T.J., Graham, S.A. \& Dreyer, K.J.}
   (2009). {Informatics in radiology: Render: an online searchable radiology
-  study repository.} {\em Radiographics : a review publication of the
-  Radiological Society of North America, Inc\/}, {\bf 29}, 1233--46.
+  study repository.} {\em RadioGraphics\/}, {\bf 29}, 1233--46.
 
 \bibitem[{Do {\em et~al.\/}(2010)Do, Wu, Biswal, Kamaya \& Rubin}]{Do2010}
 {\sc Do, B.H., Wu, A., Biswal, S., Kamaya, A. \& Rubin, D.L.} (2010).
@@ -123,11 +124,6 @@
   Proceedings of the 9th International Workshop on Semantic Evaluation (SemEval
   2015)\/}, 303--310.
 
-\bibitem[{G {\em et~al.\/}(2013)G, M, R, O \& K}]{G2013}
-{\sc G, R., M, F., R, A., O, E. \& K, P.} (2013). {Using machine translation in
-  clinical practice.} {\em Canadian family physician Medecin de famille
-  canadien\/}, {\bf 59}, 382--383.
-
 \bibitem[{Gerstmair {\em et~al.\/}(2012)Gerstmair, Daumke, Simon, Langer \&
   Kotter}]{Gerstmair2012}
 {\sc Gerstmair, A., Daumke, P., Simon, K., Langer, M. \& Kotter, E.} (2012).
@@ -139,8 +135,7 @@
 {\sc Groza, T., K{\"{o}}hler, S., Doelken, S., Collier, N., Oellrich, A.,
   Smedley, D., Couto, F.M., Baynam, G., Zankl, A. \& Robinson, P.N.} (2015).
   {Automatic concept recognition using the human phenotype ontology reference
-  and test suite corpora}. {\em Database : the journal of biological databases
-  and curation\/}, {\bf 2015}, bav005--bav005.
+  and test suite corpora}. {\em Database (Oxford)\/}, {\bf 2015}.
 
 \bibitem[{Hassanpour \& Langlotz(2016)}]{Hassanpour2016}
 {\sc Hassanpour, S. \& Langlotz, C.P.} (2016). {Information extraction from
@@ -215,38 +210,36 @@
 
 \bibitem[{Langlotz(2006)}]{Langlotz2006}
 {\sc Langlotz, C.P.} (2006). {RadLex: a new method for indexing online
-  educational materials}. {\em Radiographics : a review publication of the
-  Radiological Society of North America, Inc\/}, {\bf 26}, 1595--1597.
+  educational materials}. {\em RadioGraphics\/}, {\bf 26}, 1595--1597.
 
 \bibitem[{Langlotz \& Caldwell(2002)}]{Langlotz2002}
 {\sc Langlotz, C.P. \& Caldwell, S.A.} (2002). {The completeness of existing
   lexicons for representing radiology report information.} {\em Journal of
-  digital imaging : the official journal of the Society for Computer
-  Applications in Radiology\/}, {\bf 15 Suppl 1}, 201--205.
-
-\bibitem[{Manning {\em et~al.\/}()Manning, Raghavan \&
-  Sch{\"{u}}tze}]{Manning2009b}
-{\sc Manning, C.D., Raghavan, P. \& Sch{\"{u}}tze, H.} (????). {Evaluation in
-  information retrieval}. In {\em Introduction to Information Retrieval\/},
-  chap.~8.
+  Digital Imaging\/}, {\bf 15 Suppl 1}, 201--205.
 
 \bibitem[{Manning {\em et~al.\/}(2009{\natexlab{a}})Manning, Raghavan \&
-  Sch{\"{u}}tze}]{Manning2009c}
+  Sch{\"{u}}tze}]{Manning2009b}
 {\sc Manning, C.D., Raghavan, P. \& Sch{\"{u}}tze, H.} (2009{\natexlab{a}}).
+  {Evaluation in information retrieval}. In {\em Introduction to Information
+  Retrieval\/}, chap.~8.
+
+\bibitem[{Manning {\em et~al.\/}(2009{\natexlab{b}})Manning, Raghavan \&
+  Sch{\"{u}}tze}]{Manning2009c}
+{\sc Manning, C.D., Raghavan, P. \& Sch{\"{u}}tze, H.} (2009{\natexlab{b}}).
   {Stemming and lemmatization}. In {\em Introduction to Information
   Retrieval\/}, chap. 2.2.4.
 
-\bibitem[{Manning {\em et~al.\/}(2009{\natexlab{b}})Manning, Raghavan \&
+\bibitem[{Manning {\em et~al.\/}(2009{\natexlab{c}})Manning, Raghavan \&
   Sch{\"{u}}tze}]{Manning2009a}
-{\sc Manning, C.D., Raghavan, P. \& Sch{\"{u}}tze, H.} (2009{\natexlab{b}}).
+{\sc Manning, C.D., Raghavan, P. \& Sch{\"{u}}tze, H.} (2009{\natexlab{c}}).
   {Tokenization}. In {\em Introduction to Information Retrieval\/}, chap.
   2.2.1.
 
 \bibitem[{{Marta R. Costa-juss{\`{a}}, Mireia
   Farr{\'{u}}s}(2012)}]{Conference2012}
 {\sc {Marta R. Costa-juss{\`{a}}, Mireia Farr{\'{u}}s}, J.S.P.} (2012).
-  {Machine Translation in Medicine}. In {\em ARSA - PROCEEDINGS IN ARSA -
-  ADVANCED RESEARCH IN SCIENTIFIC AREAS\/}, 1995--1998, EDIS - Publishing
+  {Machine Translation in Medicine}. In {\em ARSA - Proceedings in ARSA -
+  Advanced Research in Scientific Areas\/}, 1995--1998, EDIS - Publishing
   Institution of the University of Zilina.
 
 \bibitem[{Martinez {\em et~al.\/}(2015)Martinez, Ananda-Rajah, Suominen,
@@ -287,8 +280,7 @@
 
 \bibitem[{Patil \& Davies(2014)}]{Patil2014}
 {\sc Patil, S. \& Davies, P.} (2014). {Use of Google Translate in medical
-  communication: evaluation of accuracy.} {\em BMJ (Clinical research ed.)\/},
-  {\bf 349}, g7392.
+  communication: evaluation of accuracy}. {\em The BMJ\/}, {\bf 349}.
 
 \bibitem[{Pons {\em et~al.\/}(2016)Pons, Braun, Hunink \& Kors}]{Pons2016}
 {\sc Pons, E., Braun, L.M.M., Hunink, M.G.M. \& Kors, J.A.} (2016). {Natural
@@ -298,6 +290,12 @@
 \bibitem[{Porter(1980)}]{Porter1980}
 {\sc Porter, M.} (1980). {An algorithm for suffix stripping}. {\em Program:
   electronic library and information systems\/}, {\bf 14}, 130--137.
+
+\bibitem[{Randhawa {\em et~al.\/}(2013)Randhawa, Ferreyra, Ahmed, Ezzat \&
+  Pottie}]{G2013}
+{\sc Randhawa, G., Ferreyra, M., Ahmed, R., Ezzat, O. \& Pottie, K.} (2013).
+  {Using machine translation in clinical practice.} {\em Canadian family
+  physician Medecin de famille canadien\/}, {\bf 59}, 382--383.
 
 \bibitem[{Robinson \& Bauer(2011)}]{Robinson2011}
 {\sc Robinson, P.N. \& Bauer, S.} (2011). {\em {Introduction to
@@ -309,8 +307,8 @@
   General Internal Medicine\/}, {\bf 22}, 360--361.
 
 \bibitem[{Somers(2003)}]{Somers2003}
-{\sc Somers, H.} (2003). {\em {Computers and translation: a
-  translator{\&}{\#}39;s guide}\/}. John Benjamins Publishing Company.
+{\sc Somers, H.} (2003). {\em {Computers and translation: a translator's
+  guide}\/}. John Benjamins Publishing Company.
 
 \bibitem[{Spanier {\em et~al.\/}(2016)Spanier, Cohen \&
   Joskowicz}]{Spanier2016}
@@ -358,13 +356,13 @@
 {\sc Wang, K.b., Salunkhe, A., Morriso, J., Lee, P., Mejino, J., Detwiler,
   L.f., Brinkley, J.F., Siegel, E.d., Rubin, D. \& Carrino, J.} (2015).
   {Ontology-based image navigation: Exploring 3.0-T MR neurography of the
-  brachial plexus using AIM and radlex}. {\em Radiographics\/}, {\bf 35},
+  brachial plexus using AIM and radlex}. {\em RadioGraphics\/}, {\bf 35},
   142--151.
 
 \bibitem[{Wei {\em et~al.\/}(2016)Wei, Chen, Xu, He \& Gui}]{Wei2016}
 {\sc Wei, Q., Chen, T., Xu, R., He, Y. \& Gui, L.} (2016). {Disease named
   entity recognition by combining conditional random fields and bidirectional
-  recurrent neural networks}. {\em Database\/}, {\bf 2016}, 1--8.
+  recurrent neural networks}. {\em Database (Oxford)\/}, {\bf 2016}, 1--8.
 
 \bibitem[{Wo{\l}k \& Marasek(2015)}]{Wok2015}
 {\sc Wo{\l}k, K. \& Marasek, K.} (2015). {Neural-based Machine Translation for
