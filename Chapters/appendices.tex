@@ -1,5 +1,6 @@
 \label{appendices}
 
+\renewcommand{\thechapter}{A}
 \chapter{Commands used to run NOBLE Coder}
 \label{app:commands_run_noble}
 
@@ -80,4 +81,56 @@ And the analogous thing for the "Synonym" property.
 	\caption{Macro Evaluation of translations being tested, considering just the terms from RadLex \textit{clinical finding} and \textit{anatomical entity} subtrees (Direct Match)}
 	\label{app:macro_eval_subtrees_direct}
 \end{figure}
+
+
+
+\chapter{Subtrees Analysis}
+\begin{table}[ht]
+	\centering
+	\caption{Number of RadLex \textit{clinical finding} or \textit{anatomical entity} terms found by document}
+	\begin{tabular}{lrrr}
+		\toprule
+		\textbf{Translation}   &   \textbf{Direct Match} &   \textbf{All Match} &   \textbf{Best Match} \\
+		\midrule
+		\textbf{Human}         &         36.82	  &  54.76	 &    41.20 \\
+		\textbf{Yandex}        &         35.25	  &  53.33	  &   41.75 \\
+		\textbf{Google}        &         37.73	  &  55.55	  &   42.35 \\
+		\textbf{Unbabel}       &         37.59	 &   55.14	 &    42.45 \\
+		\bottomrule
+	\end{tabular} 
+	\label{app:terms_by_document_subtrees}
+\end{table}
+
+\chapter{Error Evaluations}
+\begin{table}[ht]	
+	\centering
+	\caption{Number of Errors Belonging to Each Category, by Translation Type}
+	\begin{tabular}{lrrrr}
+		\toprule
+		\textbf{Translation}   &   \textbf{Wrong Translation} &   \textbf{Not Wrong Translation} &   \textbf{?} & \textbf{Total} \\
+		\midrule
+			\textbf{Human}         &         25 &  71 &  4 &   100 \\
+			\textbf{Yandex}        &         19 &  64 &  3 &   86 \\
+			\textbf{Google}        &         18 &  64 &  3 &   85 \\
+			\textbf{Unbabel}       &         62 &  199 & 10 &  271 \\
+		\bottomrule
+	\end{tabular} 
+	\label{app:error_analysys_error_by_category}
+\end{table}
+
+%\begin{table}[ht]   
+%    \centering
+%    \caption{Number of Errors belonging to each Subcategory of the Wrong Translation Category, by Translation Type}
+%    \begin{tabular}{lrrrrrrrrrr}
+%        \toprule
+%            \textbf{Translation}   &   \textbf{General} &  \textbf{Extra word} &  \textbf{Did not translate original} &   \textbf{Hyphen} &  \textbf{Didn’t translate initials} &   %\textbf{Word Missing} &    \textbf{MT is not specific enough} &   \textbf{Different lexical variation} & \textbf{Not the most correct term} &   \textbf{Total} \\
+%        \midrule
+%            \textbf{Yandex}        &         13 & 1 & 6 & 2 & 1 & 2 & 0 & 0 & 0 & 25 \\
+%            \textbf{Google}        &         10 & 1 & 0 & 0 & 2 & 2 & 2 & 1 & 1 & 19 \\
+%            \textbf{Unbabel}       &         12 & 1 & 0 & 0 & 0 & 1 & 2 & 0 & 2 & 18 \\
+%        \bottomrule
+%    \end{tabular} 
+%    \label{app:error_analysys_error_by_subcategory}
+%\end{table}
+
 

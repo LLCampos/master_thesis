@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.22)  1 APR 2017 16:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.22)  2 APR 2017 09:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -694,7 +694,7 @@ LaTeX Info: Redefining \nameref on input line 32.
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-<ThesisFigs/logo_fcul.png, id=240, 531.4254pt x 281.853pt>
+<ThesisFigs/logo_fcul.png, id=248, 531.4254pt x 281.853pt>
 File: ThesisFigs/logo_fcul.png Graphic file (type png)
 
 <use ThesisFigs/logo_fcul.png>
@@ -798,8 +798,8 @@ Chapter 3.
 ]
 Chapter 4.
 (./Chapters/4_results.tex
-<SupportFiles/plots/all_match_micro_total_plot.pdf, id=984, 442.06543pt x 281.1
-4906pt>
+<SupportFiles/plots/all_match_micro_total_plot.pdf, id=1000, 442.06543pt x 281.
+14906pt>
 File: SupportFiles/plots/all_match_micro_total_plot.pdf Graphic file (type pdf)
 
  <use SupportFiles/plots/all_match_micro_total_plot.pdf>
@@ -807,8 +807,8 @@ Package pdftex.def Info: SupportFiles/plots/all_match_micro_total_plot.pdf used
  on input line 39.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
-<SupportFiles/plots/best_match_micro_total_plot.pdf, id=985, 442.06543pt x 281.
-14906pt>
+<SupportFiles/plots/best_match_micro_total_plot.pdf, id=1001, 442.06543pt x 281
+.14906pt>
 File: SupportFiles/plots/best_match_micro_total_plot.pdf Graphic file (type pdf
 )
  <use SupportFiles/plots/best_match_micro_total_plot.pdf>
@@ -816,8 +816,8 @@ Package pdftex.def Info: SupportFiles/plots/best_match_micro_total_plot.pdf use
 d on input line 46.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
-<SupportFiles/plots/direct_match_micro_total_plot.pdf, id=986, 442.06543pt x 28
-1.14906pt>
+<SupportFiles/plots/direct_match_micro_total_plot.pdf, id=1002, 442.06543pt x 2
+81.14906pt>
 File: SupportFiles/plots/direct_match_micro_total_plot.pdf Graphic file (type p
 df)
  <use SupportFiles/plots/direct_match_micro_total_plot.pdf>
@@ -833,7 +833,7 @@ otal_plot.pdf): PDF inclusion: multiple pdfs with page group included in a sing
 le page
 >] [37 <./SupportFiles/plots/direct_match_micro_total_plot.pdf>]
 <SupportFiles/plots/all_match_micro_clinical_anatomical_subtrees_plot.pdf, id=1
-056, 442.06543pt x 281.14906pt>
+072, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/all_match_micro_clinical_anatomical_subtrees_plot.pdf 
 Graphic file (type pdf)
 
@@ -843,7 +843,7 @@ _subtrees_plot.pdf used on input line 80.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
 <SupportFiles/plots/best_match_micro_clinical_anatomical_subtrees_plot.pdf, id=
-1057, 442.06543pt x 281.14906pt>
+1073, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/best_match_micro_clinical_anatomical_subtrees_plot.pdf
  Graphic file (type pdf)
 
@@ -853,14 +853,14 @@ l_subtrees_plot.pdf used on input line 88.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
 <SupportFiles/plots/direct_match_micro_clinical_anatomical_subtrees_plot.pdf, i
-d=1058, 442.06543pt x 281.14906pt>
+d=1074, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/direct_match_micro_clinical_anatomical_subtrees_plot.p
 df Graphic file (type pdf)
 
 <use SupportFiles/plots/direct_match_micro_clinical_anatomical_subtrees_plot.pd
 f>
 Package pdftex.def Info: SupportFiles/plots/direct_match_micro_clinical_anatomi
-cal_subtrees_plot.pdf used on input line 95.
+cal_subtrees_plot.pdf used on input line 96.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
  [38] [39 <./SupportFiles/plots/all_match_micro_clinical_anatomical_subtrees_pl
 ot.pdf> <./SupportFiles/plots/best_match_micro_clinical_anatomical_subtrees_plo
@@ -901,65 +901,63 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 ) [55] [56
 
 ]
-<SupportFiles/plots/all_match_macro_total_plot.pdf, id=1299, 442.06543pt x 281.
+<SupportFiles/plots/all_match_macro_total_plot.pdf, id=1321, 442.06543pt x 281.
 14906pt>
 File: SupportFiles/plots/all_match_macro_total_plot.pdf Graphic file (type pdf)
 
  <use SupportFiles/plots/all_match_macro_total_plot.pdf>
 Package pdftex.def Info: SupportFiles/plots/all_match_macro_total_plot.pdf used
- on input line 41.
+ on input line 42.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
-<SupportFiles/plots/best_match_macro_total_plot.pdf, id=1300, 442.06543pt x 281
+<SupportFiles/plots/best_match_macro_total_plot.pdf, id=1322, 442.06543pt x 281
 .14906pt>
 File: SupportFiles/plots/best_match_macro_total_plot.pdf Graphic file (type pdf
 )
  <use SupportFiles/plots/best_match_macro_total_plot.pdf>
 Package pdftex.def Info: SupportFiles/plots/best_match_macro_total_plot.pdf use
-d on input line 48.
+d on input line 49.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
-<SupportFiles/plots/direct_match_macro_total_plot.pdf, id=1301, 442.06543pt x 2
+<SupportFiles/plots/direct_match_macro_total_plot.pdf, id=1323, 442.06543pt x 2
 81.14906pt>
 File: SupportFiles/plots/direct_match_macro_total_plot.pdf Graphic file (type p
 df)
  <use SupportFiles/plots/direct_match_macro_total_plot.pdf>
 Package pdftex.def Info: SupportFiles/plots/direct_match_macro_total_plot.pdf u
-sed on input line 55.
+sed on input line 56.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
 <SupportFiles/plots/all_match_macro_clinical_anatomical_subtrees_plot.pdf, id=1
-302, 442.06543pt x 281.14906pt>
+324, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/all_match_macro_clinical_anatomical_subtrees_plot.pdf 
 Graphic file (type pdf)
 
 <use SupportFiles/plots/all_match_macro_clinical_anatomical_subtrees_plot.pdf>
 Package pdftex.def Info: SupportFiles/plots/all_match_macro_clinical_anatomical
-_subtrees_plot.pdf used on input line 63.
+_subtrees_plot.pdf used on input line 64.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
 <SupportFiles/plots/best_match_macro_clinical_anatomical_subtrees_plot.pdf, id=
-1303, 442.06543pt x 281.14906pt>
+1325, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/best_match_macro_clinical_anatomical_subtrees_plot.pdf
  Graphic file (type pdf)
 
 <use SupportFiles/plots/best_match_macro_clinical_anatomical_subtrees_plot.pdf>
 Package pdftex.def Info: SupportFiles/plots/best_match_macro_clinical_anatomica
-l_subtrees_plot.pdf used on input line 71.
+l_subtrees_plot.pdf used on input line 72.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
 <SupportFiles/plots/direct_match_macro_clinical_anatomical_subtrees_plot.pdf, i
-d=1304, 442.06543pt x 281.14906pt>
+d=1326, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/direct_match_macro_clinical_anatomical_subtrees_plot.p
 df Graphic file (type pdf)
 
 <use SupportFiles/plots/direct_match_macro_clinical_anatomical_subtrees_plot.pd
 f>
 Package pdftex.def Info: SupportFiles/plots/direct_match_macro_clinical_anatomi
-cal_subtrees_plot.pdf used on input line 79.
+cal_subtrees_plot.pdf used on input line 80.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
  [57 <./SupportFiles/plots/all_match_macro_total_plot.pdf>] [58 <./SupportFiles
 /plots/best_match_macro_total_plot.pdf> <./SupportFiles/plots/direct_match_macr
 o_total_plot.pdf
@@ -975,14 +973,25 @@ pdfTeX warning: /usr/bin/pdflatex (file ./SupportFiles/plots/best_match_macro_c
 linical_anatomical_subtrees_plot.pdf): PDF inclusion: multiple pdfs with page g
 roup included in a single page
 >] [60 <./SupportFiles/plots/direct_match_macro_clinical_anatomical_subtrees_pl
-ot.pdf>]
+ot.pdf>] [61
+
+] [62
+
+]
+Overfull \hbox (4.57962pt too wide) in paragraph at lines 108--119
+ [][] 
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
+ [63]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
  (./thesis.aux (./Preface/resumo.aux) (./Preface/abstract.aux)
 (./Preface/acknowledgements.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: FE342A4435EBD09740C85C3E31F50DF3;4686.
+(rerunfilecheck)             Checksum: 8943D58A1EB88F01DC3F2BE8B3E5C735;4795.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
 (rerunfilecheck)             Checksum: 9D2770BC34F4DC011608BEF0944AB350;4717.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
@@ -992,35 +1001,37 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
 ### semi simple group (level 1) entered at line 32 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13453 strings out of 494953
- 189105 string characters out of 6180977
- 304078 words of memory out of 5000000
- 16108 multiletter control sequences out of 15000+600000
+ 13466 strings out of 494953
+ 189326 string characters out of 6180977
+ 304421 words of memory out of 5000000
+ 16113 multiletter control sequences out of 15000+600000
  21784 words of font info for 62 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 39i,12n,53p,1667b,2339s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/lcampos/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200
-.600pk> </home/lcampos/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> <
-/home/lcampos/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/lca
-mpos/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk> </home/lcampos/.tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/lcampos/.texmf-var/fo
-nts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/lcampos/.texmf-var/fonts/pk/lj
-four/jknappen/ec/ecrm0800.600pk> </home/lcampos/.texmf-var/fonts/pk/ljfour/jkna
-ppen/ec/ecbx2488.600pk> </home/lcampos/.texmf-var/fonts/pk/ljfour/jknappen/ec/e
-cbx1200.600pk> </home/lcampos/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.6
-00pk> </home/lcampos/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </h
-ome/lcampos/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/lcamp
-os/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb>
-Output written on thesis.pdf (80 pages, 550544 bytes).
+ 39i,12n,53p,1667b,2341s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{table.Alph0.3} has been referenced 
+but does not exist, replaced by a fixed one
+
+ </home/lcampos/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600pk> </home/l
+campos/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/lcampos/.t
+exmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/lcampos/.texmf-var/
+fonts/pk/ljfour/jknappen/ec/ectt1000.600pk> </home/lcampos/.texmf-var/fonts/pk/
+ljfour/jknappen/ec/ecrm0700.600pk> </home/lcampos/.texmf-var/fonts/pk/ljfour/jk
+nappen/ec/tcrm1200.600pk> </home/lcampos/.texmf-var/fonts/pk/ljfour/jknappen/ec
+/ecrm0800.600pk> </home/lcampos/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488
+.600pk> </home/lcampos/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> <
+/home/lcampos/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/lca
+mpos/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/lcampos/.tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/lcampos/.texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecrm1200.600pk></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on thesis.pdf (83 pages, 555891 bytes).
 PDF statistics:
- 2114 PDF objects out of 2487 (max. 8388607)
- 1411 compressed objects within 15 object streams
- 303 named destinations out of 1000 (max. 500000)
- 530 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2151 PDF objects out of 2487 (max. 8388607)
+ 1442 compressed objects within 15 object streams
+ 311 named destinations out of 1000 (max. 500000)
+ 546 words of extra memory for PDF output out of 10000 (max. 10000000)
 
