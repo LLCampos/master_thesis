@@ -39,7 +39,7 @@
 \contentsline {subsection}{\numberline {2.4.3}NOBLE Coder}{23}{subsection.2.4.3}
 \contentsline {section}{\numberline {2.5}Evaluation Metrics}{25}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Micro- and Macro- Evaluation Metrics}{27}{subsection.2.5.1}
-\contentsline {chapter}{\numberline {3}Framework}{29}{chapter.3}
+\contentsline {chapter}{\numberline {3}Multilingual NER of Radiology Text}{29}{chapter.3}
 \contentsline {section}{\numberline {3.1}MRRAD (Multilingual Radiology Research Articles Dataset) Corpus}{29}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Web Crawl of the articles (1,2)}{30}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Note On Human Translations}{30}{subsection.3.1.2}
@@ -48,7 +48,10 @@
 \contentsline {section}{\numberline {3.2}Annotation}{32}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Direct Match - Annotation with Open Biomedical Annotator}{32}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}All Match and Best Match - Annotation with NOBLE Coder}{32}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Evaluation}{33}{section.3.3}
+\contentsline {subsection}{\numberline {3.2.3}BioCreative CEMP and TIPS Competitions}{33}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Crowd NER}{33}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}MRA - Proof of Concept of a Multilingual Report Annotator Web Application}{33}{section.3.3}
+\contentsline {section}{\numberline {3.4}Evaluation}{33}{section.3.4}
 \contentsline {chapter}{\numberline {4}Experimental Results}{35}{chapter.4}
 \contentsline {section}{\numberline {4.1}NER Lexicon-based approach}{35}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Clinical Finding and Anatomical Entity Subtrees}{38}{subsection.4.1.1}
