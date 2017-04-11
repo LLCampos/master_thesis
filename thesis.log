@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.22)  10 APR 2017 19:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.22)  11 APR 2017 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -976,8 +976,14 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 3F3AA2BBC09622B6F032F01654FA9D59;4654.
-Package rerunfilecheck Info: File `thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: 9F840CDC4528A23438A15C75C86E92E3;4717.
+
+
+Package rerunfilecheck Warning: File `thesis.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `thesis.brf':
+(rerunfilecheck)             Before: 9F840CDC4528A23438A15C75C86E92E3;4717
+(rerunfilecheck)             After:  A5D9A43AF22E97E8C41F0FBC18903F56;4763.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  )
 (\end occurred inside a group at level 1)
@@ -985,10 +991,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
 ### semi simple group (level 1) entered at line 32 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12971 strings out of 494953
- 184214 string characters out of 6180977
- 272800 words of memory out of 5000000
- 15648 multiletter control sequences out of 15000+600000
+ 12977 strings out of 494953
+ 184313 string characters out of 6180977
+ 272834 words of memory out of 5000000
+ 15654 multiletter control sequences out of 15000+600000
  21784 words of font info for 62 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  39i,12n,48p,1667b,1805s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1010,7 +1016,7 @@ s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on thesis.pdf (79 pages, 548196 bytes).
+Output written on thesis.pdf (79 pages, 548236 bytes).
 PDF statistics:
  2098 PDF objects out of 2487 (max. 8388607)
  1407 compressed objects within 15 object streams
