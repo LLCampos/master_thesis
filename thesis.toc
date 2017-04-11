@@ -56,7 +56,7 @@
 \contentsline {section}{\numberline {4.1}NER Lexicon-based approach}{35}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Clinical Finding and Anatomical Entity Subtrees}{38}{subsection.4.1.1}
 \contentsline {chapter}{\numberline {5}Conclusions}{43}{chapter.5}
-\contentsline {chapter}{References}{45}{section*.4}
-\contentsline {chapter}{Macro Evaluations}{53}{appendix*.6}
-\contentsline {chapter}{Subtrees Analysis}{57}{appendix*.7}
-\contentsline {chapter}{Error Evaluations}{59}{appendix*.8}
+\contentsline {chapter}{References}{47}{section*.4}
+\contentsline {chapter}{Macro Evaluations}{55}{appendix*.6}
+\contentsline {chapter}{Subtrees Analysis}{59}{appendix*.7}
+\contentsline {chapter}{Error Evaluations}{61}{appendix*.8}
