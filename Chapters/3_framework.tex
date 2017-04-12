@@ -90,22 +90,6 @@ NOBLE Coder was chosen against others similar tools because of its comparable qu
 
 More information on how NOBLE Coder was used can be found at the MRRAD GitHub repository\footnote{\url{https://github.com/lasigeBioTM/MRRAD/blob/master/notes_on_dataset_creation/using_noble_coder.md}}.
 
-\subsection{BioCreative V.5 CEMP and TIPS Tasks}
-\label{biocreative}
-
-While working on the main question of this thesis, I also participated in the CEMP (Chemical Entity Mention recognition) and TIPS (Technical interoperability and performance of annotation servers) tasks of BioCreative V.5\footnote{\url{http://www.biocreative.org/news/biocreative-v5/biocreative-v5-cfp/}}, as member of a team composed by other members of the LaSIGE group\footnote{\url{http://lasige.di.fc.ul.pt/}}.
-	
-The goal of the CEMP task was to identify and localize mentions of chemical entities (a NER task) in titles and abstracts of patents. For this task the team used two systems, IBEnt (Identifying Biomedical Entities) and MER (Minimal Named-Entity Recognizer). IBEnt uses a Machine Learning approach and MER uses a lexicon-based approach. 
-
-The TIPS Task, on the other hand, had has its objective the development of annotation servers. For this we used the MER tool mention before. 
-
-
-\subsection{Crowd NER}
-
-\section{MRA - Proof of Concept of a Multilingual Report Annotator Web Application}
-
-
-
 \section{Evaluation}
 
 For each document and annotation approach I created the set of the RadLex terms (identified by their RIDs) that were found in that document with that annotation approach. This is the data used in the assessment of translation solutions that follows.
@@ -113,6 +97,24 @@ For each document and annotation approach I created the set of the RadLex terms 
 The RadLex terms identified in each MT or MT+PE translated article were compared against the ones identified in the corresponding HT translated article, which was considered the gold standard. Both Micro- and Macro- Precision, Recall and F1-scores were calculated. This was done for each matching approach. 
 
 To facilitate the understanding of the results, I will now walk trough a short example. Consider that we have one Portuguese document and corresponding HT English translation and MT English translation. Four terms of interest were identified in the HT translation, {bone, cell, finger, colon}\footnote{I use here human understandable names instead of RIDs so that the example is easier to follow}. This is going to be our gold standard. In the MT translation, two terms of interest were found, {brain, bone}. One of these terms is also in the gold standard, which means TP = 1, but the other term is not, FP = 1. In the gold standard there are three terms that were not found in the MT translation, which means FN = 3. After calculations (see \ref{Evaluation Metrics}), this gives us a Precision score of 0.5, a Recall score of 0.25 and F-Score of 0.33. These methods measure how similar are the terms annotated on the MT or MT+PE texts to the terms annotated on the HT texts.
+
+\section{BioCreative V.5 CEMP and TIPS Tasks}
+\label{biocreative}
+
+While working on the main question of this thesis, I also participated in the CEMP (Chemical Entity Mention recognition) and TIPS (Technical interoperability and performance of annotation servers) tasks of BioCreative V.5\footnote{\url{http://www.biocreative.org/news/biocreative-v5/biocreative-v5-cfp/}}, as member of a team composed by other members of the LaSIGE group\footnote{\url{http://lasige.di.fc.ul.pt/}}.
+
+The goal of the CEMP task was to identify and localize mentions of chemical entities (a NER task) in titles and abstracts of patents. For this task the team used two systems, IBEnt\footnote{\url{https://github.com/lasigeBioTM/IBEnt}} (Identifying Biomedical Entities) and MER\footnote{\url{https://github.com/lasigeBioTM/MER}} (Minimal Named-Entity Recognizer). IBEnt uses a Machine Learning approach and MER uses a lexicon-based approach. 
+
+The TIPS Task, on the other hand, had has its objective the development of annotation servers. For this we used the MER tool mention before. 
+
+%TODO [Write about results, and cite BioCreative proceedings papers]
+
+The participation in this competitions was relevant since it made me more familiar with annotation systems.
+
+\section{Crowd NER}
+
+\section{MRA - Proof of Concept of a Multilingual Report Annotator Web Application}
+
 
 
 
