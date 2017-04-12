@@ -52,11 +52,11 @@
 \contentsline {section}{\numberline {3.4}BioCreative V.5 CEMP and TIPS Tasks}{33}{section.3.4}
 \contentsline {section}{\numberline {3.5}Crowd NER}{34}{section.3.5}
 \contentsline {section}{\numberline {3.6}MRA - Proof of Concept of a Multilingual Report Annotator Web Application}{34}{section.3.6}
-\contentsline {chapter}{\numberline {4}Experimental Results}{35}{chapter.4}
-\contentsline {section}{\numberline {4.1}NER Lexicon-based approach}{35}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Clinical Finding and Anatomical Entity Subtrees}{38}{subsection.4.1.1}
-\contentsline {chapter}{\numberline {5}Conclusions}{43}{chapter.5}
-\contentsline {chapter}{References}{47}{section*.4}
-\contentsline {chapter}{Macro Evaluations}{55}{appendix*.6}
-\contentsline {chapter}{Subtrees Analysis}{59}{appendix*.7}
-\contentsline {chapter}{Error Evaluations}{61}{appendix*.8}
+\contentsline {chapter}{\numberline {4}Experimental Results}{37}{chapter.4}
+\contentsline {section}{\numberline {4.1}NER Lexicon-based approach}{37}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Clinical Finding and Anatomical Entity Subtrees}{40}{subsection.4.1.1}
+\contentsline {chapter}{\numberline {5}Conclusions}{45}{chapter.5}
+\contentsline {chapter}{References}{49}{section*.4}
+\contentsline {chapter}{Macro Evaluations}{57}{appendix*.6}
+\contentsline {chapter}{Subtrees Analysis}{61}{appendix*.7}
+\contentsline {chapter}{Error Evaluations}{63}{appendix*.8}

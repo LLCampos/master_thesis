@@ -1,4 +1,4 @@
-\begin{thebibliography}{66}
+\begin{thebibliography}{67}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aires {\em et~al.\/}(2016)Aires, Lopes \& Gomes}]{Aires2016}
@@ -155,6 +155,13 @@
 {\sc Hong, Y., Zhang, J., Heilbrun, M.E. \& Kahn, C.E.} (2012). {Analysis of
   RadLex coverage and term co-occurrence in radiology reporting templates}.
   {\em Journal of Digital Imaging\/}, {\bf 25}, 56--62.
+
+\bibitem[{Hostetter {\em et~al.\/}(2015)Hostetter, Wang, Siegel, Durack \&
+  Morrison}]{Hostetter2015}
+{\sc Hostetter, J., Wang, K., Siegel, E., Durack, J. \& Morrison, J.J.} (2015).
+  {Using Standardized Lexicons for Report Template Validation with LexMap, a
+  Web-based Application}. {\em Journal of Digital Imaging\/}, {\bf 28},
+  309--314.
 
 \bibitem[{Hotho {\em et~al.\/}(2005)Hotho, N{\"{u}}rnberger \&
   Paa{\ss}}]{Hotho2005}
