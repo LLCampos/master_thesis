@@ -13,12 +13,12 @@ Named-entity recognition (NER) is a task of Text Mining that has the goal of loc
 The approaches of NER can be divided into three categories \citep{Mohit2014}: Rule-based approaches, Machine Learning based approaches and hybrid approaches.
 
 \begin{itemize}
-\item In rule-based approaches the identification and classification subtasks are based on rules crafted by humans. Usually domain specific.
+\item In rule-based approaches the identification and classification subtasks are based on rules crafted by humans, usually domain specific.
 \item In Machine Learning based approaches the subtasks are turned into classification problems and Machine Learning algorithms are used to identify and classify named-entities. These approaches are easily ported to different domains other than the ones they were originally developed to be applied on.
 \item Hybrids approaches combines the two last approaches.
 \end{itemize}
 
-Lexicon based-approaches are a subset of the rule-based approaches. In this approach we already have a list of the named-entities (a lexicon) that we want to identify in the text. For example, if we want to identify chemical entities in text, we use a chemical-entities lexicon. The goal of the lexicon based-approach is then to identify, in text, mentions of terms presented in the lexicon. This could be done by direct matching, as implemented by the Open Biomedical Annotator\footnote{\url{http://bioportal.bioontology.org/annotator}} \citep{Jonquet2009}. In this strategy, the system only tries to find in text terms that are also in the lexicon, not considering, for example, lexical variations. The recall can be lower than expected because lexical variants (like plurals), abbreviations and partial matchings of lexicon terms are not identified in the text. For this purpose, more complex tools like NOBLE Coder\footnote{\url{http://noble-tools.dbmi.pitt.edu/}} \citep{Tseytlin2016} or Concept Mapper \citep{Stewart} can be used.
+Lexicon based-approaches are a subset of the rule-based approaches. In this approach we already have a list of the terms (a lexicon) that we want to identify in the text. For example, if we want to identify chemical entities in text, we use a lexicon with all the terms naming chemicals. The goal of the lexicon based-approach is then to identify, in text, mentions of terms presented in the lexicon. This could be done by direct matching, as implemented by the Open Biomedical Annotator\footnote{\url{http://bioportal.bioontology.org/annotator}} \citep{Jonquet2009}. In this strategy, the system only tries to find in text terms that are also in the lexicon, not considering, for example, lexical variations. The recall can be lower than expected because lexical variants (like plurals), abbreviations and partial matchings of lexicon terms are not identified in the text. For this purpose, more complex tools like NOBLE Coder\footnote{\url{http://noble-tools.dbmi.pitt.edu/}} \citep{Tseytlin2016} or Concept Mapper \citep{Stewart} can be used.
 
 \subsection{Natural Language Processing}
 
@@ -40,7 +40,7 @@ Text Mining tools can be used for automatic detection of important findings in R
 
 In literature its possible to find some examples of Radiology reports/images search applications, that use NLP tools. The goals of these search tools include search for educational, research and clinical decision support purposes. One example of such a system is Render \citep{Dang2009}, which even applies one of the information extraction system mentioned above \citep{Dreyer2005} to improve the relevance of the retrieved information.
 
-Other applications include studying the appropriateness of existing Radiology reports templates, as done by \citep{Hong2013}.
+Other applications include studying the appropriateness of existing Radiology reports templates, as done by Hong \textit{et al.} \citep{Hong2013}.
 
 \subsection{Ontologies}
 
@@ -48,7 +48,7 @@ To answer the questions presented in Chapter \ref{chap1}, the RadLex ontology is
 
 RadLex, for example, is a representation of the subset of the world related to Radiology which can be used as a standard on how to talk about Radiology. Ontologies usually have a tree structure in which a class, representing some abstract entity in the real world, can have subclasses. For example, in RadLex, there is the class \textit{clinical finding} which has subclasses \textit{benign finding} and \textit{pathophysiologic finding} (among others). This subclasses have a \textit{is a} relationship with their parent classes: \textit{benign finding} is a \textit{clinical finding}. Other common relationship used in ontologies is the \textit{part of} relationship.
 
-Other popular examples of ontologies include the Gene Ontology\footnote{\url{http://www.geneontology.org/}}, focused on genomics, SNOMED CT\footnote{\url{http://www.snomed.org/snomed-ct}}, a healthcare related ontology and ChEBI\footnote{\url{https://www.ebi.ac.uk/chebi/}}, an ontology of small molecular entities.
+Other popular examples of ontologies include the Gene Ontology\footnote{\url{http://www.geneontology.org/}}, focused on gene products, SNOMED CT\footnote{\url{http://www.snomed.org/snomed-ct}}, a healthcare related ontology and ChEBI\footnote{\url{https://www.ebi.ac.uk/chebi/}}, an ontology of small molecular entities.
 
 \section{Datasets and Corpora}
 
@@ -72,7 +72,7 @@ iDASH\footnote{\url{https://idash.ucsd.edu/}} openly provides 2,363 medical tran
 
 \subsection{Terminology}
 
-During this dissertation some terminology related to translation practices is used. In this section I briefly explain this terms \citep{Koehn2010}. 
+During this dissertation I use a couple of terms related to translation practices. In this section I briefly explain these terms \citep{Koehn2010}. 
 
 \textbf{Parallel Corpora} - A \textit{corpus} is just a set of texts (\textit{corpora} is used if you want to refer to more than one of these sets). The term \textit{parallel corpus} is used to refer to a set of texts paired with corresponding translations into other languages. 
 
@@ -284,12 +284,12 @@ One big advantage of NOBLE is its ease of use compared with other similar system
 
 For a certain task (for example, annotation of a corpus with terms related to diseases) it is useful to have standard evaluation metrics so that we can compare many systems and know which one is the best. In information retrieval and information extraction systems precision (P), recall (R) and F-score (F) are the measures that are mostly used. For example they were the measures used in a competition which involved a task similar to the example I gave above \citep{Elhadad2015}.
 
-To use this measures we need to have a reference, a gold-standard, which we assume represents the perfect performance in a certain task, the ground truth. In the example of identification of disorder mentions, it could be an annotation done by an human expert. To calculate this measures we also need the number of true positives, false positives and false negatives. I will illustrate each one of these with the example of the annotation of diseases mentions.
+To use this measures we need to have a reference, a gold-standard, which we assume represents the perfect performance in a certain task, the ground truth. In the example of identification of disorder mentions, it could be an annotation done by an human expert. These measures are based on the number of true positives, false positives and false negatives. I will illustrate each one of these with the example of the annotation of diseases mentions.
 
 \begin{itemize}
-\item True positive (TP) – The system being tested annotated a term also annotated in the reference;
-\item False positive (FP) – The system annotated a term that is not annotated in the reference;
-\item False negative (FN) – The system did not annotate a term that is annotated in the reference;
+\item True positive (TP) – The system being tested annotated a term also annotated in the gold-standard;
+\item False positive (FP) – The system annotated a term that is not annotated in the gold-standard;
+\item False negative (FN) – The system did not annotate a term that is annotated in the gold-standard;
 \end{itemize}
 
 Precision corresponds to the fraction of the terms annotated by the system that are also annotated in the reference.
@@ -298,7 +298,7 @@ Precision corresponds to the fraction of the terms annotated by the system that 
 P = \frac{TP}{TP+FP}
 \end{equation}
 
-If of the ten terms annotated by the system, only six are annotated by the reference, then the system has a precision of 0.6. If every term identified by the system is also identified by the reference, then the system has a precision of 1, the best score possible. But the system can have a score of 1 if it only annotates one right term, even though there are a lot of other terms annotated in the reference. This system, although having a score of 1, would not be very useful. Recall is a measure that helps to solve this issue.
+If out of the ten terms annotated by the system, only six are annotated by the reference, then the system has a precision of 0.6. If every term identified by the system is also identified by the reference, then the system has a precision of 1, the best score possible. But the system can have a score of 1 if it only annotates one right term, even though there are a lot of other terms annotated in the reference. This system, although having a score of 1, would not be very useful. Recall is a measure that helps to solve this issue.
 
 Recall calculates what fraction of all terms annotated in the reference are annotated by the system.
 
@@ -311,7 +311,7 @@ If the system annotates eight terms of the ten that are annotated in the referen
 As you can see, both measures have problems when used in isolation. One way to combine them is by using the F-score measure, that corresponds to the harmonic mean of precision and recall.
 
 \begin{equation}
-F−score = 2 * \frac{P*R}{P*R}
+\textit{F-Score} = 2 * \frac{P*R}{P*R}
 \end{equation}
 
 \subsection{Micro- and Macro- Evaluation Metrics}
