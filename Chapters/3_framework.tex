@@ -90,15 +90,9 @@ NOBLE Coder was chosen against others similar tools because of its comparable qu
 
 More information on how NOBLE Coder was used can be found at the MRRAD GitHub repository\footnote{\url{https://github.com/lasigeBioTM/MRRAD/blob/master/notes_on_dataset_creation/using_noble_coder.md}}.
 
-\section{Evaluation}
+\subsection{Other Work on Annotations}
 
-For each document and annotation approach I created the set of the RadLex terms (identified by their RIDs) that were found in that document with that annotation approach. This is the data used in the assessment of translation solutions that follows.
-
-The RadLex terms identified in each MT or MT+PE translated article were compared against the ones identified in the corresponding HT translated article, which was considered the gold standard. Both Micro- and Macro- Precision, Recall and F-scores were calculated. This was done for each matching approach. 
-
-To facilitate the understanding of the results, I will now walk trough a short example. Consider that we have one Portuguese document and corresponding HT English translation and MT English translation. Four terms of interest were identified in the HT translation, \emph{bone, cell, finger, colon}\footnote{I use here human understandable names instead of RIDs so that the example is easier to follow}. This is going to be our gold standard. In the MT translation, two terms of interest were found, {brain, bone}. One of these terms is also in the gold standard, which means TP = 1, but the other term is not, FP = 1. In the gold standard there are three terms that were not found in the MT translation, which means FN = 3. After calculations (see \ref{Evaluation Metrics}), this gives us a Precision score of 0.5, a Recall score of 0.25 and F-Score of 0.33. These methods measure how similar are the terms annotated on the MT or MT+PE texts to the terms annotated on the HT texts.
-
-\section{BioCreative V.5 CEMP and TIPS Tasks}
+\subsubsection{Participation in BioCreative V.5}
 \label{biocreative}
 
 While working on the main question of this thesis, I also participated in the CEMP (Chemical Entity Mention recognition) and TIPS (Technical interoperability and performance of annotation servers) tasks of BioCreative V.5\footnote{\url{http://www.biocreative.org/news/biocreative-v5/biocreative-v5-cfp/}}, as member of a team composed by other members of the LaSIGE group\footnote{\url{http://lasige.di.fc.ul.pt/}}.
@@ -111,7 +105,23 @@ The TIPS Task, on the other hand, had has its objective the development of annot
 
 The participation in this competitions was relevant since it made me more familiar with annotation systems.
 
-\section{Crowd NER}
+\subsubsection{Crowd Annotations}
+
+One alternative to use automated NER tools is to crowdsource the annotation process. That is, instead of having automatic tools or medical experts annotating documents, its possible to have members of the general public doing it. In theory, this will be cheaper and faster than using medical experts and the annotations will have a better quality than just using automatic tools.
+
+If you think about it, this is analogue to use crowdsourced MT+PE instead of MT or HT. One idea is even to use automatic annotations as a basis for the crowd members annotations. This is the strategy used on recent work on crowd NER: \citep{Li2016} studied the use of the crowd to validate the automatic identification of chemical-induced disease relations in PubMed abstract while \citep{Burger2014} did something similar for gene–mutation relations.
+
+I helped in the organization and presentation of a Workshop on Biomedical Text Mining, in which we experimented with having participants of the Workshop annotating Radiology reports with RadLex terms. This experiment was only exploratory since we do not have any gold-standard and the results were still not thoroughly analyzed. Currently, we are working on another experiment of the same kind, but this time having a gold-standard by experts. The idea will be to compare the crowd annotations with the expert annotations.
+
+
+\section{Evaluation}
+
+For each document and annotation approach I created the set of the RadLex terms (identified by their RIDs) that were found in that document with that annotation approach. This is the data used in the assessment of translation solutions that follows.
+
+The RadLex terms identified in each MT or MT+PE translated article were compared against the ones identified in the corresponding HT translated article, which was considered the gold standard. Both Micro- and Macro- Precision, Recall and F-scores were calculated. This was done for each matching approach. 
+
+To facilitate the understanding of the results, I will now walk trough a short example. Consider that we have one Portuguese document and corresponding HT English translation and MT English translation. Four terms of interest were identified in the HT translation, \emph{bone, cell, finger, colon}\footnote{I use here human understandable names instead of RIDs so that the example is easier to follow}. This is going to be our gold standard. In the MT translation, two terms of interest were found, {brain, bone}. One of these terms is also in the gold standard, which means TP = 1, but the other term is not, FP = 1. In the gold standard there are three terms that were not found in the MT translation, which means FN = 3. After calculations (see \ref{Evaluation Metrics}), this gives us a Precision score of 0.5, a Recall score of 0.25 and F-Score of 0.33. These methods measure how similar are the terms annotated on the MT or MT+PE texts to the terms annotated on the HT texts.
+
 
 \section{MRA - Proof of Concept of a Multilingual Report Annotator Web Application}
 

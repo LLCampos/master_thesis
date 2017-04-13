@@ -1,4 +1,4 @@
-\begin{thebibliography}{68}
+\begin{thebibliography}{70}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aires {\em et~al.\/}(2016)Aires, Lopes \& Gomes}]{Aires2016}
@@ -68,6 +68,13 @@
   (2014). {Corpus-based Translation of Ontologies for Improved Multilingual
   Semantic Annotation}. In {\em Proceedings of the Third Workshop on Semantic
   Web and Information Extraction\/}, 1--8.
+
+\bibitem[{Burger {\em et~al.\/}(2014)Burger, Doughty, Khare, Wei, Mishra,
+  Aberdeen, Tresner-Kirsch, Wellner, Kann, Lu \& Hirschman}]{Burger2014}
+{\sc Burger, J.D., Doughty, E., Khare, R., Wei, C.H., Mishra, R., Aberdeen, J.,
+  Tresner-Kirsch, D., Wellner, B., Kann, M.G., Lu, Z. \& Hirschman, L.} (2014).
+  {Hybrid curation of gene-mutation relations combining automated extraction
+  and crowdsourcing}. {\em Database (Oxford)\/}, {\bf 2014}.
 
 \bibitem[{Campos \& Couto(2017)}]{Campos2017}
 {\sc Campos, L. \& Couto, F.} (2017). {MRA - Proof of Concept of a Multilingual
@@ -249,6 +256,11 @@
 {\sc Langlotz, C.P. \& Caldwell, S.A.} (2002). {The completeness of existing
   lexicons for representing radiology report information.} {\em Journal of
   Digital Imaging\/}, {\bf 15 Suppl 1}, 201--205.
+
+\bibitem[{Li {\em et~al.\/}(2016)Li, Bravo, Furlong, Good \& Su}]{Li2016}
+{\sc Li, T.S., Bravo, {\`{A}}., Furlong, L.I., Good, B.M. \& Su, A.I.} (2016).
+  {A crowdsourcing workflow for extracting chemical-induced disease relations
+  from free text}. {\em Database (Oxford)\/}, {\bf 2016}, baw051.
 
 \bibitem[{Manning {\em et~al.\/}(2009{\natexlab{a}})Manning, Raghavan \&
   Sch{\"{u}}tze}]{Manning2009b}
