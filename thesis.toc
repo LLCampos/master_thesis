@@ -58,6 +58,6 @@
 \contentsline {subsection}{\numberline {4.1.1}Clinical Finding and Anatomical Entity Subtrees}{40}{subsection.4.1.1}
 \contentsline {chapter}{\numberline {5}Conclusions}{45}{chapter.5}
 \contentsline {chapter}{References}{49}{section*.4}
-\contentsline {chapter}{Macro Evaluations}{57}{appendix*.6}
-\contentsline {chapter}{Subtrees Analysis}{61}{appendix*.7}
-\contentsline {chapter}{Error Evaluations}{63}{appendix*.8}
+\contentsline {chapter}{Macro Evaluations}{59}{appendix*.6}
+\contentsline {chapter}{Subtrees Analysis}{63}{appendix*.7}
+\contentsline {chapter}{Error Evaluations}{65}{appendix*.8}
