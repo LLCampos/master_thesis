@@ -1,4 +1,4 @@
-\begin{thebibliography}{70}
+\begin{thebibliography}{71}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aires {\em et~al.\/}(2016)Aires, Lopes \& Gomes}]{Aires2016}
@@ -76,9 +76,13 @@
   {Hybrid curation of gene-mutation relations combining automated extraction
   and crowdsourcing}. {\em Database (Oxford)\/}, {\bf 2014}.
 
-\bibitem[{Campos \& Couto(2017)}]{Campos2017}
-{\sc Campos, L. \& Couto, F.} (2017). {MRA - Proof of Concept of a Multilingual
-  Report Annotator Web Application}.
+\bibitem[{Campos \& Couto(2017{\natexlab{a}})}]{Campos2017}
+{\sc Campos, L. \& Couto, F.} (2017{\natexlab{a}}). {MRA - Proof of Concept of
+  a Multilingual Report Annotator Web Application}.
+
+\bibitem[{Campos \& Couto(2017{\natexlab{b}})}]{Campos}
+{\sc Campos, L. \& Couto, F.M.} (2017{\natexlab{b}}). {Impact of Translation on
+  Named-Entity Recognition in Radiology Texts}. {\em in revision\/}, 15.
 
 \bibitem[{Castilla(2007)}]{Castilla2007a}
 {\sc Castilla, C.} (2007). {\em {Instrumento de Investiga{\c{c}}{\~{a}}o
