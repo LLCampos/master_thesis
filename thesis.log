@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.22)  19 APR 2017 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.22)  19 APR 2017 13:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -972,8 +972,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
 (./Preface/acknowledgements.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A0925A4F7067D3AD03E88722E8F9693A;5145.
+
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: A0925A4F7067D3AD03E88722E8F9693A;5145
+(rerunfilecheck)             After:  6E1874963A3C4499612C40D97B135B62;5147.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
 (rerunfilecheck)             Checksum: 605692ABC385F179263F5D6FF7C055B4;5078.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
@@ -1008,7 +1015,7 @@ s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on thesis.pdf (85 pages, 562874 bytes).
+Output written on thesis.pdf (85 pages, 562877 bytes).
 PDF statistics:
  2203 PDF objects out of 2487 (max. 8388607)
  1501 compressed objects within 16 object streams
