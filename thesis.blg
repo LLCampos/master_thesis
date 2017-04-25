@@ -15,24 +15,24 @@ Warning--missing publisher in Manning2009a
 Warning--missing publisher in Tatsumi2012a
 You've used 71 entries,
             3009 wiz_defined-function locations,
-            1105 strings with 21702 characters,
-and the built_in function-call counts, 53751 in all, are:
-= -- 4379
+            1105 strings with 21701 characters,
+and the built_in function-call counts, 53746 in all, are:
+= -- 4381
 > -- 3288
 < -- 34
 + -- 1146
 - -- 1072
-* -- 4631
-:= -- 8048
+* -- 4630
+:= -- 8047
 add.period$ -- 212
 call.type$ -- 71
 change.case$ -- 741
 chr.to.int$ -- 68
 cite$ -- 77
 duplicate$ -- 3561
-empty$ -- 3407
+empty$ -- 3405
 format.name$ -- 1299
-if$ -- 10667
+if$ -- 10665
 int.to.chr$ -- 4
 int.to.str$ -- 1
 missing$ -- 774
@@ -44,14 +44,14 @@ purify$ -- 641
 quote$ -- 0
 skip$ -- 1437
 stack$ -- 0
-substring$ -- 2093
+substring$ -- 2091
 swap$ -- 2045
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 630
 warning$ -- 6
-while$ -- 333
+while$ -- 334
 width$ -- 0
 write$ -- 785
 (There were 6 warnings)
