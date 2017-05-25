@@ -1,4 +1,4 @@
-\begin{thebibliography}{71}
+\begin{thebibliography}{75}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aires {\em et~al.\/}(2016)Aires, Lopes \& Gomes}]{Aires2016}
@@ -101,6 +101,11 @@
   Automatic Classification of Radiology Reports in Spanish}. {\em Studies in
   Health Technology and Informatics\/}, {\bf 216}, 634--638.
 
+\bibitem[{Couto {\em et~al.\/}(2017)Couto, Campos \& Lamurias}]{Couto2017}
+{\sc Couto, F.M., Campos, L.F. \& Lamurias, A.} (2017). {MER: a Minimal
+  Named-Entity Recognition Tagger and Annotation Server}. {\em Proceedings of
+  the BioCreative V.5 Challenge Evaluation Workshop\/}, 130--137.
+
 \bibitem[{Dang {\em et~al.\/}(2009)Dang, Kalra, Schultz, Graham \&
   Dreyer}]{Dang2009}
 {\sc Dang, P.A., Kalra, M.K., Schultz, T.J., Graham, S.A. \& Dreyer, K.J.}
@@ -150,7 +155,7 @@
 {\sc Groza, T., K{\"{o}}hler, S., Doelken, S., Collier, N., Oellrich, A.,
   Smedley, D., Couto, F.M., Baynam, G., Zankl, A. \& Robinson, P.N.} (2015).
   {Automatic concept recognition using the human phenotype ontology reference
-  and test suite corpora}. {\em Database (Oxford)\/}, {\bf 2015}.
+  and test suite corpora}. {\em Database (Oxford)\/}, 1--13.
 
 \bibitem[{Hassanpour \& Langlotz(2016)}]{Hassanpour2016}
 {\sc Hassanpour, S. \& Langlotz, C.P.} (2016). {Information extraction from
@@ -218,7 +223,7 @@
 {\sc Koehn \& Philipp} (2010). {\em {Statistical Machine Translation}\/}.
   Cambridge University Press.
 
-\bibitem[{K{\"{o}}hler {\em et~al.\/}(2016)K{\"{o}}hler, Vasilevsky, Engelstad,
+\bibitem[{K{\"{o}}hler {\em et~al.\/}(2017)K{\"{o}}hler, Vasilevsky, Engelstad,
   Foster, McMurry, Aym{\'{e}}, Baynam, Bello, Boerkoel, Boycott, Brudno, Buske,
   Chinnery, Cipriani, Connell, Dawkins, DeMare, Devereau, de~Vries, Firth,
   Freson, Greene, Hamosh, Helbig, Hum, J{\"{a}}hn, James, Krause, Laulederkind,
@@ -237,8 +242,8 @@
   C.L., Straub, V., Thompson, R., Turner, C., Turro, E., Veltman, M.W.M.,
   Vulliamy, T., Yu, J., von Ziegenweidt, J., Zankl, A., Z{\"{u}}chner, S.,
   Zemojtel, T., Jacobsen, J.O.B., Groza, T., Smedley, D., Mungall, C.J.,
-  Haendel, M. \& Robinson, P.N.} (2016). {The Human Phenotype Ontology in
-  2017.} {\em Nucleic acids research\/}, {\bf 45}, gkw1039.
+  Haendel, M. \& Robinson, P.N.} (2017). {The Human Phenotype Ontology in
+  2017.} {\em Nucleic Acids Research\/}, {\bf 45}.
 
 \bibitem[{Koponen(2016)}]{Koponen2016a}
 {\sc Koponen, M.} (2016). {Is machine translation post-editing worth the
@@ -251,6 +256,12 @@
   (2014). {On combining image-based and ontological semantic dissimilarities
   for medical image retrieval applications}. {\em Medical Image Analysis\/},
   {\bf 18}, 1082--1100.
+
+\bibitem[{Lamurias {\em et~al.\/}(2017)Lamurias, Campos \&
+  Couto}]{Lamurias2017}
+{\sc Lamurias, A., Campos, L.F. \& Couto, F.M.} (2017). {IBEnt: Chemical Entity
+  Mentions in Patents using ChEBI}. {\em Proceedings of the BioCreative V.5
+  Challenge Evaluation Workshop\/}, 89--95.
 
 \bibitem[{Langlotz(2006)}]{Langlotz2006}
 {\sc Langlotz, C.P.} (2006). {RadLex: a new method for indexing online
@@ -330,6 +341,28 @@
 \bibitem[{Patil \& Davies(2014)}]{Patil2014}
 {\sc Patil, S. \& Davies, P.} (2014). {Use of Google Translate in medical
   communication: evaluation of accuracy}. {\em The BMJ\/}, {\bf 349}.
+
+\bibitem[{P{\'{e}}rez-P{\'{e}}rez {\em
+  et~al.\/}(2017{\natexlab{a}})P{\'{e}}rez-P{\'{e}}rez,
+  P{\'{e}}rez-Rodr{\'{i}}guez, Blanco-M{\'{i}}guez, Fdez-Riverola, Valencia,
+  Krallinger \& Louren{\c{c}}o}]{Perez-Perez2017}
+{\sc P{\'{e}}rez-P{\'{e}}rez, M., P{\'{e}}rez-Rodr{\'{i}}guez, G.,
+  Blanco-M{\'{i}}guez, A., Fdez-Riverola, F., Valencia, A., Krallinger, M. \&
+  Louren{\c{c}}o, A.} (2017{\natexlab{a}}). {Benchmarking biomedical text
+  mining web servers at BioCreative V.5: the technical Interoperability and
+  Performance of annotation Servers -TIPS track}. {\em Proceedings of the
+  BioCreative V.5 Challenge Evaluation Workshop\/}, 19--27.
+
+\bibitem[{P{\'{e}}rez-P{\'{e}}rez {\em
+  et~al.\/}(2017{\natexlab{b}})P{\'{e}}rez-P{\'{e}}rez, Rabal,
+  P{\'{e}}rez-Rodr{\'{i}}guez, Vazquez, Fdez-Riverola, Oyarzabal, Valencia,
+  Louren{\c{c}}o \& Krallinger}]{Perez-Perez2017a}
+{\sc P{\'{e}}rez-P{\'{e}}rez, M., Rabal, O., P{\'{e}}rez-Rodr{\'{i}}guez, G.,
+  Vazquez, M., Fdez-Riverola, F., Oyarzabal, J., Valencia, A., Louren{\c{c}}o,
+  A. \& Krallinger, M.} (2017{\natexlab{b}}). {Evaluation of chemical and
+  gene/protein entity recognition systems at BioCreative V.5: the CEMP and GPRO
+  patents tracks}. {\em Proceedings of the BioCreative V.5 Challenge Evaluation
+  Workshop\/}, 11--18.
 
 \bibitem[{Pons {\em et~al.\/}(2016)Pons, Braun, Hunink \& Kors}]{Pons2016}
 {\sc Pons, E., Braun, L.M.M., Hunink, M.G.M. \& Kors, J.A.} (2016). {Natural

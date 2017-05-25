@@ -8,6 +8,8 @@
 \backcite {Toral2005}{{3}{1.1}{section.1.1}}
 \backcite {Campos2017}{{5}{1.4}{section.1.4}}
 \backcite {Campos}{{5}{1.4}{section.1.4}}
+\backcite {Lamurias2017}{{5}{1.4}{section.1.4}}
+\backcite {Couto2017}{{5}{1.4}{section.1.4}}
 \backcite {Campos2017}{{5}{1.4}{section.1.4}}
 \backcite {Hotho2005}{{7}{2.1}{section.2.1}}
 \backcite {Cohen2005a}{{7}{2.1}{section.2.1}}
@@ -85,7 +87,11 @@
 \backcite {Tseytlin2016}{{25}{2.4.3}{table.2.2}}
 \backcite {Stewart}{{25}{2.4.3}{table.2.2}}
 \backcite {Elhadad2015}{{25}{2.5}{section.2.5}}
-\backcite {Li2016}{{33}{3.2.3.2}{subsubsection.3.2.3.2}}
+\backcite {Lamurias2017}{{33}{3.2.3.1}{subsubsection.3.2.3.1}}
+\backcite {Couto2017}{{33}{3.2.3.1}{subsubsection.3.2.3.1}}
+\backcite {Perez-Perez2017a}{{33}{3.2.3.1}{subsubsection.3.2.3.1}}
+\backcite {Perez-Perez2017}{{33}{3.2.3.1}{subsubsection.3.2.3.1}}
+\backcite {Li2016}{{34}{3.2.3.2}{subsubsection.3.2.3.2}}
 \backcite {Burger2014}{{34}{3.2.3.2}{subsubsection.3.2.3.2}}
 \backcite {Campos2017}{{35}{3.4}{section.3.4}}
 \backcite {Hostetter2015}{{35}{3.4}{section.3.4}}
