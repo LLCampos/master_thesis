@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.22)  25 MAY 2017 20:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.22)  17 JUN 2017 19:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -881,7 +881,7 @@ Chapter 5.
 
 ] [50] [51] [52] [53] [54] [55] [56] [57]) (./Chapters/appendices.tex
 [58]
-<SupportFiles/plots/all_match_macro_total_plot.pdf, id=1410, 442.06543pt x 281.
+<SupportFiles/plots/all_match_macro_total_plot.pdf, id=1412, 442.06543pt x 281.
 14906pt>
 File: SupportFiles/plots/all_match_macro_total_plot.pdf Graphic file (type pdf)
 
@@ -890,7 +890,7 @@ Package pdftex.def Info: SupportFiles/plots/all_match_macro_total_plot.pdf used
  on input line 42.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
-<SupportFiles/plots/best_match_macro_total_plot.pdf, id=1411, 442.06543pt x 281
+<SupportFiles/plots/best_match_macro_total_plot.pdf, id=1413, 442.06543pt x 281
 .14906pt>
 File: SupportFiles/plots/best_match_macro_total_plot.pdf Graphic file (type pdf
 )
@@ -899,7 +899,7 @@ Package pdftex.def Info: SupportFiles/plots/best_match_macro_total_plot.pdf use
 d on input line 49.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
-<SupportFiles/plots/direct_match_macro_total_plot.pdf, id=1412, 442.06543pt x 2
+<SupportFiles/plots/direct_match_macro_total_plot.pdf, id=1414, 442.06543pt x 2
 81.14906pt>
 File: SupportFiles/plots/direct_match_macro_total_plot.pdf Graphic file (type p
 df)
@@ -909,7 +909,7 @@ sed on input line 56.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
 <SupportFiles/plots/all_match_macro_clinical_anatomical_subtrees_plot.pdf, id=1
-413, 442.06543pt x 281.14906pt>
+415, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/all_match_macro_clinical_anatomical_subtrees_plot.pdf 
 Graphic file (type pdf)
 
@@ -919,7 +919,7 @@ _subtrees_plot.pdf used on input line 64.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
 <SupportFiles/plots/best_match_macro_clinical_anatomical_subtrees_plot.pdf, id=
-1414, 442.06543pt x 281.14906pt>
+1416, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/best_match_macro_clinical_anatomical_subtrees_plot.pdf
  Graphic file (type pdf)
 
@@ -929,7 +929,7 @@ l_subtrees_plot.pdf used on input line 72.
 (pdftex.def)             Requested size: 371.30594pt x 236.14642pt.
 
 <SupportFiles/plots/direct_match_macro_clinical_anatomical_subtrees_plot.pdf, i
-d=1415, 442.06543pt x 281.14906pt>
+d=1417, 442.06543pt x 281.14906pt>
 File: SupportFiles/plots/direct_match_macro_clinical_anatomical_subtrees_plot.p
 df Graphic file (type pdf)
 
@@ -974,14 +974,8 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 6E1874963A3C4499612C40D97B135B62;5147.
-
-
-Package rerunfilecheck Warning: File `thesis.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `thesis.brf':
-(rerunfilecheck)             Before: AD62FB7EFB3AC78026568DBD97130AE3;5346
-(rerunfilecheck)             After:  1D9301636F99C105F196E9DA9F40E004;5469.
+Package rerunfilecheck Info: File `thesis.brf' has not changed.
+(rerunfilecheck)             Checksum: 1D9301636F99C105F196E9DA9F40E004;5469.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  )
 (\end occurred inside a group at level 1)
@@ -1014,10 +1008,10 @@ s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on thesis.pdf (85 pages, 568083 bytes).
+Output written on thesis.pdf (85 pages, 568024 bytes).
 PDF statistics:
- 2246 PDF objects out of 2487 (max. 8388607)
- 1531 compressed objects within 16 object streams
+ 2248 PDF objects out of 2487 (max. 8388607)
+ 1533 compressed objects within 16 object streams
  317 named destinations out of 1000 (max. 500000)
  570 words of extra memory for PDF output out of 10000 (max. 10000000)
 
