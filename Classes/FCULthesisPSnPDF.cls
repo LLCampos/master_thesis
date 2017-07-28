@@ -66,7 +66,7 @@
 \usepackage{amsmath}
 %\usepackage{mathtext}
 \usepackage{url}
-\usepackage{xspace} 
+\usepackage{xspace}
 \usepackage{setspace}
 \usepackage{nomencl}
 \usepackage{listings}
@@ -80,7 +80,7 @@
 \usepackage{algorithm}
 \usepackage{algorithmic}
 \usepackage{watermark}
-\usepackage{ifpdf} 
+\usepackage{ifpdf}
 
 %Bibliography and Code Listings
 %uncomment next lines to change bibliography name to references and Listings to Code Listings
@@ -119,20 +119,20 @@
 \ifpdf
 %-->
 %--> Google.com search "hyperref options"
-%--> 
+%-->
 %--> http://www.ai.mit.edu/lab/sysadmin/latex/documentation/latex/hyperref/manual.pdf
-%--> http://www.chemie.unibas.ch/~vogtp/LaTeX2PDFLaTeX.pdf 
+%--> http://www.chemie.unibas.ch/~vogtp/LaTeX2PDFLaTeX.pdf
 %--> http://www.uni-giessen.de/partosch/eurotex99/ oberdiek/print/sli4a4col.pdf
 %--> http://me.in-berlin.de/~miwie/tex-refs/html/latex-packages.html
 %-->
-\usepackage[pdftex,plainpages=false,pdfpagelabels,pdfpagelayout=SinglePage,bookmarks,bookmarksopen=true,bookmarksnumbered=true,breaklinks=true,linktocpage,pagebackref,colorlinks=true,linkcolor=OliveGreen,urlcolor=Black,citecolor=Blue,anchorcolor=green,hyperindex=true,hyperfigures]{hyperref} 
+\usepackage[pdftex,plainpages=false,pdfpagelabels,pdfpagelayout=SinglePage,bookmarks,bookmarksopen=true,bookmarksnumbered=true,breaklinks=true,linktocpage,pagebackref,colorlinks=true,linkcolor=OliveGreen,urlcolor=Black,citecolor=Blue,anchorcolor=green,hyperindex=true,hyperfigures]{hyperref}
 
     \DeclareGraphicsExtensions{.png, .jpg, .pdf}
     \usepackage[pdftex]{graphicx}
     \pdfcompresslevel=9
     \graphicspath{{ThesisFigs/PNG/}{ThesisFigs/PDF/}{ThesisFigs/}}
 \else
-    \usepackage[ dvips, 
+    \usepackage[ dvips,
                  bookmarks,
                  bookmarksopen = true,
                  bookmarksnumbered = true,
@@ -218,9 +218,9 @@
 
 
 % Defining a subsubsubsection environment
-\def\subsubsubsection#1{\paragraph{#1}~\\} 
+\def\subsubsubsection#1{\paragraph{#1}~\\}
 
-% These macros define an environment for front matter that is always 
+% These macros define an environment for front matter that is always
 % single column even in a double-column document.
 
 \newenvironment{alwayssingle}{%
@@ -248,7 +248,7 @@
 
 % ACKNOWLEDGEMENTS
 %
-% The acknowledgements environment puts a large, bold, centered 
+% The acknowledgements environment puts a large, bold, centered
 % "Acknowledgements" label at the top of the page. The acknowledgements
 % themselves appear in a quote environment, i.e. tabbed in at both sides, and
 % on its own page.
@@ -271,7 +271,7 @@
 % The disclaimer environment uses the footnote font size. The disclaimer message
 % itself appears in a quote environment, i.e. tabbed in at both sides, and
 % on its own page.
-                                                                                    
+
 \newenvironment{disclaimer}{
 \begin{alwayssingle}
 \pagestyle{empty}
@@ -281,8 +281,8 @@
 {\normalsize \end{quote}\end{alwayssingle}
 }
 
-% The acknowledgementslong environment puts a large, bold, centered 
-% "Acknowledgements" label at the top of the page. The acknowledgement itself 
+% The acknowledgementslong environment puts a large, bold, centered
+% "Acknowledgements" label at the top of the page. The acknowledgement itself
 % does not appears in a quote environment so you can get more in.
 
 \newenvironment{acknowledgementslong}{
@@ -302,7 +302,7 @@
 %The abstract environment puts a large, bold, centered "Abstract" label at
 %the top of the page. The abstract itself appears in a quote environment,
 %i.e. tabbed in at both sides, and on its own page.
-% 
+%
 %There is also a correspondent environment for an abstract in portuguese
 %
 \newenvironment{abstracts}{
@@ -331,7 +331,7 @@
 %The abstractlong environment puts a large, bold, centered "Abstract" label at
 %the top of the page. The abstract itself does not appears in a quote
 %environment so you can get more in.
-% 
+%
 %There is also a correspondent environment for an abstract in portuguese
 %
 \newenvironment{abstractslong}{
@@ -399,7 +399,7 @@
 
 \if@thdifcul
   \college{\href{http://www.fc.ul.pt}{FACULDADE DE CI\^{E}NCIAS}}
-  \department{\href{http://www.di.fc.ul.pt}{DEPARTAMENTO DE INFORM\'{A}TICA}}
+  \department{\href{http://www.di.fc.ul.pt}{DEPARTAMENTO DE BIOLOGIA VEGETAL}}
   \university{\href{http://www.ul.pt}{UNIVERSIDADE DE LISBOA}}
   \crest{\includegraphics[width=10cm]{logo_fcul}}
   \crestsmall{\includegraphics[width=1cm]{ULISBOA_VERTICAL_RGB}}
@@ -499,12 +499,12 @@
     {
 \@thesisname
 
-\@degreename\ EM BIOINFORM\'{A}TICA E BIOLOGIA COMPUTACIONAL  
+\@degreename\ EM BIOINFORM\'{A}TICA E BIOLOGIA COMPUTACIONAL
 
     \if@thtypemsc
 ESPECIALIDADE EM \@speciality
      \fi
-     
+
   \vspace{\@thsubjskip}
   {Disserta\c{c}\~{a}o orientada por:\\ Prof. Doutor \@thadv}\\
   \if@coadv{Dr. \@thcoadv} \fi
@@ -542,20 +542,20 @@ ESPECIALIDADE EM \@speciality
 %    }
 %    \vspace{\@thsubjskip}
 %    \@thesisname
-%    
-%    \@degreename\ EM BIOINFORM\'{A}TICA E BIOLOGIA COMPUTACIONAL  
-%    
+%
+%    \@degreename\ EM BIOINFORM\'{A}TICA E BIOLOGIA COMPUTACIONAL
+%
 %        \if@thtypemsc
 %    ESPECIALIDADE EM \@speciality
 %         \fi
-%    
-%    
+%
+%
 %        \vspace{\@thsubjskip}
 %  {Disserta\c{c}\~{a}o orientada por:\\ Prof. Doutor \@thadv}\\
 %  \if@coadv{Dr. \@thcoadv} \fi
-%  
+%
 %    \vspace{\@thsubjskip}
-%      
+%
 %    {\@degreedate}
 %  \end{center}
 %  \cleardoublepage
@@ -568,7 +568,7 @@ ESPECIALIDADE EM \@speciality
     { \Huge {\bfseries {\@title}} \par}
 {\large \vspace*{35mm} {{\@crest} \par} \vspace*{25mm}}
     {{\Large \@author} \par}
-{\large \vspace*{1ex} {{\@college} \par} 
+{\large \vspace*{1ex} {{\@college} \par}
         \vspace*{1ex} {{\@deptartment} \par}
         \vspace*{1ex} {{\@university} \par}
         \vspace*{25mm}{{\it {\submittedtext}~{\@degree}} \par}
